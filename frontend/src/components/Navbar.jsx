@@ -25,6 +25,14 @@ const Navbar = () => {
       ],
     },
     {
+      label: "Academics",
+      links: [
+        { label: "Experts and mentors", href: "components/Academics/Experts" },
+        { label: "Academic bank of credits", href: "/schools/school-of-computer-science-&-engineering" },
+        { label: "School of Arts & Science", href: "#" },
+      ],
+    },
+    {
       label: "Schools",
       links: [
         { label: "School of Engineering", href: "/schools/school-of-health-science-&-technology" },
