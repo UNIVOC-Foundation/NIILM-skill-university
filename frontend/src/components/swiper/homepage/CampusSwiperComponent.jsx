@@ -29,7 +29,7 @@ const CampusSwiperComponent = () => {
               backgroundPosition: "center",
             }}
           >
-            <div className="bottom-12 left-16 text-white">
+            <div className="flex flex-col h-full justify-end text-white p-16">
               <h1 className="text-4xl font-bold mb-4">{item.title}</h1>
               <p className="text-lg font-semibold w-3/5">{item.description}</p>
             </div>

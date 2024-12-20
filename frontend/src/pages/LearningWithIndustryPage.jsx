@@ -1,5 +1,4 @@
-import Footer from "../components/Footer";
-// import CurrentInfoSection from "../components/schoolspage/current-info/CurrentInfoSection";
+import CurrentInfoSection from "../components/schoolspage/current-info/CurrentInfoSection";
 import AcademicSwiperComponent from "../components/swiper/homepage/AcademicSwiperComponent";
 import { industryPartnersData } from "../data/homepage/collab-partnerData";
 
@@ -100,11 +99,8 @@ const LearningWithIndustryPage = () => {
             ))}
           </div>
         </div>
-        {/* <CurrentInfoSection /> */}
+        <CurrentInfoSection />
       </div>
-
-      {/* Footer */}
-      <Footer />
     </section>
   );
 };

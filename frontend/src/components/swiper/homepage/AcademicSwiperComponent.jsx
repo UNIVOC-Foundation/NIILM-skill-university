@@ -10,6 +10,7 @@ export default function AcademicSwiperComponent() {
     <Swiper
       spaceBetween={10}
       loop={true}
+      centeredSlides={true}
       breakpoints={{
         1024: {
           slidesPerView: 4,

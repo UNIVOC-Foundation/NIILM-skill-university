@@ -1,4 +1,3 @@
-import Footer from "../components/Footer";
 import AcademicSwiperComponent from "../components/swiper/homepage/AcademicSwiperComponent";
 
 const EvaluationPage = () => {
@@ -144,9 +143,6 @@ const EvaluationPage = () => {
           </p>
         </div>
       </div>
-
-      {/* Footer */}
-      <Footer />
     </section>
   );
 };

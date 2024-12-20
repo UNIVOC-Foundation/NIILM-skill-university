@@ -69,7 +69,7 @@ export const footer = [
       },
       {
         title: "Experts and Mentors",
-        link: "/experts-and-mentors",
+        link: "/experts",
       },
       {
         title: "Student Showcase",
@@ -77,11 +77,11 @@ export const footer = [
       },
       {
         title: "Nep Compliance",
-        link: "/nep-compliance",
+        link: "/nep",
       },
       {
         title: "Academic Bank of Credits",
-        link: "/academic-bank-of-credits",
+        link: "/abc",
       },
       {
         title: "Academic Calendar",
@@ -89,21 +89,21 @@ export const footer = [
       },
       {
         title: "Research And Development",
-        link: "/research-and-development",
+        link: "/rnd",
       },
     ],
     Admissions: [
       {
         title: "Undergraduate - Campus Programmes",
-        link: "/undergraduate-campus-programmes",
+        link: "/undergraduate",
       },
       {
         title: "Postgraduate - Campus Programmes",
-        link: "/postgraduate-campus-programmes",
+        link: "/postgraduate",
       },
       {
         title: "Work Integrated Programmes",
-        link: "/work-integrated-programmes",
+        link: "/wise",
       },
       {
         title: "Admission Process",
@@ -111,7 +111,7 @@ export const footer = [
       },
       {
         title: "Scholarship Financial Aid",
-        link: "/scholarship-financial-aid",
+        link: "/scholarship",
       },
       {
         title: "Prospectus",
@@ -119,7 +119,7 @@ export const footer = [
       },
       {
         title: "Eligibility Selection Criterion",
-        link: "/eligibility-selection-criterion",
+        link: "/eligibility",
       },
       {
         title: "Fee Structure",
@@ -133,39 +133,39 @@ export const footer = [
     Schools: [
       {
         title: "School of Health Science & Technology",
-        link: "/health-science-and-technology",
+        link: "/schools/school-of-health-science-&-technology",
       },
       {
         title: "School of Computer Science And Engineering",
-        link: "/computer-science-and-engineering",
+        link: "/schools/school-of-computer-science-&-engineering",
       },
       {
         title: "School Of Management And Commerce",
-        link: "/school-of-management-and-commerce",
+        link: "/schools/school-of-management-and-commerce",
       },
       {
         title: "School Of Modern Media And Entertainment",
-        link: "/school-of-modern-media-and-entertainment",
+        link: "/schools/school-of-modern-media-and-entertainment",
       },
       {
         title: "School Of Hospitality And Tourism",
-        link: "/school-of-hospitality-and-tourism",
+        link: "/schools/school-of-hospitality-and-tourism",
       },
       {
         title: "School Of Design",
-        link: "/school-of-design",
+        link: "/schools/school-of-design",
       },
       {
         title: "School of Applied Science Technology",
-        link: "/applied-science-technology",
+        link: "/schools/school-of-applied-science-technology",
       },
       {
         title: "School of Beauty and Wellness",
-        link: "/beauty-and-wellness",
+        link: "/schools/school-of-beauty-and-wellness",
       },
       {
         title: "School of Indigenous Knowledge Research and Applications",
-        link: "/indigenous-knowledge-research-and-applications",
+        link: "/schools/school-of-indigenous-knowledge-research-and-applications",
       },
     ],
     "Quick Links": [

@@ -1,5 +1,3 @@
-import Footer from "../components/Footer";
-
 const SkillsInHigherEducationPage = () => {
   return (
     <section>
@@ -102,9 +100,6 @@ const SkillsInHigherEducationPage = () => {
           </div>
         </div>
       </div>
-
-      {/* Footer */}
-      <Footer />
     </section>
   );
 };

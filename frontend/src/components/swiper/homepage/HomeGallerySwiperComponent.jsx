@@ -22,7 +22,17 @@ const HomeGallerySwiperComponent = ({ slides }) => {
       {slides.map((item) => (
         <>
           <SwiperSlide>
-            <img src={item.image} className="w-full h-full object-cover" />
+            <div
+              style={{ backgroundImage: `url(${item.image})` }}
+              className="w-full h-full bg-cover bg-center text-white"
+            >
+              <div className="flex flex-col justify-end h-full p-8">
+                <h1 className="text-white font-bold text-5xl my-6">SHST</h1>
+                <p className="text-white font-bold text-xl">
+                  School of Health Science and Technology
+                </p>
+              </div>
+            </div>
           </SwiperSlide>
         </>
       ))}
