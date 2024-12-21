@@ -22,6 +22,19 @@ body {
   .container-sports{
     background: url('https://upload.wikimedia.org/wikivoyage/en/0/08/AFBBanner2.jpg');
   }
+  .container-News{
+    background: url('../public/images/experts/img37.png');
+    background-size: cover;
+  }
+  .container-Media{
+    background: url('../public/images/experts/img39.JPG');
+    background-size: cover;
+  }
+  .container-News #text{
+    color: #040404;
+    padding-left: 70px;
+  }
+  
   #text{
     margin-top: 0;
     padding-top: 400px;
@@ -189,10 +202,26 @@ body {
   background: url('../public/images/experts/img3.png');
   background-size: cover;
  }
+ .container-Blogs{
+  background: url('https://live.staticflickr.com/4401/36675786633_c9f864d11f_b.jpg');
+  background-size: cover;
+ }
+ .container-Blogs #text{
+  color: #040404;
+ }
+ .container-NewsLetter{
+  background: url('../public/images/experts/img34.JPG');
+  background-size: cover;
+ }
+ .container-circulars{
+  background: url('../public/images/experts/img36.png');
+  background-size: cover;
+ }
   iframe{
     padding: 20px;
-    border: 4px solid rgb(81, 0, 0);
+    border: 4px solid rgb(149, 2, 2);
     border-radius: 15px;
+    background-color: #09480169;
   }
   #img-abc{
     border: 3px solid rgb(93, 0, 0);
@@ -336,6 +365,59 @@ body {
         margin: 10px 0;
     }
   }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    padding: 50px;
+}
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow 0.5s;
+    border: 1px solid grey;
+}
+.card:hover{
+  box-shadow: 4px 3px 10px  #04040466;
+}
+#card-img {
+    padding: 10px;
+    border-radius: 20px;
+}
+.card-content {
+    padding: 20px;
+}
+.card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 0 10px;
+    transition: color 0.5s;
+}
+.card-title:hover{
+  color: rgb(166, 1, 1);
+  
+}
+
+.card-date {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+.card-date i {
+    margin-right: 5px;
+}
+.card-description {
+    font-size: 0.9em;
+    color: #6c757d;
+}
 #image3{
   width: 788px;
   height: 459px;
@@ -348,4 +430,21 @@ body {
   width: 488px;
   height: 488px;
   aspect-ratio: 1;
+}
+#btn{
+  color: white;
+  background-color: rgb(129, 0, 0);
+  padding: 10px;
+  border-radius: 3px;
+  transition: box-shadow 1s;
+  transition: background-color 2s;
+}
+#btn:hover{
+  background-color: rgb(1, 93, 38);
+  box-shadow: 1px 2px 20px #5830fa;
+}
+.flex-media{ 
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
 }

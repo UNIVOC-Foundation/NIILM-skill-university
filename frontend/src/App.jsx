@@ -15,6 +15,11 @@ import Culture from "./components/Life/Culture";
 import Happy from "./components/Life/Happy";
 import NSS from "./components/Life/NSS";
 import SEDG from "./components/Life/SEDG";
+import News from "./components/Happening/News";
+import Blogs from "./components/Happening/Blogs";
+import NewsLetter from "./components/Happening/NewsLetter";
+import Circulars from "./components/Happening/Circulars";
+import Media from "./components/Happening/media";
 const App = () => {
   return (
     <BrowserRouter>
@@ -41,6 +46,13 @@ const App = () => {
  <Route path='/Life/Happy' element={<Happy/>}/>
  <Route path='/Life/NSS' element={<NSS/>}/>
  <Route path='/Life/SEDG' element={<SEDG/>}/>
+ <Route path="/Happening/News" element={<News/>}/>
+ <Route path="/Happening/Blogs" element={<Blogs/>}/>
+ <Route path="/Happening/NewsLetter" element={<NewsLetter/>}/>
+ <Route path="/Happening/Circulars" element={<Circulars/>}/>
+ <Route path="/Happening/Media" element={<Media/>}/>
+
+
       </Routes>
 
     </BrowserRouter>
