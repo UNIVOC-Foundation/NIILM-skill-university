@@ -29,6 +29,16 @@ import HappyFacePage from "./pages/HappyFacePage";
 import NssPage from "./pages/NssPage";
 import SedgPage from "./pages/SedgPage";
 import SportsPage from "./pages/SportsPage";
+import Reports from "./pages/Reports";
+
+import Guidelines from "./pages/Guidelines";
+import Administration from "./pages/Administration";
+import Niilmfoundation from "./pages/Niilmfoundation";
+import CentralFacilities from "./pages/CentralFacilities";
+import BeliefSection from "./pages/BeliefSection";
+import LearningEcosystem from "./pages/LearningEcosystem";
+
+;
 
 const App = () => {
   return (
@@ -48,6 +58,15 @@ const App = () => {
         <Route path="/nep" element={<NepPage />} />
         <Route path="/rnd" element={<RndPage />} />
         <Route path="/student-showcase" element={<StudentShowcasePage />} />
+        <Route path="/reports" element = {<Reports/>} />
+        <Route path="/guidelines" element={<Guidelines/>}/>
+        <Route path="/NiilmFoundation" element={< Niilmfoundation/>}/>
+       <Route path= "/Administration" element={<Administration/>}/>
+       <Route path="/Centralfacilities" element={<CentralFacilities/>} />
+       <Route path="/webelieve" element={<BeliefSection/>}/>
+       <Route path="/learningecosystem" element={<LearningEcosystem/>}/>
+       
+        {/* */}
 
         {/* Academics tab */}
         <Route
