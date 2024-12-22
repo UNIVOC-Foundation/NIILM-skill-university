@@ -1,7 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
 import Navbar from "./components/Navbar";
-
 import HomePage from "./pages/HomePage";
 import SchoolsPage from "./pages/SchoolsPage";
 import LearningWithIndustryPage from "./pages/LearningWithIndustryPage";
@@ -30,15 +28,27 @@ import NssPage from "./pages/NssPage";
 import SedgPage from "./pages/SedgPage";
 import SportsPage from "./pages/SportsPage";
 import Reports from "./pages/Reports";
-
 import Guidelines from "./pages/Guidelines";
 import Administration from "./pages/Administration";
 import Niilmfoundation from "./pages/Niilmfoundation";
 import CentralFacilities from "./pages/CentralFacilities";
 import BeliefSection from "./pages/BeliefSection";
 import LearningEcosystem from "./pages/LearningEcosystem";
-
-;
+import Experts from "./components/Academics/Experts";
+import Abc from "./components/Academics/Abc";
+import NEP from "./components/Academics/Nep";
+import Rnd from "./components/Academics/Rnd";
+import Student from "./components/Academics/Student";
+import Sports from "./components/Life/Sports";
+import Culture from "./components/Life/Culture";
+import Happy from "./components/Life/Happy";
+import NSS from "./components/Life/NSS";
+import SEDG from "./components/Life/SEDG";
+import News from "./components/Happening/News";
+import Blogs from "./components/Happening/Blogs";
+import NewsLetter from "./components/Happening/NewsLetter";
+import Circulars from "./components/Happening/Circulars";
+import Media from "./components/Happening/media";
 
 const App = () => {
   return (
@@ -79,6 +89,7 @@ const App = () => {
           element={<SkillsInHigherEducationPage />}
         />
 
+
         {/* Admissions tab */}
         <Route path="/wise" element={<WisePage />} />
         <Route path="/undergraduate" element={<UndergraduatePage />} />
@@ -98,7 +109,29 @@ const App = () => {
         <Route path="/sports" element={<SportsPage />} />
       </Routes>
       <Footer />
+ 
+ <Route path='/Academics/Experts' element={<Experts/>}/>
+ <Route path='/Academics/Abc' element={<Abc/>}/>
+ <Route path='/Academics/Nep' element={<NEP/>}/>
+ <Route path='/Academics/Rnd' element={<Rnd/>}/>
+ <Route path='/Academics/Student' element={<Student/>}/>
+ <Route path='/Life/Sports' element={<Sports/>}/>
+ <Route path='/Life/Culture' element={<Culture/>}/>
+ <Route path='/Life/Happy' element={<Happy/>}/>
+ <Route path='/Life/NSS' element={<NSS/>}/>
+ <Route path='/Life/SEDG' element={<SEDG/>}/>
+ <Route path="/Happening/News" element={<News/>}/>
+ <Route path="/Happening/Blogs" element={<Blogs/>}/>
+ <Route path="/Happening/NewsLetter" element={<NewsLetter/>}/>
+ <Route path="/Happening/Circulars" element={<Circulars/>}/>
+ <Route path="/Happening/Media" element={<Media/>}/>
+
+
+      
+
+
     </BrowserRouter>
+  
   );
 };
 
