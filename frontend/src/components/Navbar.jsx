@@ -1,13 +1,51 @@
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
 
 const Navbar = () => {
+  const [isResourcesOpen, setIsResourcesOpen] = useState(false);
+
+  const toggleResources = () => {
+    setIsResourcesOpen((prev) => !prev);
+  };
+
   const menuItems = [
     {
       label: "About",
       links: [
-        { label: "Overview", href: "#" },
-        { label: "Mission & Vision", href: "#" },
-        { label: "Leadership", href: "#" },
+        { label: "Why MSU", href: "/why-msu" },
+        { label: "Who We Are", href: "/who-we-are" },
+        { label: "Leadership", href: "/leadership" },
+        { label: "Recognition", href: "/recognition" },
+        { label: "Award", href: "/awards" },
+        { label: "Infrastructure", href: "/infrastructure" },
+        {
+          label: "Resources",
+          links: [
+            { label: "Reports", href: "/resources/reports" },
+            { label: "Guidelines", href: "/resources/guidelines" },
+          ],
+        },
+        { label: " NIILM UNIVERSITY", href: "/Niilmuniversity" },
+        { label: "Administration", href: "/administration" },
+        { label: "Our Faculty", href: "/our-faculty" },
+        { label: "Central Facilities", href: "/central-facilities" },
+      ],
+    },
+    {
+      label: "Academic",
+      links: [
+        { label: "Skills In Higher Education", href: "/skills-higher-education" },
+        { label: "We Believe", href: "/belief-section" },
+        { label: "Learning EcoSystem", href: "/learning-ecosystem" },
+        { label: "Design Your Own Degree", href: "/design-degree" },
+        { label: "Learning With Industry", href: "/learning-industry" },
+        { label: "Evaluation", href: "/evaluation" },
+        { label: "Experts and Mentors", href: "/experts-mentors" },
+        { label: "Student Showcase", href: "/student-showcase" },
+        { label: "Nep Compliance", href: "/nep-compliance" },
+        { label: "Academic Bank of Credits", href: "/academic-bank" },
+        { label: "Academic Calendar", href: "/academic-calendar" },
+        { label: "Research and Development", href: "/research-development" },
+        { label: "Annual Report", href: "/annual-report" },
       ],
     },
     {
@@ -25,18 +63,10 @@ const Navbar = () => {
       ],
     },
     {
-      label: "Academics",
-      links: [
-        { label: "Experts and mentors", href: "components/Academics/Experts" },
-        { label: "Academic bank of credits", href: "/schools/school-of-computer-science-&-engineering" },
-        { label: "School of Arts & Science", href: "#" },
-      ],
-    },
-    {
       label: "Schools",
       links: [
-        { label: "School of Engineering", href: "/schools/school-of-health-science-&-technology" },
-        { label: "School of Management", href: "/schools/school-of-computer-science-&-engineering" },
+        { label: "School of Engineering", href: "#" },
+        { label: "School of Management", href: "#" },
         { label: "School of Arts & Science", href: "#" },
       ],
     },
@@ -49,7 +79,7 @@ const Navbar = () => {
       ],
     },
     {
-      label: "Life at NIILM",
+      label: "Life at MSU",
       links: [
         { label: "Campus Life", href: "#" },
         { label: "Student Clubs", href: "#" },
@@ -64,21 +94,18 @@ const Navbar = () => {
         { label: "Blogs", href: "#" },
       ],
     },
+  
   ];
 
   return (
     <header>
-      {/* Announcement Bar */}
       <div className="bg-redTheme text-center py-2 font-bold text-white overflow-hidden">
         <div className="whitespace-nowrap animate-move">
-          Announcements: Admission 2025 Open for Queries or Telephonic
-          Counseling call +91 5783921999
+          Announcements: Admission 2025 Open for Queries or Telephonic Counseling call +91 5783921999
         </div>
       </div>
 
-      {/* Navbar */}
-      <nav className=" bg-white text-greenTheme flex items-center justify-between px-6 py-4 shadow-md ">
-        {/* Logo */}
+      <nav className="bg-white text-greenTheme flex items-center justify-between px-6 py-4 shadow-md4">
         <div className="logo">
           <img
             src="https://www.niilmuniversity.ac.in/web/assets/img/logo.png"
@@ -87,7 +114,6 @@ const Navbar = () => {
           />
         </div>
 
-        {/* Navigation Links */}
         <ul className="flex space-x-6 items-center">
           {menuItems.map((item, index) => (
             <li key={index} className="relative group">
@@ -98,20 +124,46 @@ const Navbar = () => {
                 {item.label}
               </a>
               <div className="absolute hidden group-hover:block bg-white text-greenTheme shadow-lg rounded mt-2 py-2 w-64 z-20">
-                {item.links.map((link, linkIndex) => (
-                  <Link
-                    key={linkIndex}
-                    href={link.href}
-                    className="block px-4 py-2 hover:bg-gray-100 text-sm"
-                  >
-                    {link.label}
-                  </Link>
-                ))}
+                {item.links.map((link, linkIndex) => {
+                  if (link.label === "Resources") {
+                    return (
+                      <div key={linkIndex} className="relative">
+                        <button
+                          onClick={toggleResources}
+                          className="block px-4 py-2 text-left w-full hover:bg-gray-100"
+                        >
+                          {link.label}
+                        </button>
+                        {isResourcesOpen && (
+                          <div className="absolute bg-white text-greenTheme shadow-lg rounded mt-2 py-2 w-48">
+                            {link.links.map((subLink, subIndex) => (
+                              <a
+                                key={subIndex}
+                                href={subLink.href}
+                                className="block px-4 py-2 hover:bg-gray-100 text-sm"
+                              >
+                                {subLink.label}
+                              </a>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    );
+                  }
+                  return (
+                    <a
+                      key={linkIndex}
+                      href={link.href}
+                      className="block px-4 py-2 hover:bg-gray-100 text-sm"
+                    >
+                      {link.label}
+                    </a>
+                  );
+                })}
               </div>
             </li>
           ))}
 
-          {/* Apply Now Button */}
           <li>
             <a
               href="#"
