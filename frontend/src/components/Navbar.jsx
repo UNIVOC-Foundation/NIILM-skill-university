@@ -73,9 +73,9 @@ const Navbar = () => {
     {
       label: "Collaborations",
       links: [
-        { label: "Industry Partners", href: "#" },
-        { label: "International Tie-Ups", href: "#" },
-        { label: "Research Collaborations", href: "#" },
+        { label: "Industry Partners", href: "/Industry" },
+        { label: "International Tie-Ups", href: "/Skilling" },
+        { label: "Research Collaborations", href: "/ResearchCollaborations" },
       ],
     },
     {
@@ -94,6 +94,14 @@ const Navbar = () => {
         { label: "Blogs", href: "#" },
       ],
     },
+    {
+      label :"UtilityNav",
+      links: [
+        { label : "CAMPUS LOGIN", href: '/campus-login' },
+        { label : "PAY FEE", href: '/pay-fee' },
+
+      ]
+    }
   
   ];
 
@@ -109,8 +117,10 @@ const Navbar = () => {
         <div className="logo">
           <img
             src="https://www.niilmuniversity.ac.in/web/assets/img/logo.png"
-            alt="Medhavi Skills University"
-            className="h-12"
+            alt="NIILM Skills University"
+            className="h-16 "
+            width={200}
+                height={80}
           />
         </div>
 

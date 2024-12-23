@@ -1,3 +1,5 @@
+
+
 import React from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
@@ -31,12 +33,15 @@ const LearningEcosystem = () => {
       </div>
 
       {/* Main Content Section */}
-      <section className="bg-white py-12 px-6 lg:px-20">
-        <div className="container mx-auto flex flex-col lg:flex-row items-center gap-12 bg-none">
+      <section className="bg:none py-12 px-6"
+       
+       
+       >
+        <div className=" mx-auto  flex flex-col lg:flex-row items-center ">
           {/* Text Content */}
           <div className="lg:w-1/2">
             <h1 className="text-2xl font-bold mb-4">
-              At Medhavi Skills University
+              At NIILM University
             </h1>
             <p className="text-gray-600 leading-relaxed mb-6">
               We foster a robust learning ecosystem that transcends traditional
@@ -77,9 +82,8 @@ const LearningEcosystem = () => {
         </div>
       </section>
 
+      {/* Additional Sections */}
       <CurricularComponents/>
-
-      
       <HomeGallerySection />
       <Footer />
     </div>
@@ -87,4 +91,3 @@ const LearningEcosystem = () => {
 };
 
 export default LearningEcosystem;
-

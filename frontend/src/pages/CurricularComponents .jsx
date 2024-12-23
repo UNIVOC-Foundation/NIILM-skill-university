@@ -6,37 +6,37 @@ const CurricularComponents = () => {
       title: "Foundation Core",
       description:
         "to build a solid academic foundation with essential courses designed to provide fundamental knowledge and skills across disciplines.",
-      icon: "📦", // Replace with your icon
+      icon: "📦", 
     },
     {
       title: "Skill Drill (Electives)",
       description:
         "to expose the students with variety of skill-based (elective) courses to explore your strengths and interests through hands-on experience in the relevant field.",
-      icon: "🛠️", // Replace with your icon
+      icon: "🛠️", 
     },
     {
       title: "Major (Elective)",
       description:
         "to choose a specialized area of study that aligns with your career goals and interests, allowing for in-depth exploration and expertise development.",
-      icon: "📄", // Replace with your icon
+      icon: "📄", 
     },
     {
       title: "Minor (Elective)",
       description:
         "to supplement your Major with additional skills in a related/unrelated field, empowering you to handle the diversified skills required in line with career goals.",
-      icon: "📖", // Replace with your icon
+      icon: "📖", 
     },
     {
       title: "Industry Practice",
       description:
         "to gain hands-on experience through On-Job Learning (Internships and Apprenticeships), thereby bridging the gap between Academia and Professional world.",
-      icon: "🏭", // Replace with your icon
+      icon: "🏭", 
     },
     {
       title: "Capstone Projects",
       description:
         "to facilitate the students to have a comprehensive understanding connecting the outcomes through Industry/Live Projects, Field Survey, Community Problem Solving etc.",
-      icon: "📊", // Replace with your icon
+      icon: "📊", // 
     },
   ];
 
