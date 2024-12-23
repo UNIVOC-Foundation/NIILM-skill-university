@@ -22,7 +22,7 @@ const BeliefSection = () => {
        
         <div className="lg:w-1/2 w-full text-left mb-8 lg:mb-0">
           <h2 className="text-3xl lg:text-4xl font-bold leading-snug">
-            At <span className="text-blue-500">Medhavi</span>, <br />
+            At <span className="text-blue-500">NIILM UNIVERSITY</span>, <br />
             We redefine the learning <br/>experience & outcomes.
           </h2>
           <p className="text-yellow-500 text-3xl lg:text-4xl font-bold leading-snug mt-5 mb-8">

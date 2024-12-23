@@ -29,6 +29,11 @@ import Niilmfoundation from "./pages/NiilmFoundation";
 import Navbar from "./components/Navbar";
 import LearningEcosystem from "./pages/LearningEcosystem";
 import Designyourowndegree from "./pages/Designyourowndegree";
+import IndustrySection from "./pages/IndustrySection";
+
+  import SkillingPage from "./pages/SkillingPage";
+import CampusLogin from "./pages/CampusLogin";
+import Payment from "./pages/Payment";
 const App = () => {
   return (
     <BrowserRouter>
@@ -69,7 +74,11 @@ const App = () => {
  <Route path="/Niilmuniversity" element={<Niilmfoundation/>}/>
  <Route path="/learning-ecosystem" element={<LearningEcosystem/>}/>
   <Route path ="/design-degree" element ={<Designyourowndegree/>}/>
+  <Route path="/Industry" element = {<IndustrySection/>}/>
+<Route path="/Skilling" element = {<SkillingPage/>}/>
+<Route path="/campus-login" element={<CampusLogin/>}/>
 
+<Route path="/pay-fee" element={<Payment/>}/>
       </Routes>
       
 
