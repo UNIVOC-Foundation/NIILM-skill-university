@@ -22,9 +22,17 @@ import Circulars from "./components/Happening/Circulars";
 import Media from "./components/Happening/media";
 import Reports from "./pages/Reports";
 import Guidelines from "./pages/Guidelines";
+import Administration from "./pages/Administration";
+import CentralFacilities from "./pages/Centralfacilities";
+import BeliefSection from "./pages/BeliefSection";
+import Niilmfoundation from "./pages/NiilmFoundation";
+import Navbar from "./components/Navbar";
+import LearningEcosystem from "./pages/LearningEcosystem";
+import Designyourowndegree from "./pages/Designyourowndegree";
 const App = () => {
   return (
     <BrowserRouter>
+    
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/schools/:schoolId" element={<SchoolsPage />} />
@@ -55,10 +63,15 @@ const App = () => {
  <Route path="/Happening/Media" element={<Media/>}/>
  <Route path="/resources/reports" element={<Reports/>}/>
  <Route path="/resources/guidelines" element={<Guidelines/>}/>
- 
-
+ <Route path="/administration" element={<Administration/>}/>
+ <Route path="/central-facilities" element={<CentralFacilities/>}/>
+ <Route path="/belief-section" element={<BeliefSection/>}/>
+ <Route path="/Niilmuniversity" element={<Niilmfoundation/>}/>
+ <Route path="/learning-ecosystem" element={<LearningEcosystem/>}/>
+  <Route path ="/design-degree" element ={<Designyourowndegree/>}/>
 
       </Routes>
+      
 
     </BrowserRouter>
   

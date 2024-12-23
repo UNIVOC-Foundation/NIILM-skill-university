@@ -1,4 +1,6 @@
 import React from 'react';
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
 
 const Reports = () => {
   const resources = [
@@ -27,6 +29,7 @@ const Reports = () => {
 
   return (
     <div className="font-sans">
+      <Navbar/>
      
       <div
         className="relative h-[400px] bg-cover bg-center"
@@ -70,6 +73,7 @@ const Reports = () => {
           ))}
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

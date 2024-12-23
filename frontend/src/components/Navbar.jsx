@@ -24,7 +24,7 @@ const Navbar = () => {
             { label: "Guidelines", href: "/resources/guidelines" },
           ],
         },
-        { label: "Medhavi Foundation", href: "/Medhavi-Foundation" },
+        { label: " NIILM UNIVERSITY", href: "/Niilmuniversity" },
         { label: "Administration", href: "/administration" },
         { label: "Our Faculty", href: "/our-faculty" },
         { label: "Central Facilities", href: "/central-facilities" },

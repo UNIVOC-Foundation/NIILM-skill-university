@@ -1,4 +1,6 @@
 import React from "react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const CentralFacilities = () => {
   const facilities = [
@@ -50,6 +52,7 @@ const CentralFacilities = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
+      <Navbar/>
       
       <div className="relative h-[400px] bg-cover bg-center" style={{ backgroundImage: "url('https://www.msu.edu.in/frontend_assets/images/why-msu-cover.png')" }}>
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 to-black/70"></div>
@@ -79,6 +82,7 @@ const CentralFacilities = () => {
           </div>
         ))}
       </div>
+      <Footer/>
     </div>
   );
 };
