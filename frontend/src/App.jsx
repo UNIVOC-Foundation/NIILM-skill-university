@@ -20,6 +20,7 @@ import Blogs from "./components/Happening/Blogs";
 import NewsLetter from "./components/Happening/NewsLetter";
 import Circulars from "./components/Happening/Circulars";
 import Media from "./components/Happening/media";
+import International from "./components/Life/International";
 const App = () => {
   return (
     <BrowserRouter>
@@ -51,8 +52,7 @@ const App = () => {
  <Route path="/Happening/NewsLetter" element={<NewsLetter/>}/>
  <Route path="/Happening/Circulars" element={<Circulars/>}/>
  <Route path="/Happening/Media" element={<Media/>}/>
-
-
+ <Route path="/Life/International" element={<International/>}/>
       </Routes>
 
     </BrowserRouter>
