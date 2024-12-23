@@ -20,6 +20,9 @@ import Blogs from "./components/Happening/Blogs";
 import NewsLetter from "./components/Happening/NewsLetter";
 import Circulars from "./components/Happening/Circulars";
 import Media from "./components/Happening/media";
+
+import International from "./components/Life/International";
+
 import Reports from "./pages/Reports";
 import Guidelines from "./pages/Guidelines";
 import Administration from "./pages/Administration";
@@ -34,6 +37,7 @@ import IndustrySection from "./pages/IndustrySection";
   import SkillingPage from "./pages/SkillingPage";
 import CampusLogin from "./pages/CampusLogin";
 import Payment from "./pages/Payment";
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -66,6 +70,9 @@ const App = () => {
  <Route path="/Happening/NewsLetter" element={<NewsLetter/>}/>
  <Route path="/Happening/Circulars" element={<Circulars/>}/>
  <Route path="/Happening/Media" element={<Media/>}/>
+
+ <Route path="/Life/International" element={<International/>}/>
+
  <Route path="/resources/reports" element={<Reports/>}/>
  <Route path="/resources/guidelines" element={<Guidelines/>}/>
  <Route path="/administration" element={<Administration/>}/>
@@ -79,6 +86,7 @@ const App = () => {
 <Route path="/campus-login" element={<CampusLogin/>}/>
 
 <Route path="/pay-fee" element={<Payment/>}/>
+
       </Routes>
       
 

@@ -186,6 +186,11 @@ body {
     background: url('https://wimbledonvillage.com/wp-content/uploads/2023/09/Art-Culture-banner-image-person-in-gallery-viewing-paintings.jpg');
     background-size: cover;
   }
+  .container-crux{
+    background: url('../public/images/experts/img42.png');
+    background-size: cover;
+    height: 600px;
+  }
  
  .container-NSS{
   background: url('../public/images/experts/img9.png');
@@ -335,6 +340,19 @@ body {
   background-color: #85f7d55d;
   padding: 10px;
 }
+#btn2{
+  background:linear-gradient(to top left,rgb(14, 52, 0), rgb(82, 0, 0));
+  font-size: 20px;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  width: 200px;
+  border: 2px solid white;
+  transition: background;
+}
+#btn2:hover{
+  background:linear-gradient(to top left, rgb(82, 0, 0),rgb(14, 52, 0));
+}
 @media (max-width: 768px) {
     .gallery {
         grid-template-columns: repeat(2, 1fr);
@@ -447,4 +465,681 @@ body {
   gap: 20px;
   display: flex;
   flex-wrap: wrap;
+}
+.container2 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.header2 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+.header2 h1 {
+  color: #013e11;
+  font-size: 36px;
+  font-weight: 700;
+}
+.content2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.text-content2 {
+  flex: 1;
+  padding-right: 20px;
+}
+.text-content2 p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  padding: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.image-content2 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.image-content2 img {
+  max-width: 100%;
+  height: auto;
+  border: 5px solid #8b0000;
+}
+.container3 {
+  text-align: center;
+  padding: 50px 20px;
+}
+.container3 h1 {
+  font-size: 36px;
+  color: #333;
+}
+.container3 h1 span #cr {
+  color: #004204;
+}
+.cards3 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+.card3 {
+  background-color: #1a1a1a;
+  color: #fff;
+  width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+  text-align: left;
+}
+.card3 h3 {
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+.card3 p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.card3:nth-child(2) {
+  background: linear-gradient( #003401, #003401,#001101);
+}
+.card3:nth-child(4) {
+  background: linear-gradient( #003401, #003401,#001101);
+}
+.card3:nth-child(6) {
+  background: linear-gradient( #003401, #003401,#001101);
+}
+.card3:nth-child(3) {
+  background:linear-gradient( #340000, #340000,#200000);
+}
+.card3:nth-child(1) {
+  background:linear-gradient( #340000, #340000,#200000);
+}
+.card3:nth-child(5) {
+  background:linear-gradient( #340000, #340000,#200000);
+}
+.card3::before {
+  content: '';
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 60px;
+  background-color: #0d310c;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card3:nth-child(2)::before {
+  background-color: #6f0101;
+}
+.card3:nth-child(4)::before {
+  background-color: #6f0101;
+}
+.card3:nth-child(6)::before {
+  background-color: #6f0101;
+}
+.card3:nth-child(3)::before {
+  background-color: #0d310c;
+}
+.card3::before img {
+  width: 30px;
+  height: 30px;
+}
+.card3-border {
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  border: 2px solid #f5a623;
+  border-radius: 8px;
+  z-index: -1;
+}
+.icon {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+@media (max-width: 768px) {
+  .content2 {
+      flex-direction: column;
+  }
+  .text-content2 {
+      padding-right: 0;
+  }
+}
+.top-banner {
+  background-color: #014400; /* Orange color */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  height: 200px;
+  
+}
+.top-banner h1{
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.bottom-banner {
+  display: flex;
+
+  background-color: #640000; /* Blue color */
+  color: white;
+  justify-content: center;
+  height: 300px;
+
+}
+.bottom-banner h2{
+  padding-top: 30px;
+    font-size: 30px;
+}
+.bottom-banner p{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content {
+  max-width: 600px;
+}
+
+.content h2 {
+  margin: 0;
+}
+
+
+
+.btn1:hover {
+  background-color: #d17c17;
+}
+
+
+.graduate-image img {
+  max-height: 200px;
+  border-radius: 5px;
+}
+
+
+.header-ad {
+  background: url('../public/images/experts/img46.png') no-repeat center center;
+  background-size: cover;
+  color: rgb(100, 0, 0);
+
+  padding: 100px 20px;
+  position: relative;
+}
+.header-ad h1 {
+  font-size: 30px;
+  color: #ffcdcd;
+  margin: 0;
+}
+.header-ad ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0;
+  font-size: 18px;
+  color: white;
+}
+.header-ad ul li {
+  margin: 10px 0;
+}
+.stats {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.stats div {
+  flex: 1;
+  min-width: 150px;
+  margin: 10px;
+}
+.stats div h2 {
+  font-size: 36px;
+  margin: 0;
+  color: #FFA500;
+}
+.stats div p {
+  margin: 10px 0 0;
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+  .header-ad {
+      padding: 50px 20px;
+  }
+  .header-ad h1 {
+      font-size: 32px;
+  }
+  .header-ad ul {
+      font-size: 16px;
+  }
+  .stats {
+      flex-direction: column;
+  }
+  .stats div {
+      margin: 20px 0;
+  }
+}
+#award-cont{
+  height: 500px;
+  
+  padding: 30px;
+  margin-bottom: 60px;
+}
+#award{
+
+  background: url('https://i1.pickpik.com/photos/757/347/611/training-businesswoman-suit-manager-preview.jpg');
+  background-size: cover;
+  padding: 30px;
+  width: 1000px;
+  border-radius: 20px;
+  border: 3px solid rgb(93, 0, 0);
+  
+}
+.container-awd{
+  background-color: white;
+  width: 480px;
+  height: 450px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 4px solid rgb(88, 23, 23);
+  justify-self: left;
+  margin-right: 30px;
+}
+#green{
+  color: #3e653e;
+  font-weight: bold;
+  font-size: 30px;
+  
+}
+#red{
+  color: rgb(246, 30, 30);
+  font-size: 30px;
+  font-weight: bold;
+}
+.container-awd p{
+  margin-top: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 10px;
+}
+#btn3{
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #4086f6;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.container4 {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+.background-image {
+  width: 100%;
+  height: 600px;
+}
+.content4 {
+  position: absolute;
+  top: 60%;
+  left: 5%;
+  transform: translateY(-50%);
+}
+.content4 h1 {
+  font-size: 2.5em;
+  margin: 0;
+  color: #b7dbff;
+}
+.content4 h1 span {
+  color: #FF8C00;
+}
+.btn-km {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #003366;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.apply-now {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background-color: #003366;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px 0 0 5px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  text-decoration: none;
+}
+.nurse-image {
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+  width: 20%;
+  height: auto;
+}
+.icon {
+  position: absolute;
+  top: 60%;
+  left: 5%;
+  transform: translateY(-50%);
+  background-color: #003366;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+#student{
+  height: 490px;
+  width: 440px;
+  margin-bottom: 0px;
+  
+}
+.container5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+.card5 {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  flex: 1;
+  max-width: 300px;
+  min-width: 250px;
+  box-sizing: border-box;
+  border:  3px solid rgb(86, 0, 0);
+  transition: background-color 0.5s ;
+}
+.card5:hover{
+  background-color: rgba(74, 0, 0, 0.333);
+}
+.card5 img {
+  width: 50px;
+  height: 50px;
+}
+.card5 h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.card5 p {
+  font-size: 14px;
+  color: #555;
+}
+@media (max-width: 768px) {
+  .card5 {
+      max-width: 100%;
+  }
+}
+.container6 {
+  text-align: center;
+  background: rgba(120, 0, 0, 0.226);
+}
+.header6 {
+  background: linear-gradient(#00340c,#001a07);
+  color: white;
+  padding: 20px 0;
+}
+.header6 h1 {
+  margin: 0;
+  font-size: 24px;
+}
+.header6 p {
+  margin: 10px 0 0;
+  font-size: 14px;
+}
+.programs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.program {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  border: 3px solid rgb(95, 0, 0);
+  transition: background-color 0.5s ;
+}
+.program:hover{
+  background-color: rgba(74, 0, 0, 0.333);
+}
+.program img {
+  width: 100%;
+  border-radius: 10px;
+  border: 4px solid rgb(0, 61, 0);
+}
+.program h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #023300;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.container8 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+.header8 {
+  font-size: 24px;
+  color: #f57c00;
+  margin-bottom: 20px;
+}
+.social-feed {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.feed-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.feed-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+.feed-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.feed-header i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+.feed-header span {
+  font-size: 18px;
+  font-weight: bold;
+}
+.feed-header small {
+  display: block;
+  font-size: 14px;
+  color: #888;
+}
+@media (max-width: 768px) {
+  .feed-item {
+      width: 100%;
+  }
+}
+.cards4{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+.flexm{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.card4{
+  background-color: rgb(207, 207, 207);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom:20px ;
+  border-radius: 10px;
+  transition: background-color 2s ;
+}
+.card4:hover{
+  background-color: rgba(0, 16, 80, 0.678);
+  color:white ;
+}
+.card4 h1{
+  font-size: 20px;
+  margin-top: 10px;
+}
+.sml{
+  height: 50px;
+  width: 50px;
+}
+.big{
+  width: 290px;
+  border-radius: 20px;
+}
+#card-section{
+  background-color: #00310d95;
+}
+#rn{
+  font-size: 30px;
+  justify-self: center;
+  
+  color: #023300;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #000000;
+  margin: 2px 2px 4px 4px;
+
+}
+#modiji{
+  padding: 20px;
+}
+#modiji p{
+  margin-top: 30px;
+}
+#modiji h1{
+  margin: 0;
+ 
 }
