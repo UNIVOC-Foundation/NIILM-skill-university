@@ -40,6 +40,7 @@ import CampusLogin from "./pages/CampusLogin";
 import Payment from "./pages/Payment";
 import WhyChooseSection from "./pages/WhyChooseSection";
 import Technology from "./pages/Technology";
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -91,6 +92,7 @@ const App = () => {
 <Route path="/pages/SchoolsPage" element={<SchoolsPage/>}/>
 <Route path="/pages/WhyChooseSection" element={<WhyChooseSection/>}/>
 <Route path="/pages/Technology" element={<Technology/>}/>
+
       </Routes>
       
 

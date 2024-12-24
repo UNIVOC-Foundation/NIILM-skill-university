@@ -50,15 +50,12 @@ const Navbar = () => {
     {
       label: "Admissions",
       links: [
-        { label: "Undergraduate - Campus Programmes", href: "#" },
-        { label: "Postgraduate - Campus Programmes", href: "#" },
-        { label: "Work Integrated Programmes", href: "#" },
-        { label: "Admission Process", href: "#" },
-        { label: "Scholarship Financial Aid", href: "#" },
-        { label: "Prospectus-2024", href: "#" },
-        { label: "Eligibility Selection Criterion", href: "#" },
-        { label: "Fee Structure 2024-2025", href: "#" },
-        { label: "Fee Refund Policy", href: "#" },
+        { label: "Undergraduate - Campus Programmes", href: "Admissions/UndergraduatePage" },
+        { label: "Postgraduate - Campus Programmes", href: "Admissions/PostraduatePage" },
+        { label: "Admission Process", href: "Admissions/AdmissionProcessPage" },
+        { label: "Scholarship Financial Aid", href: "Admissions/Scholorship" },
+        { label: "Eligibility Selection Criterion", href: "Admissions/EligibilityPage" },
+        
       ],
     },
     {
