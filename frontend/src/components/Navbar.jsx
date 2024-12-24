@@ -11,7 +11,7 @@ const Navbar = () => {
     {
       label: "About",
       links: [
-        { label: "Why MSU", href: "/why-msu" },
+        { label: "Why NIILM", href: "/pages/WhyChooseSection" },
         { label: "Who We Are", href: "/who-we-are" },
         { label: "Leadership", href: "/leadership" },
         { label: "Recognition", href: "/recognition" },
@@ -33,19 +33,18 @@ const Navbar = () => {
     {
       label: "Academic",
       links: [
-        { label: "Skills In Higher Education", href: "/skills-higher-education" },
+        { label: "Skills In Higher Education", href: "/Academics/SkillsInHigherEducationPage" },
         { label: "We Believe", href: "/belief-section" },
         { label: "Learning EcoSystem", href: "/learning-ecosystem" },
         { label: "Design Your Own Degree", href: "/design-degree" },
-        { label: "Learning With Industry", href: "/learning-industry" },
+        { label: "Learning With Industry", href: "/Academics/LearningWithIndustryPage" },
         { label: "Evaluation", href: "/evaluation" },
-        { label: "Experts and Mentors", href: "/experts-mentors" },
-        { label: "Student Showcase", href: "/student-showcase" },
-        { label: "Nep Compliance", href: "/nep-compliance" },
-        { label: "Academic Bank of Credits", href: "/academic-bank" },
-        { label: "Academic Calendar", href: "/academic-calendar" },
-        { label: "Research and Development", href: "/research-development" },
-        { label: "Annual Report", href: "/annual-report" },
+        { label: "Experts and Mentors", href: "/Academics/Experts" },
+        { label: "Student Showcase", href: "/Academics/Student" },
+        { label: "Nep Compliance", href: "/Academics/Nep" },
+        { label: "Academic Bank of Credits", href: "/Academics/Abc" },
+        { label: "Research and Development", href: "Rnd" },
+        
       ],
     },
     {
@@ -65,33 +64,37 @@ const Navbar = () => {
     {
       label: "Schools",
       links: [
-        { label: "School of Engineering", href: "#" },
-        { label: "School of Management", href: "#" },
-        { label: "School of Arts & Science", href: "#" },
+        { label: "School of Engineering", href: "/pages/SchoolsPage" },
+        { label: "School of Management", href: "/pages/SchoolsPage" },
+        { label: "School of Arts & Science", href: "/pages/SchoolsPage" },
       ],
     },
     {
       label: "Collaborations",
       links: [
-        { label: "Industry Partners", href: "/Industry" },
-        { label: "International Tie-Ups", href: "/Skilling" },
-        { label: "Research Collaborations", href: "/ResearchCollaborations" },
+        { label: "Industry Partners", href: "pages/IndustrySection" },
+        { label: "Skilling", href: "pages/SkillingPage" },
+        { label: "Technology", href: "/pages/Technology" },
       ],
     },
     {
-      label: "Life at MSU",
+      label: "Life at NIILM",
       links: [
-        { label: "Campus Life", href: "#" },
-        { label: "Student Clubs", href: "#" },
-        { label: "Events", href: "#" },
+        { label: "Culture", href: "/Life/Culture" },
+        { label: "Happy Faces", href: "/Life/Happy" },
+        { label: "NSS", href: "/Life/NSS" },
+        { label: "Sports", href: "/Life/Sports" },
+        { label: "SEDG", href: "/Life/SEDG" }
       ],
     },
     {
       label: "Happenings",
       links: [
-        { label: "News", href: "#" },
-        { label: "Announcements", href: "#" },
-        { label: "Blogs", href: "#" },
+        { label: "News", href: "Happening/News" },
+        { label: "Circulars", href: "Happening/Circulars" },
+        { label: "Blogs", href: "Happening/Blogs" },
+        { label: "Media", href: "Happening/Media" },
+        { label: "News Letters", href: "Happening/NewsLetter" },
       ],
     },
     {

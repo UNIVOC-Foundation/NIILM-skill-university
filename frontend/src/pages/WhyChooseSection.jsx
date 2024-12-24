@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { whyChooseData } from "../../../data/homepage/whyChooseData.js";
+import { whyChooseData } from "../data/homepage/whyChooseData.js";
 
 const WhyChooseSection = () => {
   const [selectedTab, setSelectedTab] = useState(whyChooseData[0]);

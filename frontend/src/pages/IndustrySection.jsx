@@ -101,14 +101,14 @@ return (
         </div>
       
       {/* Hero Content */}
-      <div className="relative container mx-auto px-4 h-full flex items-center">
+      {/* <div className=" mx-auto px-4 h-full flex items-center">
         <h1 className="text-white text-6xl font-bold">Industry</h1>
-      </div>
+      </div> */}
     </div>
 
     <div className="relative min-h-screen">
      
-      <div className="container mx-auto px-4 py-16">
+      <div className=" mx-auto px-4 py-16">
         <div className="grid lg:grid-cols-2 gap-8 items-center">
 
             <div className="space-y-8 lg:pl-8 mb-40 mr-[25px]">
@@ -158,7 +158,7 @@ return (
       </div>
 
       <section className="py-16 -mt-52 px-4 bg-gray-50">
-        <div className="container mx-auto">
+        <div className=" mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
             Industry Collaborations
           </h2>
@@ -181,7 +181,7 @@ return (
       </section>
 
       <div className="max-w-7xl mx-auto p-6 relative z-10 mt-[0px] h-[335px]">
-      <div className="border-2 border-[#F39C12] rounded-3xl p-8 ">
+      <div className="border-2 border-[#F39C12] rounded-3xl p-8 bg-green-100">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
           {achievements.map((achievement, index) => (
             <div

@@ -2,7 +2,7 @@ import AcademicSection from "../components/homepage/academic/AcademicSection";
 import AdmissionSection from "../components/homepage/admission/AdmissionSection";
 import CampusSection from "../components/homepage/campus/CampusSection";
 import CollabPartnerSection from "../components/homepage/collab-partner/CollabPartnerSection";
-import WhyChooseSection from "../components/homepage/why-choose/WhyChooseSection";
+import WhyChooseSection from "./WhyChooseSection";
 import SocialSection from "../components/homepage/social/SocialSection";
 import Footer from "../components/Footer";
 

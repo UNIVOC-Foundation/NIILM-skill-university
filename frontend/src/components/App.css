@@ -5,13 +5,14 @@ body {
   
   .container{
     margin-top: 0;
-    background: url('../public/images/experts/img18.png');
+    background: url('../public/images/experts/img1.png');
     height:500px;
     background-size: cover;
     
+    
   }
   .container #text{
-    color: #040404;
+    color: #e1e1e1;
   }
   .container-student{
     margin-top: 0;
