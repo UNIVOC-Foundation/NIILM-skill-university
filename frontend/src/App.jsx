@@ -34,12 +34,14 @@ import Navbar from "./components/Navbar";
 import LearningEcosystem from "./pages/LearningEcosystem";
 import Designyourowndegree from "./pages/Designyourowndegree";
 import IndustrySection from "./pages/IndustrySection";
-
+import WhyNiilmPage from "./pages/WhyNiilmPage";
 import SkillingPage from "./pages/SkillingPage";
 import CampusLogin from "./pages/CampusLogin";
 import Payment from "./pages/Payment";
 import WhyChooseSection from "./pages/WhyChooseSection";
 import Technology from "./pages/Technology";
+import AwardsPage from "./components/Academics/AwardsPage";
+
 
 const App = () => {
   return (
@@ -92,6 +94,8 @@ const App = () => {
 <Route path="/pages/SchoolsPage" element={<SchoolsPage/>}/>
 <Route path="/pages/WhyChooseSection" element={<WhyChooseSection/>}/>
 <Route path="/pages/Technology" element={<Technology/>}/>
+<Route path="/Academics/AwardsPage" element={<AwardsPage/>}/>
+<Route path="/Academics/WhyNiilmPage" element={<WhyNiilmPage/>}/>
 
       </Routes>
       
