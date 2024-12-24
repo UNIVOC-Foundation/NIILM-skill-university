@@ -11,11 +11,11 @@ const Navbar = () => {
     {
       label: "About",
       links: [
-        { label: "Why NIILM", href: "/pages/WhyChooseSection" },
+        { label: "Why NIILM", href: "/pages/WhyNiilmPage" },
         { label: "Who We Are", href: "/who-we-are" },
-        { label: "Leadership", href: "/leadership" },
+        { label: "Leadership", href: "/pages/leadership" },
         { label: "Recognition", href: "/recognition" },
-        { label: "Award", href: "/awards" },
+        { label: "Award", href: "Academics/AwardsPage" },
         { label: "Infrastructure", href: "/infrastructure" },
         {
           label: "Resources",
