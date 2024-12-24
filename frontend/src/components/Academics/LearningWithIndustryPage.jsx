@@ -1,12 +1,13 @@
-import Footer from "../components/Footer";
+import Footer from "../Footer";
+import Navbar from "../Navbar";
 // import CurrentInfoSection from "../components/schoolspage/current-info/CurrentInfoSection";
-import AcademicSwiperComponent from "../components/swiper/homepage/AcademicSwiperComponent";
-import { industryPartnersData } from "../data/homepage/collab-partnerData";
+import AcademicSwiperComponent from "../swiper/homepage/AcademicSwiperComponent";
+import { industryPartnersData } from "../../data/homepage/collab-partnerData";
 
 const LearningWithIndustryPage = () => {
   return (
     <section>
-      {/* Header */}
+      <Navbar />
       <div className="relative w-full">
         <div className="relative h-80 overflow-hidden md:h-[28rem]">
           <div

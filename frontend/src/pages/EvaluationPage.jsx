@@ -1,10 +1,10 @@
 import Footer from "../components/Footer";
 import AcademicSwiperComponent from "../components/swiper/homepage/AcademicSwiperComponent";
-
+import Navbar from "../components/Navbar";
 const EvaluationPage = () => {
   return (
     <section>
-      {/* Header */}
+      <Navbar />
       <div className="relative w-full">
         <div className="relative h-80 overflow-hidden md:h-[28rem]">
           <div

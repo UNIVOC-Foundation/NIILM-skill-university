@@ -3,7 +3,8 @@ import { MessageSquare, Phone, Search, X } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-const  SkillingPage = () => {
+const  Technology=() => {
+  
   const partners = [
     { name: "LCBS", logos: ["https://www.msu.edu.in/frontend_assets/images/industry-partners/lcbs-Black.png", "https://www.msu.edu.in/frontend_assets/images/industry-partners/ZICA.png"] },
     { name: "IGJ", logos: ["https://www.msu.edu.in/frontend_assets/images/industry-partners/logo-igj-1196116_2.png", "https://www.msu.edu.in/frontend_assets/images/industry-partners/raddison-blue.png"] },
@@ -15,11 +16,12 @@ const  SkillingPage = () => {
     { name: "Positive Plastics", logos: ["	https://www.msu.edu.in/frontend_assets/images/industry-partners/holiday-inn.jpg", "	https://www.msu.edu.in/frontend_assets/images/industry-partners/d29-min.jpg"] },
     { name: "IHG Hotels & Resorts", logos: ["https://www.msu.edu.in/frontend_assets/images/industry-partners/d34.jpg","https://www.msu.edu.in/frontend_assets/images/industry-partners/d16.jpg"] },
     { name: "Under Water Solutions", logos: ["	https://www.msu.edu.in/frontend_assets/images/industry-partners/d33-min.jpg" , "https://www.msu.edu.in/frontend_assets/images/industry-partners/d32-min.jpg"] },
-      ];
+];
 
   const [currentLogos, setCurrentLogos] = useState(
     partners.map((partner) => (partner.logos.length > 1 ? 0 : -1)) // Only cycle for partners with multiple logos
   );
+
 
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -72,66 +74,73 @@ const  SkillingPage = () => {
     { number: "100+", label: "Industry Experts" }
   ]
 
-  return (
+return (
+    <div>
+      <Navbar/>
 
-
-    
-<div>
-  <Navbar/>
     <div className="min-h-screen">
+
     <div className="relative h-[500px] ">
-      <div className="absolute inset-0 bg-black">
-        <img
-          src="https://msu-website-all-objects.s3.ap-south-1.amazonaws.com/website-images/banner-msu/skilling-msu.webp"
-          alt="Skills background"
-          className="w-full h-full object-cover opacity-70"
-        />
-      </div>
-      
-      <div className="relative mx-auto px-4 h-full flex items-center">
-        <h1 className="text-white text-6xl font-bold">Skilling</h1>
-      </div>
-    </div>
-
-
-  </div>
-
-
-    {/* <div className="relative min-h-screen bg-white"> */}
-     
-    <div className=" mx-auto px-4 py-19 ">
-    <div className="grid lg:grid-cols-2 gap-8 items-center mt-[-400px]">
-
-    <div className="space-y-8 lg:pl-8 mb-60 pr-[10px]">
-    <p className="text-gray-800 text-lg leading-relaxed">
-        Medhavi Skills University has also fostered collaborations with 
-        various sector experts, ensuring that students receive the best 
-        updated expertise and skill set required for the industry. Through 
-        strategic partnerships with renowned institutions, MSU offers 
-        specialized programs designed to meet the evolving demands of 
-        different sectors.
-    </p>
-    <p className="text-gray-800 text-lg leading-relaxed">
-        By teaming up with sector experts, Medhavi Skills University provides 
-        students with access to industry-relevant curriculum, practical 
-        training, and mentorship opportunities. These partnerships enrich 
-        the learning experience, equipping students with the knowledge and 
-        skills needed to excel in their chosen fields and make meaningful 
-        contributions to the workforce.
-    </p>
-</div>
-
-
-        <div className="relative h-[400px] lg:h-[500px] mb-40">
+    <div className="relative h-80 overflow-hidden md:h-[28rem]">
+          <div
+            className={`absolute w-full h-full transition-opacity duration-700 ease-in-out`}
+          >
+           
             <img
-                src="	https://msu-website-all-objects.s3.ap-south-1.amazonaws.com/from-campus/skill-img.webp"
-                alt="Student working with technical equipment"
-                className="w-full h-full object-cover rounded-lg"
+              src="/images/bg-new.png"
+              alt={`Alt image`}
+              className="absolute w-full h-full object-cover"
             />
+           
+            <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70"></div>
+           
+            <h1 className="w-full md:w-1/2 absolute bottom-4 left-4 md:bottom-16 md:left-24 uppercase text-3xl md:text-6xl text-white font-bold">
+           Technology
+            </h1>
+          </div>
         </div>
+      
+      {/* Hero Content */}
+      {/* <div className=" mx-auto px-4 h-full flex items-center">
+        <h1 className="text-white text-6xl font-bold">Industry</h1>
+      </div> */}
     </div>
-</div>
 
+    <div className="relative min-h-screen">
+     
+      <div className=" mx-auto px-4 py-16">
+        <div className="grid lg:grid-cols-2 gap-8 items-center">
+
+            <div className="space-y-8 lg:pl-8 mb-40 mr-[25px]">
+                <p className="text-gray-800 text-2xl leading-loose">
+                    For years, a significant gap has persisted between academia and
+                    industry, leaving graduates ill-equipped for the demands of the
+                    workforce.At NILLM Skills University, our collaboration with industry
+                    partners aims to bridge this gap effectively.Industry stakeholders actively participate in shaping our curriculum to
+                    align with industry standards, ensuring that students acquire the skills
+                    and knowledge needed for success in the real world.
+                </p>
+                <p className="text-gray-800 text-2xl leading-loose">
+                    At NIILM Skills University, our collaboration with industry 
+                    partners aims to bridge this gap effectively.
+                </p>
+                <p className="text-gray-800 text-2xl leading-loose">
+                    Industry stakeholders actively participate in shaping our curriculum to
+                    align with industry standards, ensuring that students acquire the skills
+                    and knowledge needed for success in the real world.
+                </p>
+            </div>
+
+
+          <div className="relative h-[400px] lg:h-[500px] mb-80">
+            <img
+              src="	https://www.msu.edu.in/frontend_assets/images/industry-img-page.png"
+              alt="Student working with technical equipment"
+              className="w-full h-full object-cover rounded-lg"
+            />
+          </div>
+        </div>
+      </div>
 
       <div className="fixed right-0 top-1/2 -translate-y-1/2 bg-[#003366] text-white p-2 rounded-l-lg space-y-4 z-50">
         <button className="p-2 hover:bg-blue-800 rounded transition-colors flex items-center justify-center" aria-label="Message">
@@ -151,7 +160,7 @@ const  SkillingPage = () => {
       <section className="py-16 -mt-52 px-4 bg-gray-50">
         <div className=" mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
-            Skilling Partners
+            Technology Partners
           </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
@@ -171,10 +180,8 @@ const  SkillingPage = () => {
         </div>
       </section>
 
-
-
       <div className="max-w-7xl mx-auto p-6 relative z-10 mt-[0px] h-[335px]">
-      <div className="border-2 border-[#F39C12] rounded-3xl p-8 bg-green-100 ">
+      <div className="border-2 border-[#F39C12] rounded-3xl p-8 bg-green-100">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
           {achievements.map((achievement, index) => (
             <div
@@ -187,7 +194,6 @@ const  SkillingPage = () => {
           ))}
         </div>
 
-        {/* Statistics */}
         <div className="bg-white rounded-xl p-8 shadow-lg">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
             {stats.map((stat, index) => (
@@ -204,17 +210,16 @@ const  SkillingPage = () => {
         </div>
       </div>
     </div>
-    <Footer/>
-
-
-
-
-
-
 
     
     </div>
-    // </div>
+    </div>
+    <Footer/>
+    </div>
   );
 }
-export default SkillingPage;
+
+export default Technology;
+
+
+

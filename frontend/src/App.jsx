@@ -2,9 +2,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import HomePage from "./pages/HomePage";
 import SchoolsPage from "./pages/SchoolsPage";
-import LearningWithIndustryPage from "./pages/LearningWithIndustryPage";
+import LearningWithIndustryPage from "./components/Academics/LearningWithIndustryPage";
 import EvaluationPage from "./pages/EvaluationPage";
-import SkillsInHigherEducationPage from "./pages/SkillsInHigherEducationPage";
+import SkillsInHigherEducationPage from "./components/Academics/SkillsInHigherEducationPage";
 import Experts from "./components/Academics/Experts";
 import Abc from "./components/Academics/Abc";
 import NEP from "./components/Academics/Nep";
@@ -15,6 +15,7 @@ import Culture from "./components/Life/Culture";
 import Happy from "./components/Life/Happy";
 import NSS from "./components/Life/NSS";
 import SEDG from "./components/Life/SEDG";
+// Happening sections
 import News from "./components/Happening/News";
 import Blogs from "./components/Happening/Blogs";
 import NewsLetter from "./components/Happening/NewsLetter";
@@ -34,9 +35,11 @@ import LearningEcosystem from "./pages/LearningEcosystem";
 import Designyourowndegree from "./pages/Designyourowndegree";
 import IndustrySection from "./pages/IndustrySection";
 
-  import SkillingPage from "./pages/SkillingPage";
+import SkillingPage from "./pages/SkillingPage";
 import CampusLogin from "./pages/CampusLogin";
 import Payment from "./pages/Payment";
+import WhyChooseSection from "./pages/WhyChooseSection";
+import Technology from "./pages/Technology";
 
 const App = () => {
   return (
@@ -51,7 +54,7 @@ const App = () => {
         />
         <Route path="/evaluation" element={<EvaluationPage />} />
         <Route
-          path="/skills-in-higher-education"
+          path="/Academics/SkillsInHigherEducationPage"
           element={<SkillsInHigherEducationPage />}
         />
  
@@ -81,11 +84,14 @@ const App = () => {
  <Route path="/Niilmuniversity" element={<Niilmfoundation/>}/>
  <Route path="/learning-ecosystem" element={<LearningEcosystem/>}/>
   <Route path ="/design-degree" element ={<Designyourowndegree/>}/>
-  <Route path="/Industry" element = {<IndustrySection/>}/>
-<Route path="/Skilling" element = {<SkillingPage/>}/>
+  <Route path="/pages/IndustrySection" element = {<IndustrySection/>}/>
+<Route path="/pages/SkillingPage" element = {<SkillingPage/>}/>
 <Route path="/campus-login" element={<CampusLogin/>}/>
-
+<Route path="/Academics/LearningWithIndustryPage" element={<LearningWithIndustryPage/>}/>
 <Route path="/pay-fee" element={<Payment/>}/>
+<Route path="/pages/SchoolsPage" element={<SchoolsPage/>}/>
+<Route path="/pages/WhyChooseSection" element={<WhyChooseSection/>}/>
+<Route path="/pages/Technology" element={<Technology/>}/>
 
       </Routes>
       

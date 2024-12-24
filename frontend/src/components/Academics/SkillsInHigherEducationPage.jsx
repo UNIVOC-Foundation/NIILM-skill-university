@@ -1,9 +1,9 @@
-import Footer from "../components/Footer";
-
+import Footer from "../Footer";
+import Navbar from "../Navbar";
 const SkillsInHigherEducationPage = () => {
   return (
     <section>
-      {/* Header */}
+      <Navbar/>
       <div className="relative w-full">
         <div className="relative h-80 overflow-hidden md:h-[28rem]">
           <div
