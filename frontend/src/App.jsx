@@ -2,10 +2,10 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import HomePage from "./pages/HomePage";
 import SchoolsPage from "./pages/SchoolsPage";
-import LearningWithIndustryPage from "./pages/LearningWithIndustryPage";
+import LearningWithIndustryPage from "./pages/LearningWithIndustryPage"
 import EvaluationPage from "./pages/EvaluationPage";
 import SkillsInHigherEducationPage from "./pages/SkillsInHigherEducationPage";
-import Experts from "./components/Academics/Experts";
+
 import Abc from "./components/Academics/Abc";
 import NEP from "./components/Academics/Nep";
 import Rnd from "./components/Academics/Rnd";
@@ -13,7 +13,7 @@ import Student from "./components/Academics/Student";
 import Sports from "./components/Life/Sports";
 import Culture from "./components/Life/Culture";
 import Happy from "./components/Life/Happy";
-import NSS from "./components/Life/NSS";
+
 import SEDG from "./components/Life/SEDG";
 import News from "./components/Happening/News";
 import Blogs from "./components/Happening/Blogs";
@@ -34,6 +34,21 @@ import IndustrySection from "./pages/IndustrySection";
   import SkillingPage from "./pages/SkillingPage";
 import CampusLogin from "./pages/CampusLogin";
 import Payment from "./pages/Payment";
+import CurrentInfoSection from "./components/schoolspage/current-info/CurrentInfoSection";
+import CurriculumSection from "./components/schoolspage/curriculum/CurriculumSection";
+import RecognitionPage from "./pages/RecognationPage";
+import UndergraduatePage from "./pages/UndergraduatePage";
+import PostgraduatePage from "./pages/PostGraduatePage";
+import AdmissionProcessPage from "./pages/AdmissionProcessPage";
+import ScholarshipPage from "./pages/ScholarshipPage";
+import EligibilityPage from "./pages/EligibilityPage";
+import AwardsPage from "./pages/AwardsPage";
+import ExpertsPage from "./pages/ExpertsPage";
+import InfrastructurePage from "./pages/InfrastructurePage";
+import LeadershipPage from "./pages/LeadershipPage";
+
+
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -41,17 +56,29 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/schools/:schoolId" element={<SchoolsPage />} />
-        <Route
-          path="/learning-with-industry"
-          element={<LearningWithIndustryPage />}
-        />
+       
         <Route path="/evaluation" element={<EvaluationPage />} />
         <Route
           path="/skills-in-higher-education"
           element={<SkillsInHigherEducationPage />}
         />
+ {/*School Pages*/ }
+
+ <Route path='/Currentinfo' element={<CurrentInfoSection/>}/>
+ <Route path='/curriculum' element={<CurriculumSection/>}/>
+
+ <Route path='/undergraduate' element={<UndergraduatePage/>}/>
+ <Route path='/Postgraduate' element={<PostgraduatePage/>}/>
+ <Route path="/AdmissionProcessPage" element={<AdmissionProcessPage/>}/>
+ <Route path="/Scholarship" element={<ScholarshipPage/>}/>
+ <Route path="/Eligibility" element={<EligibilityPage/>}/>
+ <Route path="/awards" element={<AwardsPage/>}/>
+ <Route path="/learningwithindustry" element={<LearningWithIndustryPage/>}/>
+<Route path='/Leadership' element={<LeadershipPage/>}/>
+<Route path="/infrastructure" element={<InfrastructurePage/>}/>
  
- <Route path='/Academics/Experts' element={<Experts/>}/>
+
+ <Route path='/expertsandmentors' element={<ExpertsPage/>}/>
  <Route path='/Academics/Abc' element={<Abc/>}/>
  <Route path='/Academics/Nep' element={<NEP/>}/>
  <Route path='/Academics/Rnd' element={<Rnd/>}/>
@@ -59,7 +86,8 @@ const App = () => {
  <Route path='/Life/Sports' element={<Sports/>}/>
  <Route path='/Life/Culture' element={<Culture/>}/>
  <Route path='/Life/Happy' element={<Happy/>}/>
- <Route path='/Life/NSS' element={<NSS/>}/>
+
+ 
  <Route path='/Life/SEDG' element={<SEDG/>}/>
  <Route path="/Happening/News" element={<News/>}/>
  <Route path="/Happening/Blogs" element={<Blogs/>}/>
@@ -70,15 +98,18 @@ const App = () => {
  <Route path="/resources/guidelines" element={<Guidelines/>}/>
  <Route path="/administration" element={<Administration/>}/>
  <Route path="/central-facilities" element={<CentralFacilities/>}/>
- <Route path="/belief-section" element={<BeliefSection/>}/>
+ <Route path="/Webelieve" element={<BeliefSection/>}/>
  <Route path="/Niilmuniversity" element={<Niilmfoundation/>}/>
  <Route path="/learning-ecosystem" element={<LearningEcosystem/>}/>
+ 
   <Route path ="/design-degree" element ={<Designyourowndegree/>}/>
   <Route path="/Industry" element = {<IndustrySection/>}/>
 <Route path="/Skilling" element = {<SkillingPage/>}/>
+
 <Route path="/campus-login" element={<CampusLogin/>}/>
 
 <Route path="/pay-fee" element={<Payment/>}/>
+<Route path="/Recognation" element={<RecognitionPage/>}/>
       </Routes>
       
 

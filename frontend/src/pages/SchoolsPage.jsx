@@ -23,7 +23,7 @@ const SchoolsPage = () => {
 
   return (
     <>
-      {/* <Navbar /> */}
+      
       <HeaderSection
         image={school.header.image}
         heading={school.header.heading}

@@ -1,20 +1,29 @@
 import React, { useState } from "react";
 
 const Navbar = () => {
+  const [activeDropdown, setActiveDropdown] = useState(null);
   const [isResourcesOpen, setIsResourcesOpen] = useState(false);
 
+  const handleMouseEnter = (index) => {
+    setActiveDropdown(index);
+  };
+
+  const handleMouseLeave = () => {
+    setActiveDropdown(null);
+  };
+
   const toggleResources = () => {
-    setIsResourcesOpen((prev) => !prev);
+    setIsResourcesOpen(!isResourcesOpen);
   };
 
   const menuItems = [
     {
       label: "About",
       links: [
-        { label: "Why MSU", href: "/why-msu" },
+        { label: "Why NIILM", href: "/whyNiilm" },
         { label: "Who We Are", href: "/who-we-are" },
-        { label: "Leadership", href: "/leadership" },
-        { label: "Recognition", href: "/recognition" },
+        { label: "Leadership", href: "/Leadership" },
+        { label: "Recognition", href: "/Recognation" },
         { label: "Award", href: "/awards" },
         { label: "Infrastructure", href: "/infrastructure" },
         {
@@ -24,7 +33,7 @@ const Navbar = () => {
             { label: "Guidelines", href: "/resources/guidelines" },
           ],
         },
-        { label: " NIILM UNIVERSITY", href: "/Niilmuniversity" },
+        { label: "NIILM UNIVERSITY", href: "/Niilmuniversity" },
         { label: "Administration", href: "/administration" },
         { label: "Our Faculty", href: "/our-faculty" },
         { label: "Central Facilities", href: "/central-facilities" },
@@ -33,39 +42,42 @@ const Navbar = () => {
     {
       label: "Academic",
       links: [
-        { label: "Skills In Higher Education", href: "/skills-higher-education" },
-        { label: "We Believe", href: "/belief-section" },
+        { label: "Skills In Higher Education", href: "/Academics/Rnd" },
+        { label: "We Believe", href: "/Webelieve" },
+        { label: "Student Showcase", href: "/Academics/Student" },
+        { label: "Nep Compliance", href: "/Academics/Nep" },
         { label: "Learning EcoSystem", href: "/learning-ecosystem" },
         { label: "Design Your Own Degree", href: "/design-degree" },
-        { label: "Learning With Industry", href: "/learning-industry" },
+        { label: "Learning With Industry", href: "/learningwithindustry" },
         { label: "Evaluation", href: "/evaluation" },
-        { label: "Experts and Mentors", href: "/experts-mentors" },
-        { label: "Student Showcase", href: "/student-showcase" },
-        { label: "Nep Compliance", href: "/nep-compliance" },
+        { label: "Experts and Mentors", href: "/expertsandmentors" },
         { label: "Academic Bank of Credits", href: "/academic-bank" },
         { label: "Academic Calendar", href: "/academic-calendar" },
         { label: "Research and Development", href: "/research-development" },
         { label: "Annual Report", href: "/annual-report" },
       ],
     },
+
     {
       label: "Admissions",
       links: [
-        { label: "Undergraduate - Campus Programmes", href: "#" },
-        { label: "Postgraduate - Campus Programmes", href: "#" },
+        { label: "Undergraduate - Campus Programmes", href: "/undergraduate" },
+        { label: "Postgraduate - Campus Programmes", href: "/Postgraduate" },
         { label: "Work Integrated Programmes", href: "#" },
-        { label: "Admission Process", href: "#" },
-        { label: "Scholarship Financial Aid", href: "#" },
-        { label: "Prospectus-2024", href: "#" },
-        { label: "Eligibility Selection Criterion", href: "#" },
+        { label: "Admission Process", href: "/AdmissionProcessPage" },
+       
+        { label: "Scholarship Financial Aid", href: "/Scholarship" },
+        
+        { label: "Eligibility Selection Criterion", href: "/Eligibility" },
         { label: "Fee Structure 2024-2025", href: "#" },
         { label: "Fee Refund Policy", href: "#" },
       ],
     },
+
     {
       label: "Schools",
       links: [
-        { label: "School of Engineering", href: "#" },
+        { label: "School of Engineering", href: "" },
         { label: "School of Management", href: "#" },
         { label: "School of Arts & Science", href: "#" },
       ],
@@ -73,36 +85,49 @@ const Navbar = () => {
     {
       label: "Collaborations",
       links: [
-        { label: "Industry Partners", href: "/Industry" },
-        { label: "International Tie-Ups", href: "/Skilling" },
+        { label: "Industry", href: "/Industry" },
+        { label: "Skilling", href: "/Skilling" },
         { label: "Research Collaborations", href: "/ResearchCollaborations" },
       ],
     },
     {
       label: "Life at MSU",
       links: [
-        { label: "Campus Life", href: "#" },
-        { label: "Student Clubs", href: "#" },
-        { label: "Events", href: "#" },
+        { label: "Campus Life", href: "/Life/Sports" },
+        { label: "Student Clubs", href: "/Life/Culture" },
+        { label: "Events", href: "/Life/Happy" },
+        { label: "NSS", href: "/Life/NSS" },
+        {label:"SEDG", href:"/Life/SEDG"}
+
       ],
     },
     {
       label: "Happenings",
       links: [
-        { label: "News", href: "#" },
-        { label: "Announcements", href: "#" },
-        { label: "Blogs", href: "#" },
+        { label: "News", href: "/Happening/News" },
+        { label: "Blogs", href: "/Happening/Blogs" },
+        {label :"NewsLetter", href:"/Happening/NewsLetter"},
+        {label :"Circulars", href:"/Happening/Circulars"},
+        {label :"Media", href:"/Happening/Media"},
+
+        
+
       ],
     },
     {
-      label :"UtilityNav",
+      label :"Details",
       links: [
         { label : "CAMPUS LOGIN", href: '/campus-login' },
         { label : "PAY FEE", href: '/pay-fee' },
 
-      ]
-    }
-  
+      ]
+    }
+
+
+
+
+
+
   ];
 
   return (
@@ -118,25 +143,30 @@ const Navbar = () => {
           <img
             src="https://www.niilmuniversity.ac.in/web/assets/img/logo.png"
             alt="NIILM Skills University"
-            className="h-16 "
+            className="h-16"
             width={200}
-                height={80}
+            height={80}
           />
         </div>
 
         <ul className="flex space-x-6 items-center">
           {menuItems.map((item, index) => (
-            <li key={index} className="relative group">
+            <li
+              key={index}
+              className="relative group"
+              onMouseEnter={() => handleMouseEnter(index)}
+              onMouseLeave={handleMouseLeave}
+            >
               <a
                 href="#"
                 className="px-4 py-2 border border-greenTheme rounded hover:bg-greenTheme hover:text-white transition"
               >
                 {item.label}
               </a>
-              <div className="absolute hidden group-hover:block bg-white text-greenTheme shadow-lg rounded mt-2 py-2 w-64 z-20">
-                {item.links.map((link, linkIndex) => {
-                  if (link.label === "Resources") {
-                    return (
+              {activeDropdown === index && (
+                <div className="absolute bg-white text-greenTheme shadow-lg rounded mt-2 py-2 w-64 z-20">
+                  {item.links.map((link, linkIndex) => (
+                    link.label === "Resources" ? (
                       <div key={linkIndex} className="relative">
                         <button
                           onClick={toggleResources}
@@ -158,22 +188,20 @@ const Navbar = () => {
                           </div>
                         )}
                       </div>
-                    );
-                  }
-                  return (
-                    <a
-                      key={linkIndex}
-                      href={link.href}
-                      className="block px-4 py-2 hover:bg-gray-100 text-sm"
-                    >
-                      {link.label}
-                    </a>
-                  );
-                })}
-              </div>
+                    ) : (
+                      <a
+                        key={linkIndex}
+                        href={link.href}
+                        className="block px-4 py-2 hover:bg-gray-100 text-sm"
+                      >
+                        {link.label}
+                      </a>
+                    )
+                  ))}
+                </div>
+              )}
             </li>
           ))}
-
           <li>
             <a
               href="#"
@@ -189,3 +217,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
