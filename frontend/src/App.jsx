@@ -36,7 +36,7 @@ import CampusLogin from "./pages/CampusLogin";
 import Payment from "./pages/Payment";
 import CurrentInfoSection from "./components/schoolspage/current-info/CurrentInfoSection";
 import CurriculumSection from "./components/schoolspage/curriculum/CurriculumSection";
-import RecognitionPage from "./pages/RecognationPage";
+import RecognitionPage from "./pages/RecognitionPage";
 import UndergraduatePage from "./pages/UndergraduatePage";
 import PostgraduatePage from "./pages/PostGraduatePage";
 import AdmissionProcessPage from "./pages/AdmissionProcessPage";
@@ -46,6 +46,7 @@ import AwardsPage from "./pages/AwardsPage";
 import ExpertsPage from "./pages/ExpertsPage";
 import InfrastructurePage from "./pages/InfrastructurePage";
 import LeadershipPage from "./pages/LeadershipPage";
+import WhyNiilmPage from "./pages/WhyNiilmPage";
 
 
 
@@ -109,7 +110,9 @@ const App = () => {
 <Route path="/campus-login" element={<CampusLogin/>}/>
 
 <Route path="/pay-fee" element={<Payment/>}/>
-<Route path="/Recognation" element={<RecognitionPage/>}/>
+<Route path="/LeadershipPage" element={<LeadershipPage/>}/>
+<Route path="/RecognitionPage" element={<RecognitionPage/>}/>
+<Route path="/pages/WhyNiilmPage" element={<WhyNiilmPage/>}/>
       </Routes>
       
 

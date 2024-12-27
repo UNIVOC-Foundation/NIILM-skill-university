@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 
 import CurrentInfoSection from "../components/schoolspage/current-info/CurrentInfoSection";

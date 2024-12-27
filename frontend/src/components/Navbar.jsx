@@ -20,10 +20,10 @@ const Navbar = () => {
     {
       label: "About",
       links: [
-        { label: "Why NIILM", href: "/whyNiilm" },
+        { label: "Why NIILM", href: "/pages/WhyNiilmPage" },
         { label: "Who We Are", href: "/who-we-are" },
-        { label: "Leadership", href: "/Leadership" },
-        { label: "Recognition", href: "/Recognation" },
+        { label: "Leadership", href: "/LeadershipPage" },
+        { label: "Recognition", href: "/RecognitionPage" },
         { label: "Award", href: "/awards" },
         { label: "Infrastructure", href: "/infrastructure" },
         {
@@ -204,7 +204,7 @@ const Navbar = () => {
           ))}
           <li>
             <a
-              href="#"
+              href="https://www.niilmuniversity.ac.in/application"
               className="bg-greenTheme text-white px-4 py-2 rounded hover:bg-red-700"
             >
               APPLY NOW

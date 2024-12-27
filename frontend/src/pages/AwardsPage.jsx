@@ -9,18 +9,18 @@ const AwardsPage = () => {
       {/* Hero Section */}
       <div className="relative h-[400px]">
         <img
-          src="/images/main.png"
+          src="/images/main-award.png"
           alt="Awards Banner"
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="relative max-w-7xl mx-auto px-4 h-full flex items-center">
-          <h1 className="text-5xl font-bold text-white">Awards</h1>
+     
         </div>
       </div>
 
       {/* Awards Section */}
       <section className="py-16">
-        <div className="container mx-auto">
+        <div className=" mx-auto">
           <h1 className="text-5xl font-bold text-center mb-6">Awards</h1>
           <p className="text-center text-xl leading-relaxed mb-16 max-w-5xl mx-auto font-medium ">
             Our Unique Initiatives and Innovative Integrations, Appreciated in
@@ -54,7 +54,7 @@ const AwardsPage = () => {
 
       {/* Collaborations Section */}
       <section className="py-16 bg-gray-100">
-        <div className="container mx-auto">
+        <div className=" mx-auto">
           <h2 className="text-5xl font-bold text-center mb-6">
             Our Collaborations
           </h2>
@@ -63,7 +63,7 @@ const AwardsPage = () => {
             map up Industry niche and avant-garde foresightedness participating
             in National Survey and Award process is quintessential.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ml-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ml-6 mb-10">
             {collaborationsData.map((collab) => (
               <div
                 key={collab.id}

@@ -9,8 +9,10 @@ const RecognitionPage = () => {
   
     return (
       <>
-        <div className="relative w-screen h-[75vh]">
-            <Navbar/>
+        <Navbar/>
+        
+        <div className="">
+          
           <img
             src="https://msu-website-all-objects.s3.ap-south-1.amazonaws.com/website-images/recocnization_image_crop_g0f1uc.jpg"
             alt="Recognition"
