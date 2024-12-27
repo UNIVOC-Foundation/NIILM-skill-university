@@ -11,7 +11,7 @@ function Rnd() {
             Research and Development
         </h2>
        </div>
-        <center><button> Download</button></center>
+        <center><button className=' btn2 bg-red-100 '> Download</button></center>
        
       
       <Footer />
