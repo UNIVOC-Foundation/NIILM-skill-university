@@ -33,10 +33,10 @@ But the excitement doesn't end there. Step indoors and explore our array of recr
     <img alt="Two people playing soccer with an audience in the background" height="400" src="https://storage.googleapis.com/a1aa/image/9SLdM7pu6hpYMB2HRyz620pVE9KcikBMWzprX5NGcNlaKHfJA.jpg" width="600"/>
    </div>
    <div class="gallery-item medium">
-    <img alt="Group of people playing volleyball" height="400" src="https://storage.googleapis.com/a1aa/image/Oigj6uS4XIbKDRzNPeN0OeeIWvNYAeTJVlqvgVDa7g8YmyxPB.jpg" width="600"/>
+    <img alt="Group of people playing volleyball" height="400" src="../public/images/experts/IMG6.png" width="600"/>
    </div>
    <div class="gallery-item small">
-    <img alt="Group of people smiling and posing for a photo" height="400" src="https://storage.googleapis.com/a1aa/image/bcf1ZLTSOaxwEq313G1gO78YjZ0HXHCWj2szmeYL9iGvpc8TA.jpg" width="600"/>
+    <img alt="Group of people smiling and posing for a photo" height="400" src="https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?cs=srgb&dl=pexels-pixabay-46798.jpg&fm=jpg" width="600"/>
    </div>
   </div>
     <Footer />
