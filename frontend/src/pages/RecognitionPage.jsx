@@ -14,26 +14,26 @@ const RecognitionPage = () => {
         <div className="">
           
           <img
-            src="https://msu-website-all-objects.s3.ap-south-1.amazonaws.com/website-images/recocnization_image_crop_g0f1uc.jpg"
+            src="/images/bg-new.png"
             alt="Recognition"
-            className="w-full h-full object-cover"
+            className="cont-recog w-full object-cover"
           />
           {/* for Gradient overlay */}
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black"></div>
+        
           {/*for Text overlay */}
           <div className="absolute bottom-0 w-full text-white p-4">
-            <h2 className="text-5xl pb-4 pl-4 font-extrabold">Recognitions</h2>
+            <h2 className="text-5xl pb-14  pl-4 font-extrabold mb-5">Recognitions</h2>
           </div>
         </div>
-        <div className="flex flex-wrap items-center justify-center gap-6 px-8">
+        <div className=" whyNiilm flex flex-wrap items-center justify-center gap-6 p-4 mb-20  ">
           {recognitionData.map((item, index) => {
             const { text, link, image } = item;
             return (
               <div
                 key={index}
-                className=" bg-white p-4 h-[50vh] w-[60vh] border-gray-400 rounded-md  mt-36"
+                className=" bg-white p-4 h-[50vh] w-[60vh] border-gray-400 rounded-md mb-20"
               >
-                <div className="box-1 text-center pb-12 relative">
+                <div className="box-1 pt-5 text-center pb-12 relative ">
                   {/* Image with gradient overlay */}
                   <div className="relative w-full h-full">
                     <img
@@ -45,7 +45,7 @@ const RecognitionPage = () => {
                   </div>
                   {/* Text positioned at the bottom */}
                   <p
-                    className="bg-white cursor-pointer mt-6 text-center font-bold px-4"
+                    className=" cursor-pointer mt-6 text-center font-bold px-4 mb-12 "
                     onClick={() => handleclick(link)}
                   >
                     {text}

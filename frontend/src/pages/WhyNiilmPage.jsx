@@ -1,27 +1,29 @@
-
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 const WhyNiilmPage = () => {
     return (
-
+   
       <section>
-        <div className="bg-[url('https://www.msu.edu.in/frontend_assets/images/why-msu-cover.png')] bg-cover bg-center h-[510px] px-[20px] pb-[40px] relative">
-          <h1 className="absolute left-[20px] bottom-[40px] text-[50px] text-white font-bold">
+        <Navbar />
+        <div className="bg-[url('https://www.niilmuniversity.ac.in/uploads/page/1706423591277_uni_img2_1713990659.jpg')] bg-cover bg-center h-[510px] px-[20px] pb-[40px] relative">
+          <h1 className="absolute left-[630px] bottom-[40px] text-[50px] text-black font-bold">
             Why NIILM
           </h1>
         </div>
-        <div className="pb-[80px]">
-          <h2 className="text-center text-[30px] font-bold mt-[30px]">
+        <div className=" pb-[80px]">
+          <h2 className="text-center text-[60px] font-bold mt-[30px] text-green-800">
             Why Choose Us
           </h2>
-          <div className="px-[15px] flex flex-wrap">
-            <div className="w-1/1 px-[15px] mt-[30px] min-[992px]:w-1/3 min-[768px]:w-1/2">
-              <div className="group p-[20px] border-[2px] border-[#e5e5e5] border-solid rounded-[10px] hover:bg-[#165d23] transition-all duration-[200] ease-in">
+          <div className="whyNiilm px-[15px] flex flex-wrap">
+            <div className=" w-1/1 px-[15px] mt-[30px] min-[992px]:w-1/3 min-[768px]:w-1/2">
+              <div className="cont group p-[20px] border-[4px] border-[#880808] border-solid rounded-[10px] hover:bg-[#d8ffd3] hover:text-black transition-all duration-[200] ease-in">
                 <div className="border-[3px] border-solid border-white">
                   <img
                     className="w-full object-center object-cover h-[256px] rounded-[10px]"
                     src="https://www.msu.edu.in/frontend_assets/images/degree-experience-option2.jpg"
                   />
                 </div>
-                <h3 className="text-[24px] font-bold mt-[18px] mb-[13px] group-hover:text-[#a60101]">
+                <h3 className="text-[24px] font-bold mt-[18px] mb-[13px] group-hover:text-[#880808]">
                   Experience, Do, and Learn
                 </h3>
                 <p className="text-[16px] h-[270px] pr-[22px] overflow-auto">
@@ -35,15 +37,15 @@ const WhyNiilmPage = () => {
                 </p>
               </div>
             </div>
-            <div className="w-1/1 px-[15px] mt-[30px] min-[992px]:w-1/3 min-[768px]:w-1/2">
-              <div className="group p-[20px] border-[2px] border-[#e5e5e5] border-solid rounded-[10px] hover:bg-[#165d23] transition-all duration-[200] ease-in">
+            <div className=" w-1/1 px-[15px] mt-[30px] min-[992px]:w-1/3 max-[768px]:w-1/2">
+              <div className="cont group p-[20px] border-[4px] border-[#880808] border-solid rounded-[10px] hover:bg-[#d8ffd3] hover:text-black transition-all duration-[200] ease-in">
                 <div className="border-[3px] border-solid border-white">
                   <img
                     className="w-full object-center object-cover h-[256px] rounded-[10px]"
                     src="https://www.msu.edu.in/frontend_assets/images/degree-experience.jpg"
                   />
                 </div>
-                <h3 className="text-[24px] font-bold mt-[18px] mb-[13px] group-hover:text-[#a60101]">
+                <h3 className="text-[24px] font-bold mt-[18px] mb-[13px] group-hover:text-[#880808]">
                   Degree + Experience
                 </h3>
                 <p className="text-[16px] h-[270px] pr-[22px] overflow-auto">
@@ -57,14 +59,14 @@ const WhyNiilmPage = () => {
               </div>
             </div>
             <div className="w-1/1 px-[15px] mt-[30px] min-[992px]:w-1/3 min-[768px]:w-1/2">
-              <div className="group p-[20px] border-[2px] border-[#e5e5e5] border-solid rounded-[10px] hover:bg-[#165d23] transition-all duration-[200] ease-in">
+              <div className=" cont group p-[20px] border-[4px] border-[#880808] border-solid rounded-[10px] hover:bg-[#d8ffd3] hover:text-black transition-all duration-[200] ease-in">
                 <div className="border-[3px] border-solid border-white">
                   <img
                     className="w-full object-center object-cover h-[256px] rounded-[10px]"
                     src="https://www.msu.edu.in/frontend_assets/images/design-your-own-degree.jpg"
                   />
                 </div>
-                <h3 className="text-[24px] font-bold mt-[18px] mb-[13px] group-hover:text-[#a60101]">
+                <h3 className="text-[24px] font-bold mt-[18px] mb-[13px] group-hover:text-[#880808]">
                   Create Your Own Degree
                 </h3>
                 <p className="text-[16px] h-[270px] pr-[22px] overflow-auto">
@@ -75,15 +77,16 @@ const WhyNiilmPage = () => {
                 </p>
               </div>
             </div>
+          
             <div className="w-1/1 px-[15px] mt-[30px] min-[992px]:w-1/3 min-[768px]:w-1/2">
-              <div className="group p-[20px] border-[2px] border-[#e5e5e5] border-solid rounded-[10px] hover:bg-[#165d23] transition-all duration-[200] ease-in">
+              <div className="cont group p-[20px] border-[4px] border-[#880808] border-solid rounded-[10px] hover:bg-[#d8ffd3] hover:text-black transition-all duration-[200] ease-in">
                 <div className="border-[3px] border-solid border-white">
                   <img
                     className="w-full object-center object-cover h-[256px] rounded-[10px]"
                     src="https://www.msu.edu.in/frontend_assets/images/stress-free-evaluation.jpg"
                   />
                 </div>
-                <h3 className="text-[24px] font-bold mt-[18px] mb-[13px] group-hover:text-[#a60101]">
+                <h3 className="text-[24px] font-bold mt-[18px] mb-[13px] group-hover:text-[#880808]">
                   Stress-Free Assessment
                 </h3>
                 <p className="text-[16px] h-[270px] pr-[22px] overflow-auto">
@@ -96,14 +99,14 @@ const WhyNiilmPage = () => {
               </div>
             </div>
             <div className="w-1/1 px-[15px] mt-[30px] min-[992px]:w-1/3 min-[768px]:w-1/2">
-              <div className="group p-[20px] border-[2px] border-[#e5e5e5] border-solid rounded-[10px] hover:bg-[#165d23] transition-all duration-[200] ease-in">
+              <div className="cont group p-[20px] border-[4px] border-[#880808] border-solid rounded-[10px] hover:text-black hover:bg-[#d8ffd3] transition-all duration-[200] ease-in">
                 <div className="border-[3px] border-solid border-white">
                   <img
                     className="w-full object-center object-cover h-[256px] rounded-[10px]"
-                    src="https://www.msu.edu.in/frontend_assets/images/digital-classNameroom.jpg"
+                    src="https://www.uidm.in/wp-content/uploads/2020/09/is-there-any-future-of-digital-marketing.jpg"
                   />
                 </div>
-                <h3 className="text-[24px] font-bold mt-[18px] mb-[13px] group-hover:text-[#a60101]">
+                <h3 className="text-[24px] font-bold mt-[18px] mb-[13px] group-hover:text-[#880808]">
                   Certifications of Skills
                 </h3>
                 <p className="text-[16px] h-[270px] pr-[22px] overflow-auto">
@@ -118,14 +121,14 @@ const WhyNiilmPage = () => {
               </div>
             </div>
             <div className="w-1/1 px-[15px] mt-[30px] min-[992px]:w-1/3 min-[768px]:w-1/2">
-              <div className="group p-[20px] border-[2px] border-[#e5e5e5] border-solid rounded-[10px] hover:bg-[#165d23] transition-all duration-[200] ease-in">
+              <div className="cont group p-[20px] border-[4px] border-[#880808] border-solid rounded-[10px] hover:text-black hover:bg-[#d8ffd3] transition-all duration-[200] ease-in">
                 <div className="border-[3px] border-solid border-white">
                   <img
                     className="w-full object-center object-cover h-[256px] rounded-[10px]"
                     src="https://www.msu.edu.in/frontend_assets/images/digital-dna.jpg"
                   />
                 </div>
-                <h3 className="text-[24px] font-bold mt-[18px] mb-[13px] group-hover:text-[#a60101]">
+                <h3 className="text-[24px] font-bold mt-[18px] mb-[13px] group-hover:text-[#880808]">
                   Digital DNA
                 </h3>
                 <p className="text-[16px] h-[270px] pr-[22px] overflow-auto">
@@ -140,14 +143,14 @@ const WhyNiilmPage = () => {
               </div>
             </div>
             <div className="w-1/1 px-[15px] mt-[30px] min-[992px]:w-1/3 min-[768px]:w-1/2">
-              <div className="group p-[20px] border-[2px] border-[#e5e5e5] border-solid rounded-[10px] hover:bg-[#165d23] transition-all duration-[200] ease-in">
+              <div className="cont group p-[20px] border-[4px] border-[#880808] border-solid rounded-[10px] hover:text-black hover:bg-[#d8ffd3] transition-all duration-[200] ease-in">
                 <div className="border-[3px] border-solid border-white">
                   <img
                     className="w-full object-center object-cover h-[256px] rounded-[10px]"
                     src="https://www.msu.edu.in/frontend_assets/images/assured-employability.jpg"
                   />
                 </div>
-                <h3 className="text-[24px] font-bold mt-[18px] mb-[13px] group-hover:text-[#a60101]">
+                <h3 className="text-[24px] font-bold mt-[18px] mb-[13px] group-hover:text-[#880808]">
                   Guaranteed Employability
                 </h3>
                 <p className="text-[16px] h-[270px] pr-[22px] overflow-auto">
@@ -159,14 +162,14 @@ const WhyNiilmPage = () => {
               </div>
             </div>
             <div className="w-1/1 px-[15px] mt-[30px] min-[992px]:w-1/3 min-[768px]:w-1/2">
-              <div className="group p-[20px] border-[2px] border-[#e5e5e5] border-solid rounded-[10px] hover:bg-[#165d23] transition-all duration-[200] ease-in">
+              <div className="cont group p-[20px] border-[4px] border-[#880808] border-solid rounded-[10px] hover:text-black hover:bg-[#d8ffd3] transition-all duration-[200] ease-in">
                 <div className="border-[3px] border-solid border-white">
                   <img
                     className="w-full object-center object-cover h-[256px] rounded-[10px]"
                     src="https://www.msu.edu.in/frontend_assets/images/scholarships-&-financial-assistance.jpg"
                   />
                 </div>
-                <h3 className="text-[24px] font-bold mt-[18px] mb-[13px] group-hover:text-[#a60101]">
+                <h3 className="text-[24px] font-bold mt-[18px] mb-[13px] group-hover:text-[#880808]">
                   Financial aid and scholarships
                 </h3>
                 <p className="text-[16px] h-[270px] pr-[22px] overflow-auto">
@@ -178,15 +181,15 @@ const WhyNiilmPage = () => {
                 </p>
               </div>
             </div>
-            <div className="w-1/1 px-[15px] mt-[30px] min-[992px]:w-1/3 min-[768px]:w-1/2">
-              <div className="group p-[20px] border-[2px] border-[#e5e5e5] border-solid rounded-[10px] hover:bg-[#165d23] transition-all duration-[2000] ease-in">
+            <div className="w-1/1 px-[15px]">
+              <div className="cont group p-[20px] border-[4px] border-[#880808] border-solid rounded-[10px] hover:text-black hover:bg-[#d8ffd3] transition-all duration-[2000] ease-in">
                 <div className="border-[3px] border-solid border-white">
                   <img
                     className="w-full object-center object-cover h-[256px] rounded-[10px]"
-                    src="https://www.msu.edu.in/frontend_assets/images/industry-professionals-as-mentors.jpg"
+                    src="https://www.smus.ca/sites/default/files/styles/full_screen_600w_/public/images/2022-01/alumni-senior-career-day-2.JPG?h=b2774bcf&itok=d_kcr7_y"
                   />
                 </div>
-                <h3 className="text-[24px] font-bold mt-[18px] mb-[13px] group-hover:text-[#a60101]">
+                <h3 className="text-[24px] font-bold mt-[18px] mb-[13px] group-hover:text-[#880808]">
                   Mentoring from Industry Experts
                 </h3>
                 <p className="text-[16px] h-[270px] pr-[22px] overflow-auto">
@@ -267,6 +270,7 @@ const WhyNiilmPage = () => {
             </a>
           </div>
         </div>
+        <Footer/>
       </section>
     );
   };

@@ -39,7 +39,7 @@ const InfrastructurePage = () => {
           growth.
         </p>
       </div>
-      <div className="bg-[#ffaeae] py-8">
+      <div className="bg-[#D8FFD3] py-8">
         <div className="text-center py-8">
           <h1 className="text-6xl font-bold text-[#a60101]">
             CAMPUS & INFRASTRUCTURE

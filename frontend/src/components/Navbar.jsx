@@ -22,7 +22,7 @@ const Navbar = () => {
       links: [
         { label: "Why NIILM", href: "/pages/WhyNiilmPage" },
         { label: "Who We Are", href: "/Niilmuniversity" },
-        { label: "Leadership", href: "/LeadershipPage" },
+      
         { label: "Recognition", href: "/RecognitionPage" },
         { label: "Award", href: "/awards" },
         { label: "Infrastructure", href: "/infrastructure" },
@@ -42,7 +42,7 @@ const Navbar = () => {
     {
       label: "Academic",
       links: [
-        { label: "Skills In Higher Education", href: "/Academics/Rnd" },
+        { label: "Skills In Higher Education", href: "/pages/SkillsInHigherEducationPage" },
         { label: "We Believe", href: "/Webelieve" },
         { label: "Student Showcase", href: "/Academics/Student" },
         { label: "Nep Compliance", href: "/Academics/Nep" },
@@ -52,7 +52,6 @@ const Navbar = () => {
         { label: "Evaluation", href: "/evaluation" },
         { label: "Experts and Mentors", href: "/expertsandmentors" },
         { label: "Academic Bank of Credits", href: "/Academics/Abc" },
-
         { label: "Research and Development", href: "/Academics/Rnd" },
         { label: "Annual Report", href: "/annual-report" },
       ],
@@ -65,9 +64,7 @@ const Navbar = () => {
         { label: "Postgraduate - Campus Programmes", href: "/Postgraduate" },
         { label: "Work Integrated Programmes", href: "#" },
         { label: "Admission Process", href: "/AdmissionProcessPage" },
-       
         { label: "Scholarship Financial Aid", href: "/Scholarship" },
-        
         { label: "Eligibility Selection Criterion", href: "/Eligibility" },
         { label: "Fee Structure 2024-2025", href: "#" },
         { label: "Fee Refund Policy", href: "#" },
@@ -91,7 +88,7 @@ const Navbar = () => {
       ],
     },
     {
-      label: "Life at MSU",
+      label: "Life at NIILM",
       links: [
         { label: "Sports", href: "/Life/Sports" },
         { label: "Culture", href: "/Life/Culture" },

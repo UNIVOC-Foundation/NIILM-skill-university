@@ -38,7 +38,7 @@ const ScholarshipPage = () => {
         <div className="mx-auto w-4/5 py-12">
           <div className="grid grid-cols-2 gap-12">
             <div className="h-full flex items-stretch relative">
-              <div className="w-[740px] h-[550px] absolute inset-0 bg-redTheme -top-3 -left-3 rounded-br-[8rem]"></div>
+              <div className="w-[600px] h-[595px] absolute inset-0 bg-redTheme -top-0  -left-3 rounded-br-[9rem]"></div>
               <img
                 src="/images/campus/campus-1.jpg"
                 className="object-cover rounded-br-[8rem] z-10"
@@ -46,7 +46,7 @@ const ScholarshipPage = () => {
             </div>
             <div className="text-lg leading-10">
               <p className="mb-8">
-                Medhavi Skills University offers a wide range of scholarships
+                NIILM Skills University offers a wide range of scholarships
                 and financial aid options to ensure that all students,
                 regardless of their background, have access to quality
                 education. For Indian States and Union Territories, scholarships
@@ -58,7 +58,7 @@ const ScholarshipPage = () => {
                 Eastern Region, as illustrated below.
               </p>
               <p>
-                MSU collaborates with banking and non-banking financial
+                NIILM collaborates with banking and non-banking financial
                 institutions to provide education loans and easy EMI options for
                 fee payment, further enhancing accessibility. Through these
                 initiatives, MSU remains committed to fostering inclusive
@@ -106,7 +106,7 @@ const ScholarshipPage = () => {
         <div className="mx-auto w-4/5 py-12">
           <div className="w-full">
             <h1 className="text-4xl font-bold">
-              Scholarship Based on Medhavi Aptitude Test (MAT) Performance
+              Scholarship Based on NIILM Aptitude Test Performance
             </h1>
             <table className="mt-12 border border-gray-200 w-full">
               <thead>

@@ -18,11 +18,11 @@ These projects allow students to pursue their interests, apply conceptual unders
 
         </p>
         <center>
-         <h1 id='text3' > Showcase Gallery</h1>
+         <h1 id='text3'  > Showcase Gallery</h1>
          <br /><br />
          </center>
         
-         <div class="gallery">
+         <div className="gallery bg-red-100">
             
             <div class="gallery-item large">
              <img id='big-img' alt="Group of people playing tug of war" height="200" src="../public/images/experts/IMG_9099.JPG" width="500"/>

@@ -1,6 +1,7 @@
 
 import { useState } from "react";
-
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import CurrentInfoSection from "../components/schoolspage/current-info/CurrentInfoSection";
 
 import { schoolsEligibilityData } from "../data/eligibilitypage/schoolsEligibilityData";
@@ -14,6 +15,7 @@ const EligibilityPage = () => {
 
   return (
     <>
+    <Navbar/>
       <div className="relative w-full">
         <div className="relative h-80 overflow-hidden md:h-[28rem]">
           <div
@@ -105,6 +107,7 @@ const EligibilityPage = () => {
 
       {/* Current Info */}
       <CurrentInfoSection />
+      <Footer/>
     </>
   );
 };

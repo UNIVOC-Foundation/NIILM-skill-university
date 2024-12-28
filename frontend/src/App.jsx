@@ -52,6 +52,7 @@ import NSS from "./components/Life/NSS";
 
 const App = () => {
   return (
+    
     <BrowserRouter>
     
       <Routes>
@@ -60,7 +61,7 @@ const App = () => {
        
         <Route path="/evaluation" element={<EvaluationPage />} />
         <Route
-          path="/skills-in-higher-education"
+          path="/pages/SkillsInHigherEducationPage"
           element={<SkillsInHigherEducationPage />}
         />
  {/*School Pages*/ }

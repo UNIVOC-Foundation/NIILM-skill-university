@@ -2,28 +2,28 @@ const awardsData = [
     {
       id: 1,
       title: "India's Greatest Brands and Leaders Award 2023-2024 by AsiaOne",
-      image: "/images/awards/1.webp",
+      image: "https://www.niilmuniversity.ac.in/uploads/web-event/11zon_resized_(22)_1718960396.jpg",
     },
     {
       id: 2,
       title: "Social Impact Award 2024 to Mr. Pravesh Dudani by TheCSRUniverse",
-      image: "/images/awards/2.webp",
+      image: "https://nimsuniversity.org/news/wp-content/uploads/2023/08/AICH.jpg",
     },
     {
       id: 3,
       title:
         "Excellence in Skill Development through Industry-Academia interface Award by SEPC, India",
-      image: "/images/awards/3.webp",
+      image: "https://www.niilmuniversity.ac.in/uploads/gallery/t_3_1723264974.jpeg",
     },
     {
       id: 4,
-      title: "Certification of Appreciation from ASSOCHAM",
-      image: "/images/awards/4.jpg",
+      title: "AV College hosts Global conference with NIILM",
+      image: "https://media.telanganatoday.com/wp-content/uploads/2024/11/AV-College-hosts-Global-conference-with-NIILM-University-and-ICERT.jpg",
     },
     {
       id: 5,
       title: "Best Skill University of the year - 2023 awarded by Brand Honchos",
-      image: "/images/awards/5.jpg",
+      image: "https://www.niilmuniversity.ac.in/uploads/web-event/11zon_resized_(19)_1715757519.jpeg",
     },
     {
       id: 6,
@@ -43,13 +43,13 @@ const awardsData = [
     },
     {
       id: 9,
-      title: "MSU has been formally recognized as an awarding body by NCVET",
+      title: "NIILM has been formally recognized as an awarding body by NCVET",
       image: "/images/awards/9.jpg",
     },
     {
       id: 10,
       title: "The Economic Times for Best Education Brands 2023",
-      image: "/images/awards/10.jpg",
+      image: "https://media.collegedekho.com/media/img/institute/crawled_images/None/NIILM_3_haBFXyy.jpeg",
     },
     {
       id: 11,
@@ -128,7 +128,7 @@ const awardsData = [
     {
       id: 14,
       name: "Rajasthan State Industrial Development and Investment Corporation Ltd.",
-      image: "/images/collab/14.webp",
+      image: "https://www.niilmuniversity.ac.in/uploads/gallery/WhatsApp_Image_2024_12_24_at_11.47.54_e312c11b_1735026501.jpg",
     },
   
     {
@@ -139,12 +139,12 @@ const awardsData = [
     {
       id: 16,
       name: "Indian Institute of Vedic Maths & Abacus (IIVA)",
-      image: "/images/collab/16.webp",
+      image: "https://www.niilmuniversity.ac.in/uploads/gallery/WhatsApp_Image_2024_12_24_at_11.47.44_00083ed0_1735026484.jpg",
     },
     {
       id: 17,
       name: "AEQUS Aerospace",
-      image: "/images/collab/17.webp",
+      image: "https://www.niilmuniversity.ac.in/uploads/gallery/t_3_1723264974.jpeg",
     },
     {
       id: 18,

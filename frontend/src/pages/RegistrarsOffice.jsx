@@ -4,21 +4,21 @@ const RegistrarsOffice = () => {
   const data = [
     {
       id: 1,
-      name: "Mr. Rishi Thapa",
+      name: "Dr. Rajiv Dahiya ",
       designation: "Registrar(i/c) & Assistant Registrar",
-      email: "registrar@msu.edu.in",
+      email: "registrar@niilm.edu.in",
     },
     {
       id: 2,
-      name: "Dr. Siddhartha Shankar",
-      designation: "Deputy Registrar",
-      email: "deputy.registrar@msu.edu.in",
+      name: "Prof. (Dr) R.K. Gupta,",
+      designation: "Dean Academics",
+      email: "dean@niilm.edu.in",
     },
     {
       id: 3,
-      name: "Mr. Sagar Bhowmik",
-      designation: "Assistant Registrar (Academics & QA)",
-      email: "asregistrar.aqa@msu.edu.in",
+      name: "Prof. (Dr) Rekha Gupta",
+      designation: "Dean School of Commerce & Management",
+      email: "asregistrar.aqa@niilm.edu.in",
     },
   ];
 
