@@ -30,8 +30,8 @@ const CampusSwiperComponent = () => {
             }}
           >
             <div className="bottom-12 left-16 text-white">
-              <h1 className="text-4xl font-bold mb-4">{item.title}</h1>
-              <p className="text-lg font-semibold w-3/5">{item.description}</p>
+              <h1 className="text-4xl font-bold mb-4 pl-20 pt-10">{item.title}</h1>
+              <p className="text-lg font-semibold w-3/5 pl-20 ">{item.description}</p>
             </div>
           </div>
         </SwiperSlide>

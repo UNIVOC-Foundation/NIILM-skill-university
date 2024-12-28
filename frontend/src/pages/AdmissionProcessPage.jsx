@@ -9,7 +9,7 @@ const stages = [
     imageUrl: "https://www.msu.edu.in/landing_assets/images/admission/1.png",
     title: "Application",
     description: "Fill the online application form.",
-    link: "https://application.msu.edu.in/campus-programme-registration",
+    link: "https://www.niilmuniversity.ac.in/application",
     primaryColor: "88be5f",
     secondaryColor: "61a350",
   },
@@ -26,7 +26,7 @@ const stages = [
   {
     id: 3,
     imageUrl: "https://www.msu.edu.in/landing_assets/images/admission/3.png",
-    title: "Medhavi Aptitude & Scholarship Test",
+    title: "NIILM Aptitude & Scholarship Test",
     description:
       "This test evaluates core competencies of students as well as provides financial assitance.",
     link: "",
@@ -114,7 +114,7 @@ const AdmissionProcessPage = () => {
                   <p>{item.description}</p>
                   {item.link ? (
                     <Link
-                      to="https://application.msu.edu.in/campus-programme-registration"
+                      to="https://www.niilmuniversity.ac.in/application"
                       className="hover:text-redTheme"
                     >
                       {item.link}

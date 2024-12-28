@@ -41,7 +41,7 @@ const Footer = () => {
                 </h3>
                 <ul className="space-y-4">
                   {footer[0][section].map((link, index) => (
-                    <li key={index} className="w-4/5">
+                    <li key={index} className="w-4/5 hover:text-red-400 hover:font-bold">
                       <Link to={link.link}>{link.title}</Link>
                     </li>
                   ))}
