@@ -2,10 +2,10 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 const SkillsInHigherEducationPage = () => {
   return (
-    <section>
+    <section id="SkillsInHigherEducationPage">
       <Navbar />
       {/* Header */}
-      <div className="relative w-full">
+      <div  className=" relative w-full">
         <div className="relative h-80 overflow-hidden md:h-[28rem]">
           <div
             className={`absolute w-full h-full transition-opacity duration-700 ease-in-out`}

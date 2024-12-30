@@ -28,7 +28,7 @@ const Reports = () => {
   ];
 
   return (
-    <div className="font-sans">
+    <div className="report-sec font-sans">
       <Navbar/>
      
       <div

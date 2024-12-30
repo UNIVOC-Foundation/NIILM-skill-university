@@ -25,7 +25,7 @@ const RegistrarsOffice = () => {
   return (
     <div className="flex flex-col items-center px-4 py-8">
       <h1 className="text-2xl font-bold mb-6">Registrar's Office</h1>
-      <table className="table-auto border-collapse border border-gray-300 w-full md:w-3/4 text-left text-sm">
+      <table className="registrar-table table-auto border-collapse border border-gray-300 w-full md:w-3/4 text-left text-xs">
         <thead>
           <tr className="bg-gray-100">
             <th className="border border-gray-300 px-4 py-2">Sr. No.</th>

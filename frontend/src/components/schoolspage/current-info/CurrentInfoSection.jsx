@@ -7,7 +7,7 @@ const CurrentInfoSection = () => {
         minHeight: "600px",
       }}
     >
-      <div className="grid grid-cols-4 gap-10 mb-16">
+      <div className="flex-2 grid grid-cols-4 gap-10 mb-16">
         <div className="text-white px-10 py-8 rounded-lg shadow-lg bg-redTheme">
           <h3 className="font-bold text-2xl mb-4 text-center">1st India</h3>
           <p className="text-lg text-center">
@@ -36,7 +36,7 @@ const CurrentInfoSection = () => {
       </div>
 
       <div
-        className="grid grid-cols-6 gap-12 bg-white border border-gray-400 px-10 py-14 rounded-lg shadow-md"
+        className=" mb-10 flex-2 grid grid-cols-6 gap-12 bg-white border border-gray-400 px-10 py-14 rounded-lg shadow-md"
         style={{
           borderColor: "#012D47",
         }}

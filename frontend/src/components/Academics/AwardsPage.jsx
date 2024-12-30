@@ -7,7 +7,7 @@ import Footer from "../Footer";
 const AwardsPage = () => {
   return (
 
-    <div className="min-h-screen bg-gray-50">
+    <div className=" min-h-screen bg-gray-50">
       {/* Hero Section */}
       <div className="relative h-[400px]">
         <img
@@ -21,7 +21,7 @@ const AwardsPage = () => {
       </div>
     
       {/* Awards Section */}
-      <section className="py-16">
+      <section id="award-sec" className="py-16">
         <div className=" mx-auto">
           <h1 className="text-5xl font-bold text-center mb-6">Awards</h1>
           <p className="text-center text-xl leading-relaxed mb-16 max-w-5xl mx-auto font-medium ">
@@ -36,7 +36,7 @@ const AwardsPage = () => {
                 key={award.id}
                 className="relative group h-[267px] w-[476px] rounded-2xl overflow-hidden"
               >
-                <img
+                <img 
                   src={award.image}
                   alt={award.title}
                   className="w-full h-full object-cover"
