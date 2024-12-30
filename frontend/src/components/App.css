@@ -45,18 +45,15 @@ body {
   color: #040404;
   padding-left: 220px;
 }
-.container #text{
-  padding-top: 150px ;
-}
+
 #text{
   margin-top: 20;
- 
-  padding-left: 40px;
+
   color: white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 50px;
   font-weight: bold;
-  margin-left: 430px;
+  margin-left: 50px;
  
 }
 #text2{
@@ -149,7 +146,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  width: 45%;
+  width: 450px;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -203,8 +200,8 @@ body {
   height: 500px;
 }
 .container-rnd #text{
-  margin-left: 430px;
-  padding-top: 100px;
+  margin-left: 50px;
+  padding-top: 130px;
   
 }
 .container-circulars #text{
@@ -225,7 +222,7 @@ body {
   height: 400px;
 }
 .container-abc #text{
-  margin-left: 430px;
+  margin-left: 50px;
   padding-top: 100px;
   
 }
@@ -418,7 +415,8 @@ padding: 10px;
 
 @media (max-width: 768px) {
   .card-nep {
-    width: 100%;
+    
+    margin-right: 150px;
   }
   .card2 {
       width: 100%;
@@ -543,6 +541,28 @@ background-color: #043801a4;
     justify-content: center;
     overflow-x: hidden;
   }
+  #stages{
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .tile{
+    width: 150px;
+  }
+  #img-campus{
+   height: 250px;
+  margin-bottom: 10px;
+   width: 240px;
+   
+  }
+  #bg{width: 150px;
+    height: 290px;
+    
+  }
+
+  .NIILM-univ{
+    overflow-x: hidden;
+  }
   .cont{
     width: 300px;
   }
@@ -550,6 +570,118 @@ background-color: #043801a4;
     background: #043801;
     color: white;
   }
+  #text-niilm{
+    margin-left: 0;
+  }
+  #why-niilm-sec{
+    overflow-x: hidden;
+  }
+  
+ #award-sec img{
+  width: 30px;
+ }
+ #infra-sec{
+  overflow-x: hidden;
+ }
+ .report-sec{
+  overflow-x: hidden;
+ }
+ .guideline-sec{
+  overflow-x: hidden;
+ }
+ .admin-sec{
+  overflow-x: hidden;
+ }
+ .registrar-table{
+  margin-left: 10px;
+  margin-right: 10px;
+ }
+ .cf{
+  overflow-x: hidden;
+ }
+ #SkillsInHigherEducationPage{
+  overflow-x: hidden;
+ }
+ #weblv{
+  overflow-x: hidden;
+ }
+
+ #student-sec{
+  overflow-x: hidden;
+ }
+ .flex-2{
+  flex-direction: column;
+ }
+ .flex-3{
+  flex-direction: column;
+ 
+}
+ #nep-sec{
+  overflow-x: hidden;
+  
+ }
+ .card-nep{
+  width: 700px;
+ }
+ .L-e{
+  padding: 0;
+  overflow-x: hidden;
+ }
+ .Degree{
+  overflow-x: hidden;
+ }
+ .Degree h1{
+    font-size: 20px;
+    justify-self: center;
+ }
+ #LWI h1{
+  font-size: 20px;
+  
+ }
+ #LWI{
+  overflow-x: hidden;
+ }
+ #Eval{
+  overflow-x: hidden;
+ }
+ #experts #text{
+  padding-left: 0;
+ }
+
+ #expert #text{
+  margin-left: 0px;
+ 
+ }
+ iframe{
+  width: 350px;
+  height: 250px;
+  padding: 10px;
+ }
+ .prog-table-parent{
+  width: 350px;
+  margin-right: 50px;
+ }
+ .prog-table{
+  width: 290px;
+  
+ }
+ .card-ap{
+  max-width: 540px;
+  padding: 8px;
+  
+ }
+
+ #root{
+  overflow-x: hidden;
+ }
+ 
+ #img3{
+  margin-left: 20px;
+ }
+ .table-pg-p{
+  width: 320px;
+ }
+ 
 }
 .cont-recog{
   height: 500px;

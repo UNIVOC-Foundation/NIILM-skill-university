@@ -51,10 +51,10 @@ const CentralFacilities = () => {
   ];
 
   return (
-    <div className=" mx-auto  py-12">
+    <div className="cf mx-auto  py-12">
       <Navbar/>
       
-      <div className="relative h-[400px] bg-cover bg-center" style={{ backgroundImage: "url('./public/images/facilities-bg.png')" }}>
+      <div className=" relative h-[400px] bg-cover bg-center" style={{ backgroundImage: "url('./public/images/facilities-bg.png')" }}>
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 to-black/70"></div>
         <div className="relative z-10 flex items-center justify-center h-full">
           <h1 className="text-white text-4xl md:text-5xl font-bold">Our Central Facilities</h1>

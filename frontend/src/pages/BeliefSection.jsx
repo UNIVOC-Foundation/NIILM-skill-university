@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 
 const BeliefSection = () => {
   return (
-    <div className="font-sans">
+    <div id="weblv" className="font-sans">
       <Navbar/>
       
        <div

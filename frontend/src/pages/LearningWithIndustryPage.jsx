@@ -6,7 +6,7 @@ import { industryPartnersData } from "../data/homepage/collab-partnerData";
 
 const LearningWithIndustryPage = () => {
   return (
-    <section>
+    <section id="LWI">
       {/* Header */}
       <div className="relative w-full">
         <Navbar/>

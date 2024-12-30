@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 const Administration = () => {
     return (
-        <div className="font-sans">
+        <div className="admin-sec font-sans">
           <Navbar/>
          
           <div

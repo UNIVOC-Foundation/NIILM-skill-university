@@ -6,7 +6,7 @@ const InfrastructurePage = () => {
   const { facilities } = infrastructureData;
 
   return (
-    <div>
+    <div id="infra-sec">
         <div className="w-full bg-white">
         <Navbar/>
       <div className="relative h-[400px]">
@@ -41,7 +41,7 @@ const InfrastructurePage = () => {
       </div>
       <div className="bg-[#D8FFD3] py-8">
         <div className="text-center py-8">
-          <h1 className="text-6xl font-bold text-[#a60101]">
+          <h1 className="text-4xl font-bold text-[#a60101]">
             CAMPUS & INFRASTRUCTURE
           </h1>
         </div>

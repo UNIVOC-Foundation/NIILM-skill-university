@@ -98,7 +98,7 @@ const EngagementSection = () => {
 
 const Niilmfoundation = () => {
   return (
-    <div className="font-sans">
+    <div className="NIILM-univ font-sans">
       <Navbar/>
       <div
         className="relative h-[400px] bg-cover bg-center"

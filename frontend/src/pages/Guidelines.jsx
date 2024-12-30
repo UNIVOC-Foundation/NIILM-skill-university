@@ -38,7 +38,7 @@ const Guidelines = () => {
   ];
 
   return (
-    <div className="font-sans">
+    <div className="guideline-sec font-sans">
       <Navbar/>
      
       <div

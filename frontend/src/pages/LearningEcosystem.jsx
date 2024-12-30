@@ -8,7 +8,7 @@ import CurricularComponents from "./CurricularComponents ";
 
 const LearningEcosystem = () => {
   return (
-    <div className="font-sans flex flex-col min-h-screen">
+    <div className="L-e font-sans flex flex-col min-h-screen">
       {/* Navbar */}
       <Navbar />
 

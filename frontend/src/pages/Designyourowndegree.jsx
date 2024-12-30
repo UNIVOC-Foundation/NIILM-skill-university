@@ -8,7 +8,7 @@ import CurricularComponents from './CurricularComponents ';
 
 const Designyourowndegree = () => {
   return (
-    <div className="font-sans">
+    <div className=" Degree font-sans">
           <Navbar/>
          
           <div className="relative w-full">

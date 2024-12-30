@@ -80,7 +80,7 @@ const UndergraduatePage = () => {
       <div>
         <div className="mx-auto w-4/5 my-12">
           <p className="text-xl leading-8">
-            Medhavi Skills University has embarked on a revolutionary journey in
+            NIILM Skills University has embarked on a revolutionary journey in
             higher education, moving away from the traditional mold to embrace a
             unique teaching pedagogy centered on “industry on campus.” The
             university offers a wide range of undergraduate programs in
@@ -89,7 +89,7 @@ const UndergraduatePage = () => {
             Programs (CCFUP),” incorporating a flexible choice-based credit
             system and a multidisciplinary approach. This will facilitate
             students in pursuing their career paths by selecting subjects or
-            fields of their interest. At Medhavi Skills University, we celebrate
+            fields of their interest. At NIILM Skills University, we celebrate
             students! We believe every student is different in their interests,
             passions, and goals. Therefore, we aim to create a personalized
             curriculum for purposeful career progression for each of them.
@@ -122,13 +122,13 @@ const UndergraduatePage = () => {
                   placeholder="Search programs"
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  className="border border-gray-300 px-6 py-4 rounded w-1/2"
+                  className="border border-gray-300 px-6 py-4 rounded w-100"
                 />
 
                 {/* UG Programs Dropdown (Disabled) */}
                 <select
                   disabled
-                  className="border border-gray-300 px-4 py-2 rounded w-1/4 bg-gray-100 text-gray-500"
+                  className="border border-gray-300 px-4 py-2 rounded w-100 bg-gray-100 text-gray-500"
                 >
                   <option value="ug">UG Programs</option>
                 </select>
@@ -137,7 +137,7 @@ const UndergraduatePage = () => {
                 <select
                   value={selectedCategory}
                   onChange={(e) => setSelectedCategory(e.target.value)}
-                  className="border border-gray-300 px-4 py-2 rounded w-1/4"
+                  className="border border-gray-300 px-4 py-2 rounded w-100"
                 >
                   <option value="">All Categories</option>
                   {programCategories.map((category, index) => (
@@ -149,8 +149,10 @@ const UndergraduatePage = () => {
               </div>
 
               {/* Program List */}
-              <div className="bg-white my-12 p-6 rounded-xl shadow-md">
-                <table className="table-auto w-full border-collapse">
+            
+              <div className="prog-table-parent bg-white my-12 p-2 rounded-xl shadow-md">
+          
+                <table className="prog-table table-auto w-full border-collapse">
                   <tbody>
                     {filteredPrograms.length > 0 ? (
                       filteredPrograms.reduce((rows, program, index) => {
@@ -165,23 +167,23 @@ const UndergraduatePage = () => {
                               } hover:bg-gray-200 transition duration-200 grid grid-cols-2`}
                             >
                               {/* First Program in the Row */}
-                              <td className="px-4 py-3 border-b border-gray-300 flex items-center gap-2">
-                                <span className="text-4xl text-redTheme">
+                              <td className="px-4 py-3 border-b border-gray-300 flex items-center">
+                                <span className="text-sm text-redTheme">
                                   •
                                 </span>
-                                <span className="mx-2 text-lg font-medium">
+                                <span className="mx-2 text-sm font-medium">
                                   {program}
                                 </span>
                               </td>
 
                               {/* Second Program in the Row */}
-                              <td className="px-4 py-3 border-b border-gray-300 flex items-center gap-2">
+                              <td className="px-4 py-3 border-b border-gray-300 flex items-center ">
                                 {filteredPrograms[index + 1] ? (
                                   <>
-                                    <span className="text-4xl text-redTheme">
+                                    <span className="text-sm text-redTheme">
                                       •
                                     </span>
-                                    <span className="mx-2 text-lg font-medium">
+                                    <span className="mx-2 text-sm font-medium">
                                       {filteredPrograms[index + 1]}
                                     </span>
                                   </>
@@ -206,7 +208,9 @@ const UndergraduatePage = () => {
                     )}
                   </tbody>
                 </table>
+  
               </div>
+             
             </div>
           </div>
         </div>
@@ -220,7 +224,7 @@ const UndergraduatePage = () => {
             By choosing dual degree programs, it means you can graduate with two
             degrees at the end of your studies.
           </p>
-          <div className="grid grid-cols-5 gap-6 mt-16">
+          <div className="flex-2 grid grid-cols-5 gap-6 mt-16">
             {/* First Tile */}
             <div className="p-6 bg-[linear-gradient(270deg,_rgba(0,_0,_0,_4%),_transparent)] rounded-[20px] border-dotted border-t-2 border-r-2 border-b-2 border-[#e3e3e4] mx-4 transition-all duration-500 hover:scale-105 hover:shadow-lg">
               <img

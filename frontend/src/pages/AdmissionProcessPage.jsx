@@ -82,11 +82,9 @@ const AdmissionProcessPage = () => {
       </div>
 
       {/* Stages Section */}
-      <div>
-        <div className="mx-auto w-4/5 grid grid-cols-[2fr_3fr] my-12">
-          <div className="flex flex-col-reverse">
-            <img src="https://www.msu.edu.in/frontend_assets/images/process-img.webp" />
-          </div>
+      <div  className="tile">
+        <div id="stages" className="mx-auto w-2/5 grid grid-cols-[2fr_3fr] my-12">
+    
           <div className="flex flex-col gap-y-8">
             {stages.map((item) => (
               <div

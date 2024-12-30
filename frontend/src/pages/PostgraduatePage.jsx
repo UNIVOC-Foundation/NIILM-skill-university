@@ -66,7 +66,7 @@ const PostgraduatePage = () => {
       <div>
         <div className="mx-auto w-4/5 my-12">
           <p className="text-xl leading-8">
-            Medhavi Skills University offers postgraduate programs that help
+            NIILM Skills University offers postgraduate programs that help
             students extend their knowledge in their chosen subjects and prepare
             them for higher research studies. The advanced knowledge and
             specialized skills gained in the postgraduate program are crucial
@@ -78,12 +78,12 @@ const PostgraduatePage = () => {
             or minor discipline(s) in the undergraduate program. In this case,
             the university can admit students to the master’s program based on
             their performance in the undergraduate program. In alignment with
-            the NEP 2020, Medhavi Skills University emphasizes formative and
+            the NEP 2020, NIILM Skills University emphasizes formative and
             continuous assessment rather than summative assessment. The
             university focuses on assessment components correlated with the
             learning outcomes to be achieved by students after completing the
             course. Therefore, the mode and system of assessments are guided by
-            the learning outcomes at Medhavi Skills University.
+            the learning outcomes at NIILM Skills University.
           </p>
         </div>
       </div>
@@ -110,13 +110,13 @@ const PostgraduatePage = () => {
                   placeholder="Search programs"
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  className="border border-gray-300 px-6 py-4 rounded w-1/2"
+                  className="border border-gray-300 px-6 py-4 rounded w-100"
                 />
 
                 {/* UG Programs Dropdown (Disabled) */}
                 <select
                   disabled
-                  className="border border-gray-300 px-4 py-2 rounded w-1/4 bg-gray-100 text-gray-500"
+                  className="border border-gray-300 px-4 py-2 rounded w-100 bg-gray-100 text-gray-500"
                 >
                   <option value="ug">UG Programs</option>
                 </select>
@@ -125,7 +125,7 @@ const PostgraduatePage = () => {
                 <select
                   value={selectedCategory}
                   onChange={(e) => setSelectedCategory(e.target.value)}
-                  className="border border-gray-300 px-4 py-2 rounded w-1/4"
+                  className="border border-gray-300 px-4 py-2 rounded w-100"
                 >
                   <option value="">All Categories</option>
                   {programCategories.map((category, index) => (
@@ -137,8 +137,8 @@ const PostgraduatePage = () => {
               </div>
 
               {/* Program List */}
-              <div className="bg-white my-12 p-6 rounded-xl shadow-md">
-                <table className="table-auto w-full border-collapse">
+              <div className="table-pg-p bg-white my-12 p-6 rounded-xl shadow-md">
+                <table className="table-pg table-auto w-full border-collapse">
                   <tbody>
                     {filteredPrograms.length > 0 ? (
                       filteredPrograms.reduce((rows, program, index) => {
@@ -154,10 +154,10 @@ const PostgraduatePage = () => {
                             >
                               {/* First Program in the Row */}
                               <td className="px-4 py-3 border-b border-gray-300 flex items-center gap-2">
-                                <span className="text-4xl text-redTheme">
+                                <span className="text-2xl text-redTheme">
                                   •
                                 </span>
-                                <span className="mx-2 text-lg font-medium">
+                                <span className="mx-2 text-sm font-medium">
                                   {program}
                                 </span>
                               </td>
@@ -169,7 +169,7 @@ const PostgraduatePage = () => {
                                     <span className="text-4xl text-redTheme">
                                       •
                                     </span>
-                                    <span className="mx-2 text-lg font-medium">
+                                    <span className="mx-2 text-sm font-medium">
                                       {filteredPrograms[index + 1]}
                                     </span>
                                   </>
@@ -208,7 +208,7 @@ const PostgraduatePage = () => {
             By choosing dual degree programs, it means you can graduate with two
             degrees at the end of your studies.
           </p>
-          <div className="grid grid-cols-5 gap-6 mt-16">
+          <div className="flex grid grid-cols-5 gap-6 mt-16">
             {/* First Tile */}
             <div className="p-6 bg-[linear-gradient(270deg,_rgba(0,_0,_0,_4%),_transparent)] rounded-[20px] border-dotted border-t-2 border-r-2 border-b-2 border-[#e3e3e4] mx-4 transition-all duration-500 hover:scale-105 hover:shadow-lg">
               <img

@@ -36,10 +36,10 @@ const ScholarshipPage = () => {
       {/* Hero Section */}
       <div>
         <div className="mx-auto w-4/5 py-12">
-          <div className="grid grid-cols-2 gap-12">
+          <div className="flex-3 grid grid-cols-2 gap-12">
             <div className="h-full flex items-stretch relative">
-              <div className="w-[600px] h-[595px] absolute inset-0 bg-redTheme -top-0  -left-3 rounded-br-[9rem]"></div>
-              <img
+              <div id="bg" className="w-[600px] h-[595px] absolute inset-0 bg-redTheme -top-0  -left-3 rounded-br-[9rem]"></div>
+              <img id="img-campus"
                 src="/images/campus/campus-1.jpg"
                 className="object-cover rounded-br-[8rem] z-10"
               />

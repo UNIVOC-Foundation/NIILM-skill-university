@@ -4,7 +4,7 @@ import Footer from '../Footer'
 function Student() {
 
     return (
-      <>
+      <div id='student-sec'>
       <Navbar />
         
       <div className="container-student">
@@ -44,7 +44,7 @@ These projects allow students to pursue their interests, apply conceptual unders
          
         <br />
         <Footer />
-      </>
+      </div>
     )
   }
   
