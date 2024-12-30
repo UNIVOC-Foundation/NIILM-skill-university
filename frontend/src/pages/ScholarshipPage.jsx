@@ -76,9 +76,9 @@ const ScholarshipPage = () => {
           <h1 className="text-4xl font-bold">
             National and State Level Scholarship for Noth East
           </h1>
-          <table className="mt-12 border border-white">
+          <table className="tbl-scholarship mt-12 border border-white">
             <thead>
-              <tr className="text-2xl">
+              <tr className="text-xl">
                 <th className="px-6 py-3 text-left border-r border-b border-white">
                   Scholarships Schemes (Central/State Govt.)
                 </th>
@@ -89,7 +89,7 @@ const ScholarshipPage = () => {
             </thead>
             <tbody>
               {regionScholarshipData.map((entry, index) => (
-                <tr key={index} className="text-xl border-b border-white">
+                <tr key={index} className="text-sm border-b border-white">
                   <td className="px-6 py-4 border-r border-white">
                     {entry.scheme}
                   </td>
