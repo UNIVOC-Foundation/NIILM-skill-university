@@ -27,7 +27,7 @@ const HomePage = () => {
             We are New Age & Industry-Led!
           </h1>
           <p className="text-gray-600 text-lg mt-4 leading-10">
-            Medhavi Skills University is India first Skills University to offer
+            NIILM Skills University is India first Skills University to offer
             Industry Immersive degree programmes within the holistic development
             framework of NEP2020. Our outcome focused skill-integrated model of
             higher education backed by leading industry and sectoral partners in

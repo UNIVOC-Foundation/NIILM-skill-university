@@ -42,7 +42,7 @@ const PartnershipSection = () => {
     <div className="max-w-7xl mx-auto px-6 py-10 flex flex-col md:flex-row items-center md:items-start gap-12">
       {/* Left Section */}
       <div className="md:w-5/12 text-center md:text-left">
-        <h2 className="text-5xl font-bold mb-4">Our Partnership</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Partnership</h2>
         <p className="text-gray-700 leading-relaxed mt-6 text-lg">
           The partnership between NIILM Skills University and its partners is
           instrumental in addressing the evolving needs of the industry by
@@ -54,7 +54,7 @@ const PartnershipSection = () => {
       </div>
 
       {/* Right Section */}
-      <div className="md:w-7/12 grid grid-cols-2 sm:grid-cols-3 gap- md:gap-6">
+      <div className="md:w-7/12 grid grid-cols-2 sm:grid-cols-3 gap-2 md:gap-6">
         {logos.map((logo, index) => (
           <div
             key={index}

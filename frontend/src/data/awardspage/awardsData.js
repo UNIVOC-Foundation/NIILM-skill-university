@@ -43,7 +43,7 @@ const awardsData = [
   },
   {
     id: 9,
-    title: "MSU has been formally recognized as an awarding body by NCVET",
+    title: "NIILM has been formally recognized as an awarding body by NCVET",
     image: "/images/awards/9.jpg",
   },
   {

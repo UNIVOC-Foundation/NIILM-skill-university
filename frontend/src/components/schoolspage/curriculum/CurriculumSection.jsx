@@ -4,9 +4,10 @@ const CurriculumSection = () => {
   return (
     <div className="flex flex-col relative h-auto bg-[#a60101] pb-16">
       {/* Video Section */}
-      <div className="bg-black rounded-2xl border-2 border-white absolute left-1/2 transform -translate-x-1/2 -top-48 w-full md:w-3/5 h-[26rem]">
-        Video Section
-      </div>
+      <iframe
+        src="https://www.youtube.com/embed/PmRZjkkwMUQ?si=LcyTBwRZ5cJ82cdS"
+        className="bg-black rounded-2xl border-2 border-white absolute left-1/2 transform -translate-x-1/2 -top-48 w-full md:w-3/5 h-[26rem]"
+      />
       {/* Curriculum Section */}
       <div className="mt-[20rem] w-4/5 mx-auto">
         <div className="w-full grid grid-cols-1 md:grid-cols-2 flex-wrap">

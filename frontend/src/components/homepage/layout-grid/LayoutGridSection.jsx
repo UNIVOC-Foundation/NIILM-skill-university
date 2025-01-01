@@ -27,7 +27,7 @@ const Layoutgrid = () => {
             >
               <img
                 src="https://www.msu.edu.in/frontend_assets/images/banner/news-1.jpg"
-                alt="Learning at Medhavi"
+                alt="Learning at NIILM"
                 className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
               />
               <div className="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>

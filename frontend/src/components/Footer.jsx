@@ -1,27 +1,26 @@
 import { Link } from "react-router-dom";
 import { footer } from "../data/footer";
-import {
-  FaPhoneAlt,
-  FaFacebookF,
-  FaInstagram,
-  FaYoutube,
-  FaLinkedin,
-} from "react-icons/fa";
-import { IoMdMail } from "react-icons/io";
-import { IoLocationSharp } from "react-icons/io5";
+// import {
+//   FaPhoneAlt,
+//   FaFacebookF,
+//   FaInstagram,
+//   FaYoutube,
+//   FaLinkedin,
+// } from "react-icons/fa";
+// import { IoMdMail } from "react-icons/io";
+// import { IoLocationSharp } from "react-icons/io5";
 
 const Footer = () => {
   return (
     <footer className="bg-[#165d23] text-white h-auto">
-      <div className="flex flex-col justify-between py-20 space-y-8 lg:flex-row lg:space-y-0">
-        <div className="lg:w-1/6">
+      <div className="grid grid-cols-1 md:grid-cols-[1fr_3fr] py-16">
+        <div>
           <Link
             to="/"
-            className="flex justify-center space-x-3 lg:justify-start"
           >
-            <div className="flex flex-col justify-center rounded-full items-start">
+            <div className="grid grid-cols-1">
               <img src="/images/footer-logo-new-niilm.png" alt="Footer Logo" />
-              <span className="self-center text-md mt-4 leading-10 w-full md:w-4/5 md:ml-auto">
+              <span className="text-md leading-10 w-3/4 m-4">
                 At NIILM University, we embrace the fast-paced changes of the
                 21st century.
               </span>
@@ -29,12 +28,12 @@ const Footer = () => {
           </Link>
         </div>
 
-        <div className="flex flex-wrap justify-between lg:w-3/4 ml-4 md:ml-0">
+        <div className="grid grid-cols-2 md:grid-cols-5 m-4 md:m-0">
           {footer[0] &&
             Object.keys(footer[0]).map((section) => (
               <div
                 key={section}
-                className="flex flex-col space-y-3 mb-8 md:mb-0 w-1/2 md:w-1/4 lg:w-1/5"
+                className="flex flex-col space-y-3 mb-8 md:mb-0"
               >
                 <h3 className="tracking-wide font-bold text-2xl mb-4">
                   {section}
@@ -51,7 +50,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="py-4 text-sm text-center w-full flex flex-col md:flex-row items-center border-2 border-l-transparent border-r-transparent border-t-white border-b-white">
+      {/* <div className="py-4 text-sm text-center w-full flex flex-col md:flex-row items-center border-2 border-l-transparent border-r-transparent border-t-white border-b-white">
         <div className="w-full md:w-1/4 ">
           <div className="m-2 flex md:border-none border-2 border-t-transparent border-r-transparent border-b-transparent border-l-white">
             <div className="w-12 h-12 border-2 rounded-full flex justify-center items-center m-auto">
@@ -106,9 +105,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="py-6 text-sm text-center">
+      <div className="py-6 px-4 text-sm text-center border-t-2 border-white">
         Copyrights © 2024 NIILM UNIVERSITY. All rights reserved.
       </div>
     </footer>

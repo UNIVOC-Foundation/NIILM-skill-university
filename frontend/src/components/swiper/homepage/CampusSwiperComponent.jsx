@@ -22,9 +22,9 @@ const CampusSwiperComponent = () => {
       {campusData.map((item) => (
         <SwiperSlide key={item.id}>
           <div
-            className="relative w-full h-full"
+            className="w-full h-full"
             style={{
-              backgroundImage: `url(${item.imageUrl})`,
+              backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url(${item.imageUrl})`,
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}

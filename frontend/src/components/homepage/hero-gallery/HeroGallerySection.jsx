@@ -25,7 +25,7 @@ const HeroGallerySection = () => {
   ];
 
   return (
-    <section className="h-[48rem] flex">
+    <section>
       <HeroSwiperComponent slides={slides} />
     </section>
   );

@@ -17,7 +17,7 @@ export const academicData = [
   {
     _id: 4,
     title: "Fashion Designing",
-    image: "/images/academics/fashion-designing.jpg",
+    image: "/images/academics/fashion-design.jpeg",
   },
   {
     _id: 5,
@@ -32,6 +32,6 @@ export const academicData = [
   {
     _id: 7,
     title: "Hospitality Management",
-    image: "/images/academics/hospitality-management.webp",
+    image: "/images/academics/hospitality-tourism.jpeg",
   },
 ];

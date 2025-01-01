@@ -16,15 +16,23 @@ const HeroSwiperComponent = ({ slides }) => {
         disableOnInteraction: false,
       }}
       loop={true}
-      pagination={true}
+      pagination={{
+        clickable: true,
+      }}
       modules={[Autoplay, Pagination]}
+      className="w-full h-full"
     >
-      {slides.map((item) => (
-        <>
-          <SwiperSlide>
-            <img src={item.image} className="w-full h-full object-cover" />
-          </SwiperSlide>
-        </>
+      {slides.map((item, index) => (
+        <SwiperSlide
+          key={index}
+          className="w-full h-[50vh] md:h-[70vh] lg:h-[90vh]" // Adjust height for responsiveness
+        >
+          <img
+            src={item.image}
+            alt={item.alt || "Slide Image"}
+            className="w-full h-full object-cover" // Ensure it scales proportionally
+          />
+        </SwiperSlide>
       ))}
     </Swiper>
   );

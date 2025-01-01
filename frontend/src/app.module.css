@@ -1,0 +1,513 @@
+.container {
+  margin-top: 0;
+  background: url("https://www.niilmuniversity.ac.in/uploads/page/1710405084798_WhatsApp_Image_2024_03_14_at_12.55.01_PM_1713988262.jpeg");
+  height: 500px;
+  background-size: cover;
+}
+
+.container #text {
+  color: black;
+  padding-top: 100px;
+}
+
+.containerStudent {
+  margin-top: 0;
+  background: url("https://www.niilmuniversity.ac.in/uploads/department/11zon_resized_(14)_1714633251.jpg");
+  height: 500px;
+  background-size: cover;
+}
+
+.container-News {
+  background: url("../public/images/experts/img37.png");
+  background-size: cover;
+  height: 400px;
+}
+.container-Media {
+  background: url("../public/images/experts/img39.JPG");
+  background-size: cover;
+}
+.container-News #text {
+  color: #040404;
+  padding-left: 220px;
+}
+#vdo {
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+.card2 {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: 250px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card2:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card2 img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s;
+}
+.card2:hover img {
+  transform: scale(1.05);
+}
+.card2-title {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+}
+.flex {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 20px;
+}
+.flex-vdos {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-left: 150px;
+  gap: 20px;
+}
+.imgCont img {
+  width: 940px;
+  height: 350px;
+  border-top-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+  border: 3px solid #043801;
+  padding: 5px;
+  transition: background-color 2s;
+}
+.imgCont img:hover {
+  background-color: #04380195;
+}
+
+#text3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+.containerNep {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+}
+.cardNep {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.cardNep:hover {
+  border: 2px solid rgb(92, 18, 0);
+  transition: 0.5 all ease-in-out;
+}
+
+.cardNep img {
+  width: 50px;
+  height: 50px;
+}
+.cardNep h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+.cardNep p {
+  margin: 5px 0 0;
+  color: #666;
+}
+.containerNEP2 {
+  background: url("https://images.deccanherald.com/deccanherald%2Fimport%2Fsites%2Fdh%2Ffiles%2Farticleimages%2F2021%2F09%2F10%2Fbooks-istock-1029040-1631285579.jpg?auto=format%2Ccompress&fmt=webp&fit=max&format=webp&q=70&w=400&dpr=2");
+  background-size: cover;
+  height: 400px;
+}
+#img3 {
+  margin-right: 30px;
+  margin-top: 30px;
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  border: 4px solid #043801;
+  margin-bottom: 20px;
+  padding: 3px;
+  background-color: rgba(255, 0, 0, 0.541);
+}
+#bigImg {
+  height: 488px;
+}
+.flex2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.containerRnd {
+  background: url("https://pharmaoffer.com/wp-content/uploads/2024/01/RD6-jpg.webp");
+  background-size: cover;
+  height: 500px;
+}
+.containerRnd #text {
+  margin-left: 430px;
+  padding-top: 100px;
+}
+.container-circulars #text {
+  margin-left: 500px;
+  padding-top: 350px;
+  color: #040404;
+}
+.container-circulars {
+  height: 450px;
+}
+.containerHappy {
+  height: 400px;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0)
+    ),
+    url("../public/images/experts/img4.png");
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+.containerAbc {
+  background: url("https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=1356&h=668&fit=crop");
+  background-size: cover;
+  height: 400px;
+}
+.containerAbc #text {
+  margin-left: 430px;
+  padding-top: 100px;
+}
+.containerCulture {
+  background: url("https://wimbledonvillage.com/wp-content/uploads/2023/09/Art-Culture-banner-image-person-in-gallery-viewing-paintings.jpg");
+  background-size: cover;
+}
+.containerNSS #text {
+  color: #040404;
+}
+.container-Blogs {
+  background: url("https://live.staticflickr.com/4401/36675786633_c9f864d11f_b.jpg");
+  background-size: cover;
+}
+.container-Blogs #text {
+  color: #040404;
+}
+.container-NewsLetter {
+  background: url("../public/images/experts/img34.JPG");
+  background-size: cover;
+}
+.container-circulars {
+  background: url("../public/images/experts/img36.png");
+  background-size: cover;
+}
+iframe {
+  padding: 20px;
+  border: 4px solid rgb(149, 2, 2);
+  border-radius: 15px;
+  background-color: #d8ffd3;
+  transition: all 2s;
+}
+iframe:hover {
+  background-color: #b1fba7;
+  padding: 30px;
+}
+#imgAbc {
+  border: 3px solid rgb(93, 0, 0);
+  background-color: #d8ffd3;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 2s;
+}
+#imgAbc:hover {
+  background-color: #b1fba7;
+  padding: 30px;
+}
+.container-expert {
+  display: flex;
+  max-width: 700px;
+  margin: 20px;
+  display: inline;
+}
+.profile {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+.profile img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.profile .content {
+  text-align: center;
+}
+.profile .content h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #040404;
+}
+.profile .content p {
+  font-size: 1em;
+  color: #232323;
+  margin: 10px 0;
+}
+.profile .content .quote {
+  font-size: 2em;
+  color: #101010;
+}
+.profile .content .name {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #1a1a1a;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+}
+.profile .content .title {
+  font-size: 0.8em;
+  color: #040404;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.profile .content .description {
+  font-size: 0.9em;
+  color: #043801;
+  text-align: left;
+  font-style: italic;
+}
+.profile.blue {
+  background-color: #2a9d8f;
+  color: #ffffff;
+}
+.profile.orange {
+  background-color: #e76f51;
+  color: #ffffff;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+.gallery img:hover {
+  transform: scale(1.1);
+  border: 6px solid rgb(0, 55, 20);
+  padding: 3px;
+  background-color: rgba(255, 0, 0, 0.501);
+}
+.galleryItem {
+  box-sizing: border-box;
+}
+.galleryItem.large {
+  grid-column: span 2;
+}
+.galleryItem.medium {
+  grid-column: span 1;
+}
+.galleryItem.small {
+  grid-column: span 1;
+}
+#imgGallery {
+  background-color: #85c7f75d;
+  padding: 10px;
+}
+#imgGallery2 {
+  background-color: #85f7d55d;
+  padding: 10px;
+}
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .galleryItem.large,
+  .galleryItem.medium,
+  .galleryItem.small {
+    grid-column: span 1;
+  }
+}
+@media (max-width: 480px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+  .galleryItem.large,
+  .galleryItem.medium,
+  .galleryItem.small {
+    grid-column: span 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .cardNep {
+    width: 100%;
+  }
+  .card2 {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  padding: 50px;
+}
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.5s;
+  border: 1px solid grey;
+}
+.card:hover {
+  box-shadow: 4px 3px 10px #04040466;
+}
+#card-img {
+  padding: 10px;
+  border-radius: 20px;
+}
+.card-content {
+  padding: 20px;
+}
+.card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0 0 10px;
+  transition: color 0.5s;
+}
+.card-title:hover {
+  color: rgb(166, 1, 1);
+}
+
+.card-date {
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+.card-date i {
+  margin-right: 5px;
+}
+.card-description {
+  font-size: 0.9em;
+  color: #6c757d;
+}
+#image3 {
+  width: 788px;
+  height: 459px;
+}
+#image1 {
+  width: 988px;
+  height: 675px;
+}
+#imgCont0 {
+  width: 488px;
+  height: 488px;
+  aspect-ratio: 1;
+}
+#btn {
+  color: white;
+  background-color: rgb(129, 0, 0);
+  padding: 10px;
+  border-radius: 3px;
+  transition: box-shadow 1s;
+  transition: background-color 2s;
+}
+#btn:hover {
+  background-color: rgb(1, 93, 38);
+  box-shadow: 1px 2px 20px #5830fa;
+}
+.flex-media {
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.btn2 {
+  border: 4px solid rgb(74, 0, 0);
+  background-color: rgba(255, 0, 0, 0.734);
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding: 15px;
+  margin: 20px;
+  transition: border-top-right-radius 2s;
+  transition: border-bottom-left-radius 2s;
+  transition: border-top-left-radius 2s;
+  transition: border-bottom-right-radius 2s;
+  transition: background-color 2s;
+}
+.btn2:hover {
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: #043801a4;
+}
+.whyNiilm {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.cont {
+  width: 450px;
+}
+@media (max-width: 768px) {
+  .whyNiilm {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    overflow-x: hidden;
+  }
+  .cont {
+    width: 300px;
+  }
+  .cont:hover {
+    background: #043801;
+    color: white;
+  }
+}
+.cont-recog {
+  height: 500px;
+}
+
+#social {
+  height: 400px;
+}
+#social-text {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}

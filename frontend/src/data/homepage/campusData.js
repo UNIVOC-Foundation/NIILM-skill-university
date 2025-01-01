@@ -18,13 +18,13 @@ export const campusData = [
     title: "Campus Life",
     description:
       "Experience campus life at NIILM beyond academics. Engage in diverse clubs, activities, and a community that fosters personal growth and lifelong friendships.",
-    imageUrl: "/images/campus/campus-3.webp",
+    imageUrl: "/images/campus/campus-3.jpg",
   },
   {
     id: 4,
     title: "Campus Life",
     description:
       "Experience campus life at NIILM beyond academics. Engage in diverse clubs, activities, and a community that fosters personal growth and lifelong friendships.",
-    imageUrl: "/images/campus/campus-4.webp",
+    imageUrl: "/images/campus/campus-4.jpg",
   },
 ];
