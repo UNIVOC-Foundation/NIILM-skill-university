@@ -62,9 +62,6 @@ const Layoutgrid = () => {
               </a>
             </div>
           </div>
-
-          {/* Brandy Section */}
-          
         </div>
       </div>
     </section>
