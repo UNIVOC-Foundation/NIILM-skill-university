@@ -1,8 +1,10 @@
+import styles from "../../app.module.css";
+
 function CircularsPage() {
   return (
     <>
-      <div className="container-circulars">
-        <h2 id="text" className="p-10">
+      <div className={styles.containerCirculars}>
+        <h2 className="absolute bottom-10 left-10 md:left-10 text-5xl font-bold text-center text-white">
           Circulars and Notices
         </h2>
       </div>

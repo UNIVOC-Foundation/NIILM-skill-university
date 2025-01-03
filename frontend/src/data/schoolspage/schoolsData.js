@@ -16,43 +16,43 @@ export const schoolsData = {
         value: "ug",
         images: [
           {
-            src: "/images/campus/campus-3.webp",
+            src: "/images/campus/campus-3.jpg",
             title: "B.Sc. in Emergency and Critical Care Technology",
           },
           {
-            src: "/images/campus/campus-3.webp",
+            src: "/images/campus/campus-3.jpg",
             title: "B.Sc. in Computer Science",
           },
           {
-            src: "/images/campus/campus-3.webp",
+            src: "/images/campus/campus-3.jpg",
             title: "B.A. in Media and Communications",
           },
           {
-            src: "/images/campus/campus-3.webp",
+            src: "/images/campus/campus-3.jpg",
             title: "B.Sc. in Emergency and Critical Care Technology",
           },
           {
-            src: "/images/campus/campus-3.webp",
+            src: "/images/campus/campus-3.jpg",
             title: "B.Sc. in Emergency and Critical Care Technology",
           },
           {
-            src: "/images/campus/campus-3.webp",
+            src: "/images/campus/campus-3.jpg",
             title: "B.Sc. in Emergency and Critical Care Technology",
           },
           {
-            src: "/images/campus/campus-3.webp",
+            src: "/images/campus/campus-3.jpg",
             title: "B.Sc. in Emergency and Critical Care Technology",
           },
           {
-            src: "/images/campus/campus-3.webp",
+            src: "/images/campus/campus-3.jpg",
             title: "B.Sc. in Emergency and Critical Care Technology",
           },
           {
-            src: "/images/campus/campus-3.webp",
+            src: "/images/campus/campus-3.jpg",
             title: "B.Sc. in Emergency and Critical Care Technology",
           },
           {
-            src: "/images/campus/campus-3.webp",
+            src: "/images/campus/campus-3.jpg",
             title: "B.Sc. in Emergency and Critical Care Technology",
           },
         ],
@@ -62,11 +62,11 @@ export const schoolsData = {
         value: "pg",
         images: [
           {
-            src: "/images/campus/campus-4.webp",
+            src: "/images/campus/campus-4.jpg",
             title: "M.Sc. in Biotechnology",
           },
           {
-            src: "/images/campus/campus-4.webp",
+            src: "/images/campus/campus-4.jpg",
             title: "M.A. in Psychology",
           },
         ],
@@ -297,7 +297,7 @@ export const schoolsData = {
   },
   "school-of-hospitality-and-tourism": {
     header: {
-      image: "/images/academics/hospitailty-tourism.jpeg",
+      image: "/images/academics/hospitality-tourism.jpeg",
       heading: "School Of Hospitality And Tourism",
     },
     textArea: {

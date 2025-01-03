@@ -1,12 +1,14 @@
+import styles from "../../app.module.css";
+
 function MediaPage() {
   return (
     <>
-      <div className="container-Media">
-        <h2 id="text" className="p-10">
+      <div className={styles.containerMedia}>
+        <h2 className="absolute bottom-10 left-10 md:left-10 text-5xl font-bold text-center text-white">
           In the Media
         </h2>
       </div>
-      <div className="flex-media m-10 ml-40">
+      <div className={`${styles.flexMedia} m-10 ml-40`}>
         <iframe
           width="560"
           height="315"

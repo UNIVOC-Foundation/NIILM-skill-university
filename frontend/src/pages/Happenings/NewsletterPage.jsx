@@ -1,19 +1,23 @@
+import styles from "../../app.module.css";
+
 function NewsLetterPage() {
   return (
     <div>
-      <div className="container-NewsLetter">
-        <h2 id="text">News Letter</h2>
+      <div className={styles.containerNewsLetter}>
+        <h2 className="absolute bottom-10 left-10 md:left-10 text-5xl font-bold text-center text-white">
+          News Letter
+        </h2>
       </div>
-      <div className="card m-20">
+      <div className={`${styles.card} m-20`}>
         <img
-          id="card-img"
+          id={styles.cardImg}
           alt="Group of people standing together, one holding a document"
           height="200"
           src="../public/images/experts/img29.jpg"
           width="300"
         />
-        <div className="card-content">
-          <div className="card-title">Newsletter December24</div>
+        <div className={styles.cardContent}>
+          <div className={styles.cardTitle}>Newsletter December24</div>
         </div>
       </div>
     </div>

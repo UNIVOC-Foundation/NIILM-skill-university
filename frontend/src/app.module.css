@@ -17,16 +17,18 @@
   background-size: cover;
 }
 
-.container-News {
+.containerNews {
   background: url("../public/images/experts/img37.png");
   background-size: cover;
   height: 400px;
 }
-.container-Media {
+.containerMedia {
   background: url("../public/images/experts/img39.JPG");
   background-size: cover;
+  height: 400px;
+  position: relative;
 }
-.container-News #text {
+.containerNews #text {
   color: #040404;
   padding-left: 220px;
 }
@@ -168,12 +170,12 @@
   margin-left: 430px;
   padding-top: 100px;
 }
-.container-circulars #text {
+.containerCirculars #text {
   margin-left: 500px;
   padding-top: 350px;
   color: #040404;
 }
-.container-circulars {
+.containerCirculars {
   height: 450px;
 }
 .containerHappy {
@@ -204,20 +206,26 @@
 .containerNSS #text {
   color: #040404;
 }
-.container-Blogs {
+.containerBlogs {
   background: url("https://live.staticflickr.com/4401/36675786633_c9f864d11f_b.jpg");
   background-size: cover;
+  height: 400px;
+  position: relative;
 }
-.container-Blogs #text {
+.containerBlogs #text {
   color: #040404;
 }
-.container-NewsLetter {
+.containerNewsLetter {
   background: url("../public/images/experts/img34.JPG");
   background-size: cover;
+  height: 400px;
+  position: relative;
 }
-.container-circulars {
+.containerCirculars {
   background: url("../public/images/experts/img36.png");
   background-size: cover;
+  height: 400px;
+  position: relative;
 }
 iframe {
   padding: 20px;
@@ -396,34 +404,34 @@ iframe:hover {
 .card:hover {
   box-shadow: 4px 3px 10px #04040466;
 }
-#card-img {
+#cardImg {
   padding: 10px;
   border-radius: 20px;
 }
-.card-content {
+.cardContent {
   padding: 20px;
 }
-.card-title {
+.cardTitle {
   font-size: 1.2em;
   font-weight: bold;
   margin: 0 0 10px;
   transition: color 0.5s;
 }
-.card-title:hover {
+.cardTitle:hover {
   color: rgb(166, 1, 1);
 }
 
-.card-date {
+.cardDate {
   display: flex;
   align-items: center;
   font-size: 0.9em;
   color: #6c757d;
   margin-bottom: 10px;
 }
-.card-date i {
+.cardDate i {
   margin-right: 5px;
 }
-.card-description {
+.cardDescription {
   font-size: 0.9em;
   color: #6c757d;
 }
@@ -452,9 +460,10 @@ iframe:hover {
   background-color: rgb(1, 93, 38);
   box-shadow: 1px 2px 20px #5830fa;
 }
-.flex-media {
+.flexMedia {
   gap: 20px;
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 .btn2 {
