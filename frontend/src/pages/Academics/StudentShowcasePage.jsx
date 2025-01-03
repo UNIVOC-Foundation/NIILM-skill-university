@@ -4,9 +4,9 @@ const StudentShowcasePage = () => {
   return (
     <>
       <div className={styles.containerStudent}>
-        <h2 id={styles.text}>Student Showcase</h2>
+        <h2 className="absolute bottom-10 left-10 md:left-10 text-5xl font-bold text-center text-white">Student Showcase</h2>
       </div>
-      <p id={styles.text2}>
+      <p className="p-[30px] leading-10">
         NSVE encourages students to actively participate in meaningful
         initiatives that expand their learning experience and promote personal
         and professional development. These projects allow students to dive into

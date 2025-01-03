@@ -4,10 +4,10 @@ function AbcPage() {
   return (
     <>
       <div className={styles.containerAbc}>
-        <h2 id={styles.text}>Academic Bank of Credits</h2>
+        <h2 className="absolute bottom-10 left-10 md:left-10 text-5xl font-bold text-center text-white">Academic Bank of Credits</h2>
         <br />
       </div>
-      <p id={styles.text2}>
+      <p className="p-[30px] leading-10">
         The Academic Bank of Credits (ABC) revolutionizes traditional credit
         management by offering a national-level, student-centric, and digitally
         flexible platform. This innovative system empowers students to securely
@@ -24,7 +24,7 @@ function AbcPage() {
           Steps to create Login in ABC
         </h1>
 
-        <p id={styles.text2}>
+        <p className="p-[30px] leading-10">
           Step 1: Visit https://www.digilocker.gov.in/ and click on Sign Up
           button for creating a new account. If you have a DigiLocker account,
           click on Sign In as mentioned in Steps 3 and 4.{" "}
@@ -37,7 +37,7 @@ function AbcPage() {
           src="https://www.msu.edu.in/frontend_assets/images/ABC-steps/sttep-1.png"
           alt=""
         />
-        <p id={styles.text2}>
+        <p className="p-[30px] leading-10">
           Step 2: Fill your personal details to create a new account.
         </p>
 

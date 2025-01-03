@@ -4,10 +4,12 @@ function NepPage() {
   return (
     <>
       <div className={styles.containerNEP2}>
-        <h2 id={styles.text}>NEP Compliance</h2>
+        <h2 className="absolute bottom-10 left-10 md:left-10 text-5xl font-bold text-center text-white">
+          NEP Compliance
+        </h2>
       </div>
       <div className={styles.flex2}>
-        <p id={styles.text2}>
+        <p className="p-[30px] leading-10">
           The National Education Policy 2020 (NEP 2020) is a game changer for
           India education system. It stresses a transition away from rote
           learning and toward a more holistic and skill-based approach, giving

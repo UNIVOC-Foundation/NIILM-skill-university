@@ -4,9 +4,9 @@ const ExpertsPage = () => {
   return (
     <>
       <div className={styles.container}>
-        <h2 id={styles.text}>Experts and Mentors</h2>
+        <h2 className="absolute bottom-10 left-10 md:left-10 text-5xl font-bold text-center text-white">Experts and Mentors</h2>
       </div>
-      <p id={styles.text2}>
+      <p className="p-[30px] leading-10">
         Faculty at NSVE act as facilitators, directing students into academic
         programs that are relevant to the business. Our emphasis on practical
         skills gives students a competitive advantage in their chosen areas. Our
