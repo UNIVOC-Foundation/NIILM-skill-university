@@ -5,13 +5,13 @@ body {
 
 .container{
   margin-top: 0;
-  background: url('https://www.niilmuniversity.ac.in/uploads/page/1710405084798_WhatsApp_Image_2024_03_14_at_12.55.01_PM_1713988262.jpeg');
+  background: url('./public/images/image.png');
   height:500px;
   background-size: cover;
   
 }
 
-.container #text{
+.container-expert #text{
   color: black;
   
   padding-top: 100px;
@@ -20,7 +20,7 @@ body {
 
 .container-student{
   margin-top: 0;
-  background: url('https://www.niilmuniversity.ac.in/uploads/department/11zon_resized_(14)_1714633251.jpg');
+  background: url('../public/images/student.png');
   height:500px;
   background-size: cover;
 }

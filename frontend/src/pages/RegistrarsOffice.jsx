@@ -8,18 +8,7 @@ const RegistrarsOffice = () => {
       designation: "Registrar(i/c) & Assistant Registrar",
       email: "registrar@niilm.edu.in",
     },
-    {
-      id: 2,
-      name: "Prof. (Dr) R.K. Gupta,",
-      designation: "Dean Academics",
-      email: "dean@niilm.edu.in",
-    },
-    {
-      id: 3,
-      name: "Prof. (Dr) Rekha Gupta",
-      designation: "Dean School of Commerce & Management",
-      email: "asregistrar.aqa@niilm.edu.in",
-    },
+    
   ];
 
   return (

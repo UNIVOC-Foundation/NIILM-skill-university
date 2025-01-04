@@ -5,22 +5,16 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 const programs = [
-  "Masters in Hospital Administration",
-  "MBA in Business Finances",
-  "MBA in Strategic Marketing",
-  "MBA in Tech HR",
-  "MCA In Data Science",
-  "Masters in Public Health",
+  "B.Voc in Hospital Administration",
+  "B.Voc in Strategic Marketing",
+  "B.Voc in Business Finances",
+  "B.Voc in Tech HR",
+  "B.Voc In Data Science",
+  "B.Voc in Public Health",
 ];
 
 const programCategories = [
-  "PG Diploma",
-  "M.Sc.",
-  "MCA",
-  "MBA",
-  "Masters",
-  "M.Tech",
-  "MA",
+  "B.Voc",
 ];
 
 const PostgraduatePage = () => {

@@ -103,7 +103,7 @@ const Niilmfoundation = () => {
       <div
         className="relative h-[400px] bg-cover bg-center"
         style={{
-          backgroundImage: `url('https://www.msu.edu.in/frontend_assets/images/277788536_1027956957809008_4479930361276866864_n.jpg')`,
+          backgroundImage: `url('./images/niilm.png')`,
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/20 flex flex-col justify-center items-center text-center">

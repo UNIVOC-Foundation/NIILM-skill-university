@@ -7,7 +7,7 @@ const Experts = () => {
     <div id='sec-expert' >
       <section id='expert'>
   <Navbar/>
-   <div className="container bg-[url('/public/images/img1.png')]">
+   <div className="container">
         
          <h2 id='text' >Experts and Mentors</h2> 
         </div>
