@@ -20,7 +20,7 @@ const WhyNiilmPage = () => {
                 <div className="border-[3px] border-solid border-white">
                   <img
                     className="w-full object-center object-cover h-[256px] rounded-[10px]"
-                    src="https://www.msu.edu.in/frontend_assets/images/degree-experience-option2.jpg"
+                    src="../images\experience.png"
                   />
                 </div>
                 <h3 className="text-[24px] font-bold mt-[18px] mb-[13px] group-hover:text-[#880808]">
@@ -42,7 +42,7 @@ const WhyNiilmPage = () => {
                 <div className="border-[3px] border-solid border-white">
                   <img
                     className="w-full object-center object-cover h-[256px] rounded-[10px]"
-                    src="https://www.msu.edu.in/frontend_assets/images/degree-experience.jpg"
+                    src="../images/degree.png"
                   />
                 </div>
                 <h3 className="text-[24px] font-bold mt-[18px] mb-[13px] group-hover:text-[#880808]">
@@ -63,7 +63,7 @@ const WhyNiilmPage = () => {
                 <div className="border-[3px] border-solid border-white">
                   <img
                     className="w-full object-center object-cover h-[256px] rounded-[10px]"
-                    src="https://www.msu.edu.in/frontend_assets/images/design-your-own-degree.jpg"
+                    src="../images/cyod.png"
                   />
                 </div>
                 <h3 className="text-[24px] font-bold mt-[18px] mb-[13px] group-hover:text-[#880808]">
@@ -83,7 +83,7 @@ const WhyNiilmPage = () => {
                 <div className="border-[3px] border-solid border-white">
                   <img
                     className="w-full object-center object-cover h-[256px] rounded-[10px]"
-                    src="https://www.msu.edu.in/frontend_assets/images/stress-free-evaluation.jpg"
+                    src="../images/sfa.png"
                   />
                 </div>
                 <h3 className="text-[24px] font-bold mt-[18px] mb-[13px] group-hover:text-[#880808]">
@@ -125,7 +125,7 @@ const WhyNiilmPage = () => {
                 <div className="border-[3px] border-solid border-white">
                   <img
                     className="w-full object-center object-cover h-[256px] rounded-[10px]"
-                    src="https://www.msu.edu.in/frontend_assets/images/digital-dna.jpg"
+                    src="../images/dd.png.png"
                   />
                 </div>
                 <h3 className="text-[24px] font-bold mt-[18px] mb-[13px] group-hover:text-[#880808]">
@@ -147,7 +147,7 @@ const WhyNiilmPage = () => {
                 <div className="border-[3px] border-solid border-white">
                   <img
                     className="w-full object-center object-cover h-[256px] rounded-[10px]"
-                    src="https://www.msu.edu.in/frontend_assets/images/assured-employability.jpg"
+                    src="../images/ge.png"
                   />
                 </div>
                 <h3 className="text-[24px] font-bold mt-[18px] mb-[13px] group-hover:text-[#880808]">
@@ -166,7 +166,7 @@ const WhyNiilmPage = () => {
                 <div className="border-[3px] border-solid border-white">
                   <img
                     className="w-full object-center object-cover h-[256px] rounded-[10px]"
-                    src="https://www.msu.edu.in/frontend_assets/images/scholarships-&-financial-assistance.jpg"
+                    src="../images/safa.png"
                   />
                 </div>
                 <h3 className="text-[24px] font-bold mt-[18px] mb-[13px] group-hover:text-[#880808]">
@@ -186,7 +186,7 @@ const WhyNiilmPage = () => {
                 <div className="border-[3px] border-solid border-white">
                   <img
                     className="w-full object-center object-cover h-[256px] rounded-[10px]"
-                    src="https://www.smus.ca/sites/default/files/styles/full_screen_600w_/public/images/2022-01/alumni-senior-career-day-2.JPG?h=b2774bcf&itok=d_kcr7_y"
+                    src="../images/mfie.png"
                   />
                 </div>
                 <h3 className="text-[24px] font-bold mt-[18px] mb-[13px] group-hover:text-[#880808]">
@@ -208,7 +208,7 @@ const WhyNiilmPage = () => {
             <div className="w-full p-[12px] border-[2px] border-solid border-white rounded-[10px] mx-[8px] relative">
               <img
                 className="w-full rounded-[10px]"
-                src="https://www.msu.edu.in/frontend_assets/images/banner/Video Thumbnail.jpg"
+                src="../images/mfe.png"
               />
               <div className="absolute w-[60px] h-[60px] top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] flex justify-center items-center">
                 <a

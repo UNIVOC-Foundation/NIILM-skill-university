@@ -40,7 +40,7 @@ const ScholarshipPage = () => {
             <div className="h-full flex items-stretch relative">
               <div id="bg" className="w-[600px] h-[595px] absolute inset-0 bg-redTheme -top-0  -left-3 rounded-br-[9rem]"></div>
               <img id="img-campus"
-                src="/images/campus/campus-1.jpg"
+                src="/images/safa.png"
                 className="object-cover rounded-br-[8rem] z-10"
               />
             </div>

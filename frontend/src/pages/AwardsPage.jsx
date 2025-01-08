@@ -9,7 +9,7 @@ const AwardsPage = () => {
       {/* Hero Section */}
       <div className="relative h-[400px]">
         <img
-          src="/images/main-award.png"
+          src="/images/awrds-bnr.png"
           alt="Awards Banner"
           className="absolute inset-0 w-full h-full object-cover"
         />
@@ -42,7 +42,7 @@ const AwardsPage = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-40 group-hover:opacity-0 transition-opacity duration-300"></div>
                 <div className="absolute inset-0 bg-gradient-to-t from-[#a60101] via-yellow-[#ff6b6b] to-transparent opacity-0 group-hover:opacity-90 transition-opacity duration-300"></div>
                 <div className="absolute inset-x-0 bottom-0 p-5">
-                  <h3 className="text-2xl font-bold text-white leading-tight group-hover:text-white transition-colors duration-300">
+                  <h3 className="text-xl font-bold text-white leading-tight group-hover:text-white transition-colors duration-300">
                     {award.title}
                   </h3>
                 </div>

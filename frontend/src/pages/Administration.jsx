@@ -10,7 +10,7 @@ const Administration = () => {
           <div
             className="relative h-[400px] bg-cover bg-center"
             style={{
-              backgroundImage: `url('https://www.msu.edu.in/frontend_assets/images/banner/AWARDS\ &\ COLLARABRATION.jpg')`,
+              backgroundImage: `url('./images/cta-banner-red.jpg')`,
             }}
           >
            

@@ -8,38 +8,33 @@ const CentralFacilities = () => {
       title: "Classroom",
       description:
         "Enjoy learning and immerse yourself in the modern learning space to unleash the best educational journey and interactive academics. State-of-the-art study halls are optimized for learning sessions, featuring smartboards and high-definition projectors to enhance learning engagement. Equipped with a seamless internet connection and advanced experience, students can participate in engaging education. Classrooms are designed to accommodate 40 students with Wi-Fi connectivity, and multimedia resources, creating an impactful environment.",
-      image: "https://msu-website-all-objects.s3.ap-south-1.amazonaws.com/website-images/central-facilities-img/Classroom.webp",
+      image: "./images/classroom.JPG",
     },
     {
       title: "Conference Room",
       description:
         "Explore our conference room, equipped with a projector and other advanced technologies to engage in professional discussions and different collaborative events. The conference room at NIILM Skills University provides an ideal ambiance for corporate and academic engagements. Explore the team meets, video conferences, and presentation works in this dynamic environment of NIILM. Students have access to these amenities for a seamless and productive experience for all the guests.",
-      image: "https://msu-website-all-objects.s3.ap-south-1.amazonaws.com/website-images/central-facilities-img/Conference+Room.webp",
+      image: "https://i.pinimg.com/736x/25/4d/df/254ddf859b88507aab93b0abe215df6c.jpg",
     },
     {
       title: "Seminar hall",
       description:
         "Enjoy learning and immerse yourself in the modern learning space to unleash the best educational journey and interactive academics. State-of-the-art study halls are optimized for learning sessions, featuring smartboards and high-definition projectors to enhance learning engagement. Equipped with a seamless internet connection and advanced experience, students can participate in engaging education. Classrooms are designed to accommodate 40 students with Wi-Fi connectivity, and multimedia resources, creating an impactful environment.",
-      image: "https://msu-website-all-objects.s3.ap-south-1.amazonaws.com/website-images/central-facilities-img/seminar_room.webp",
+      image: "https://i.pinimg.com/736x/9f/4e/82/9f4e82f2df7a3653dc6e00324cb1c0c2.jpg",
     },
     {
       title: "Library",
       description:
         "Enjoy learning and immerse yourself in the modern learning space to unleash the best educational journey and interactive academics. State-of-the-art study halls are optimized for learning sessions, featuring smartboards and high-definition projectors to enhance learning engagement. Equipped with a seamless internet connection and advanced experience, students can participate in engaging education. Classrooms are designed to accommodate 40 students with Wi-Fi connectivity, and multimedia resources, creating an impactful environment.",
-      image: "https://msu-website-all-objects.s3.ap-south-1.amazonaws.com/website-images/central-facilities-img/library.webp",
+      image: "./images/degree.png",
     },
     {
       title: "Wi-fi & LMS",
       description:
         "Enjoy learning and immerse yourself in the modern learning space to unleash the best educational journey and interactive academics. State-of-the-art study halls are optimized for learning sessions, featuring smartboards and high-definition projectors to enhance learning engagement. Equipped with a seamless internet connection and advanced experience, students can participate in engaging education. Classrooms are designed to accommodate 40 students with Wi-Fi connectivity, and multimedia resources, creating an impactful environment.",
-      image: "https://msu-website-all-objects.s3.ap-south-1.amazonaws.com/website-images/central-facilities-img/Computer+Lab.webp",
+      image: "./images/dd.png.png",
     },
-    {
-      title: "Doctor’s chamber",
-      description:
-        "Enjoy learning and immerse yourself in the modern learning space to unleash the best educational journey and interactive academics. State-of-the-art study halls are optimized for learning sessions, featuring smartboards and high-definition projectors to enhance learning engagement. Equipped with a seamless internet connection and advanced experience, students can participate in engaging education. Classrooms are designed to accommodate 40 students with Wi-Fi connectivity, and multimedia resources, creating an impactful environment.",
-      image: "https://msu-website-all-objects.s3.ap-south-1.amazonaws.com/website-images/doctors-chambers-medhavi-skills-university.webp",
-    },
+   
     {
       title: "First Aid Clinic",
       description:

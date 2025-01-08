@@ -74,7 +74,7 @@ const LearningEcosystem = () => {
           {/* Image Content */}
           <div className="lg:w-1/2">
             <img
-              src="https://www.msu.edu.in/frontend_assets/images/learning-ecosystem--sec.png"
+              src="./images/safa.png"
               alt="Classroom session"
               className="rounded-lg shadow-lg"
             />

@@ -29,17 +29,17 @@ const awardsData = [
       id: 6,
       title:
         "Best Skill Development Programme Initiative of the year - 2023 awarded by Brand Honchos",
-      image: "/images/awards/6.jpg",
+      image: "/images/experience.png",
     },
     {
       id: 7,
       title: "Best Training Partner - STT, 2020-21 awarded by RCPSDC",
-      image: "/images/awards/7.jpg",
+      image: "/images/ge.png",
     },
     {
       id: 8,
       title: "Best Skills University in North East India, 2023 awarded by CEGR",
-      image: "/images/awards/8.jpg",
+      image: "/images/skill.png",
     },
     {
       id: 9,
@@ -55,7 +55,7 @@ const awardsData = [
       id: 11,
       title:
         "ArdorComm - The New Normal - Education Leadership Summit & Awards 2023",
-      image: "/images/awards/11.jpg",
+      image: "/images/mfie.png",
     },
   ];
   
@@ -63,79 +63,42 @@ const awardsData = [
     {
       id: 1,
       name: "Seven Seas Hotel",
-      image: "/images/collab/1.webp",
+      image: "/images/collab/collab1.png",
     },
     {
       id: 2,
       name: "International Automobile Centre of Excellence (iACE)",
-      image: "/images/collab/2.webp",
+      image: "/images/collab/collab2.png",
     },
     {
       id: 3,
       name: "Indian Navy",
-      image: "/images/collab/3.webp",
+      image: "/images/collab/collab3.png",
     },
     {
       id: 4,
       name: "Assam Rifles",
-      image: "/images/collab/4.webp",
+      image: "/images/collab/collab4.png.png",
     },
     {
       id: 5,
       name: "Ahalia Group",
-      image: "/images/collab/5.webp",
+      image: "/images/collab/collab5.png",
     },
     {
       id: 6,
       name: "Sashastra Seema Bal",
-      image: "/images/collab/6.webp",
+      image: "/images/collab/collab6.png",
     },
-    {
-      id: 7,
-      name: "Orane International School of Beauty & Wellness",
-      image: "/images/collab/7.webp",
-    },
-    {
-      id: 8,
-      name: "Central Reserve Police Force (CRPF)",
-      image: "/images/collab/8.webp",
-    },
-    {
-      id: 9,
-      name: "Polaris School of Technology (PST)",
-      image: "/images/collab/9.webp",
-    },
-    {
-      id: 10,
-      name: "Indian Coast Guard and Coast Guard Wives Welfare Association (CGWWA)",
-      image: "/images/collab/10.webp",
-    },
-    {
-      id: 11,
-      name: "Crowne Plaza Greater Noida",
-      image: "/images/collab/11.webp",
-    },
-    {
-      id: 12,
-      name: "Indian Army",
-      image: "/images/collab/12.webp",
-    },
-    {
-      id: 13,
-      name: "International School of Gems and Jewelry (ISGJ)",
-      image: "/images/collab/13.webp",
-    },
+   
+    
     {
       id: 14,
       name: "Rajasthan State Industrial Development and Investment Corporation Ltd.",
       image: "https://www.niilmuniversity.ac.in/uploads/gallery/WhatsApp_Image_2024_12_24_at_11.47.54_e312c11b_1735026501.jpg",
     },
   
-    {
-      id: 15,
-      name: "Digital Bridge International (DBI) Markers",
-      image: "/images/collab/15.webp",
-    },
+  
     {
       id: 16,
       name: "Indian Institute of Vedic Maths & Abacus (IIVA)",
@@ -146,60 +109,7 @@ const awardsData = [
       name: "AEQUS Aerospace",
       image: "https://www.niilmuniversity.ac.in/uploads/gallery/t_3_1723264974.jpeg",
     },
-    {
-      id: 18,
-      name: "B4M Entertainment",
-      image: "/images/collab/18.webp",
-    },
-    {
-      id: 19,
-      name: "Center of Excellence in Maritime & Ship Building (CEMS)",
-      image: "/images/collab/19.jpg",
-    },
-    {
-      id: 20,
-      name: "Delhi School of Communication",
-      image: "/images/collab/20.webp",
-    },
-    {
-      id: 21,
-      name: "Institute of Certified Public Accountants (ICPA)",
-      image: "/images/collab/21.jpg",
-    },
-    {
-      id: 22,
-      name: "Indian Air Force",
-      image: "/images/collab/22.webp",
-    },
-    {
-      id: 23,
-      name: "National Institute of Fashion Design Global (NIFD)",
-      image: "/images/collab/23.webp",
-    },
-    {
-      id: 24,
-      name: "Institute of Gems & Jewellery (IGJ)",
-      image: "/images/collab/24.webp",
-    },
-    {
-      id: 25,
-      name: "JBM Group",
-      image: "/images/collab/25.webp",
-    },
-    {
-      id: 26,
-      name: "National Skill Development Corporation (NSDC)",
-      image: "/images/collab/26.webp",
-    },
-    {
-      id: 27,
-      name: "Skill Hub for International Employment (SHINE)",
-      image: "/images/collab/27.jpg",
-    },
-    {
-      id: 28,
-      name: "TAFE Queensland Australia",
-      image: "/images/collab/28.webp",
-    },
+ 
+    
   ];
   export { awardsData, collaborationsData };

@@ -10,10 +10,10 @@ const BeliefSection = () => {
        <div
         className="h-[300px] bg-cover bg-center flex items-center justify-center"
         style={{
-          backgroundImage: "url('https://www.msu.edu.in/frontend_assets/images/we-belive-img.png')",
+          backgroundImage: "url('./images/bnr.png')",
         }}
       >
-        <h1 className="text-white text-4xl lg:text-5xl font-bold tracking-wide">
+        <h1 className="text-black text-4xl lg:text-5xl font-bold tracking-wide">
           We Believe
         </h1>
       </div>
@@ -59,7 +59,7 @@ const BeliefSection = () => {
         <div className="lg:w-1/2 w-full relative">
          
           <img
-            src="https://www.msu.edu.in/frontend_assets/images/we-belive-img.png"
+            src="./images/belief-img.png"
             alt="Students"
             className="w-full rounded-lg shadow-md"
           />

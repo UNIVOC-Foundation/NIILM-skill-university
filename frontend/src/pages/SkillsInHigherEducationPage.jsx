@@ -76,7 +76,7 @@ const SkillsInHigherEducationPage = () => {
             <div className="w-full h-full mt-4 md:mt-0">
               <img
                 className="object-cover md:rounded-tl-[12rem] w-full h-full"
-                src="/images/campus/campus-1.jpg"
+                src="/images/side-img.png"
                 alt="image"
               />
             </div>
