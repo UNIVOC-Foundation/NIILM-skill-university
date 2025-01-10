@@ -18,11 +18,6 @@ const Reports = () => {
       title: "National Education Policy 2020",
       image: "https://www.msu.edu.in/frontend_assets/images/guideline-3.jpg",
       link: "https://www.msu.edu.in/frontend_assets/images/pdf/NEP_2020-reso-min.pdf",
-    },
-    {
-      title: "Evaluation Reforms in Higher Educational Institutions",
-      image: "https://www.msu.edu.in/frontend_assets/images/guideline-4.jpg",
-      link: "https://www.msu.edu.in/frontend_assets/images/pdf/2142241_NHEQF-Draft.pdf",
     }
    
   ];

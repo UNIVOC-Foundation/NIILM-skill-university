@@ -26,7 +26,7 @@ const stages = [
   {
     id: 3,
     imageUrl: "https://www.msu.edu.in/landing_assets/images/admission/3.png",
-    title: "Medhavi Aptitude & Scholarship Test",
+    title: "NIILM Aptitude & Scholarship Test",
     description:
       "This test evaluates core competencies of students as well as provides financial assitance.",
     link: "",

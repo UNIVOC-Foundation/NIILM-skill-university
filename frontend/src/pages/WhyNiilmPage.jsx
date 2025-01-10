@@ -4,8 +4,9 @@ const WhyNiilmPage = () => {
     return (
        
       <section>
+        <Navbar/>
        
-        <div className="bg-[url('https://www.msu.edu.in/frontend_assets/images/why-msu-cover.png')] bg-cover bg-center h-[510px] px-[20px] pb-[40px] relative">
+        <div className="bg-[url('https://images.pexels.com/photos/5265273/pexels-photo-5265273.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] bg-cover bg-center h-[510px] px-[20px] pb-[40px] relative">
           <h1 className="absolute left-[20px] bottom-[40px] text-[50px] text-white font-bold">
             Why NIILM
           </h1>
@@ -269,6 +270,7 @@ const WhyNiilmPage = () => {
             </a>
           </div>
         </div>
+        <Footer/>
       </section>
 
     );

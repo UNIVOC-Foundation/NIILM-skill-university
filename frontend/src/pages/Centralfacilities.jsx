@@ -13,7 +13,7 @@ const CentralFacilities = () => {
     {
       title: "Conference Room",
       description:
-        "Explore our conference room, equipped with a projector and other advanced technologies to engage in professional discussions and different collaborative events. The conference room at Medhavi Skills University provides an ideal ambiance for corporate and academic engagements. Explore the team meets, video conferences, and presentation works in this dynamic environment of MSU. Students have access to these amenities for a seamless and productive experience for all the guests.",
+        "Explore our conference room, equipped with a projector and other advanced technologies to engage in professional discussions and different collaborative events. The conference room at NIILM Skills University provides an ideal ambiance for corporate and academic engagements. Explore the team meets, video conferences, and presentation works in this dynamic environment of MSU. Students have access to these amenities for a seamless and productive experience for all the guests.",
       image: "https://msu-website-all-objects.s3.ap-south-1.amazonaws.com/website-images/central-facilities-img/Conference+Room.webp",
     },
     {
@@ -54,7 +54,7 @@ const CentralFacilities = () => {
     <div className="max-w-7xl mx-auto px-4 py-12">
       <Navbar/>
       
-      <div className="relative h-[400px] bg-cover bg-center" style={{ backgroundImage: "url('https://www.msu.edu.in/frontend_assets/images/why-msu-cover.png')" }}>
+      <div className="relative h-[400px] bg-cover bg-center" style={{ backgroundImage: "url('https://images.pexels.com/photos/5265273/pexels-photo-5265273.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')" }}>
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 to-black/70"></div>
         <div className="relative z-10 flex items-center justify-center h-full">
           <h1 className="text-white text-4xl md:text-5xl font-bold">Our Central Facilities</h1>
@@ -81,8 +81,9 @@ const CentralFacilities = () => {
             </div>
           </div>
         ))}
+         <Footer/>
       </div>
-      <Footer/>
+     
     </div>
   );
 };

@@ -35,7 +35,7 @@ export default function HeroSection() {
       <div className="flex flex-col md:flex-row-reverse items-center justify-between">
         <div className="flex-1">
           <img
-            src="https://msu-website-all-objects.s3.ap-south-1.amazonaws.com/website-images/we-are-new-age-_-industry-led_mewxev.webp"
+            src="https://images.pexels.com/photos/7234406/pexels-photo-7234406.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="Presentation"
             className="rounded-lg shadow-lg"
           />

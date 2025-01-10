@@ -66,7 +66,7 @@ const PostgraduatePage = () => {
       <div>
         <div className="mx-auto w-4/5 my-12">
           <p className="text-xl leading-8">
-            Medhavi Skills University offers postgraduate programs that help
+            NIILM Skills University offers postgraduate programs that help
             students extend their knowledge in their chosen subjects and prepare
             them for higher research studies. The advanced knowledge and
             specialized skills gained in the postgraduate program are crucial
@@ -78,12 +78,12 @@ const PostgraduatePage = () => {
             or minor discipline(s) in the undergraduate program. In this case,
             the university can admit students to the master’s program based on
             their performance in the undergraduate program. In alignment with
-            the NEP 2020, Medhavi Skills University emphasizes formative and
+            the NEP 2020, NIILM Skills University emphasizes formative and
             continuous assessment rather than summative assessment. The
             university focuses on assessment components correlated with the
             learning outcomes to be achieved by students after completing the
             course. Therefore, the mode and system of assessments are guided by
-            the learning outcomes at Medhavi Skills University.
+            the learning outcomes at NIILM Skills University.
           </p>
         </div>
       </div>

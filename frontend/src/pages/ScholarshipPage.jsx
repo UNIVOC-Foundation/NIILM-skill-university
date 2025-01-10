@@ -46,7 +46,7 @@ const ScholarshipPage = () => {
             </div>
             <div className="text-lg leading-10">
               <p className="mb-8">
-                Medhavi Skills University offers a wide range of scholarships
+                NIILM Skills University offers a wide range of scholarships
                 and financial aid options to ensure that all students,
                 regardless of their background, have access to quality
                 education. For Indian States and Union Territories, scholarships
@@ -106,7 +106,7 @@ const ScholarshipPage = () => {
         <div className="mx-auto w-4/5 py-12">
           <div className="w-full">
             <h1 className="text-4xl font-bold">
-              Scholarship Based on Medhavi Aptitude Test (MAT) Performance
+              Scholarship Based on NIILM Aptitude Test (MAT) Performance
             </h1>
             <table className="mt-12 border border-gray-200 w-full">
               <thead>

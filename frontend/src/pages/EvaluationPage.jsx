@@ -72,7 +72,7 @@ const EvaluationPage = () => {
             Easy Evaluation - Effective Learning
           </h1>
           <p className="text-lg md:text-xl leading-7 tracking-wide w-full md:w-5/6">
-            Explore industry-oriented academics at Medhavi Skills University,
+            Explore industry-oriented academics at NIILM Skills University,
             where education meets real-world demands. Gain practical skills for
             a competitive edge in your chosen field.
           </p>

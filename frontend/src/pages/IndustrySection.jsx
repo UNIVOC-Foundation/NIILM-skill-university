@@ -115,13 +115,13 @@ return (
                 <p className="text-gray-800 text-2xl leading-loose">
                     For years, a significant gap has persisted between academia and
                     industry, leaving graduates ill-equipped for the demands of the
-                    workforce.At Medhavi Skills University, our collaboration with industry
+                    workforce.At NIILM Skills University, our collaboration with industry
                     partners aims to bridge this gap effectively.Industry stakeholders actively participate in shaping our curriculum to
                     align with industry standards, ensuring that students acquire the skills
                     and knowledge needed for success in the real world.
                 </p>
                 <p className="text-gray-800 text-2xl leading-loose">
-                    At Medhavi Skills University, our collaboration with industry 
+                    At NILLM Skills University, our collaboration with industry 
                     partners aims to bridge this gap effectively.
                 </p>
                 <p className="text-gray-800 text-2xl leading-loose">

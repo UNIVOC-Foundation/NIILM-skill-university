@@ -15,7 +15,7 @@ function CampusLogin() {
       style={{ backgroundImage: "url('/images/bg-new.png')" }}
     >
       <div className="bg-white p-10 rounded shadow-md">
-        <h1 className="text-3xl font-bold mb-6">Welcome to Medhavi Skills University</h1>
+        <h1 className="text-3xl font-bold mb-6">Welcome to NIILM Skills University</h1>
         <p className="text-center mb-4">Already Registered? Sign in here</p>
 
         <div className="mb-4">

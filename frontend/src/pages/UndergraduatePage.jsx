@@ -80,7 +80,7 @@ const UndergraduatePage = () => {
       <div>
         <div className="mx-auto w-4/5 my-12">
           <p className="text-xl leading-8">
-            Medhavi Skills University has embarked on a revolutionary journey in
+            NIILM Skills University has embarked on a revolutionary journey in
             higher education, moving away from the traditional mold to embrace a
             unique teaching pedagogy centered on “industry on campus.” The
             university offers a wide range of undergraduate programs in
@@ -89,7 +89,7 @@ const UndergraduatePage = () => {
             Programs (CCFUP),” incorporating a flexible choice-based credit
             system and a multidisciplinary approach. This will facilitate
             students in pursuing their career paths by selecting subjects or
-            fields of their interest. At Medhavi Skills University, we celebrate
+            fields of their interest. At NIILM Skills University, we celebrate
             students! We believe every student is different in their interests,
             passions, and goals. Therefore, we aim to create a personalized
             curriculum for purposeful career progression for each of them.

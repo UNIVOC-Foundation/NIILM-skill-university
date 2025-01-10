@@ -104,7 +104,7 @@ const  SkillingPage = () => {
 
     <div className="space-y-8 lg:pl-8 mb-60 pr-[10px]">
     <p className="text-gray-800 text-lg leading-relaxed">
-        Medhavi Skills University has also fostered collaborations with 
+        NIILM Skills University has also fostered collaborations with 
         various sector experts, ensuring that students receive the best 
         updated expertise and skill set required for the industry. Through 
         strategic partnerships with renowned institutions, MSU offers 
@@ -112,7 +112,7 @@ const  SkillingPage = () => {
         different sectors.
     </p>
     <p className="text-gray-800 text-lg leading-relaxed">
-        By teaming up with sector experts, Medhavi Skills University provides 
+        By teaming up with sector experts, NIILM Skills University provides 
         students with access to industry-relevant curriculum, practical 
         training, and mentorship opportunities. These partnerships enrich 
         the learning experience, equipping students with the knowledge and 
