@@ -5,7 +5,7 @@ import Footer from '../Footer'
 function NEP() {
 return (
 <div id='nep-sec'>
-<Navbar />
+
      <div className="container-NEP2">
 
 <h2 id='text' >NEP Compliance</h2> 
@@ -90,7 +90,7 @@ Our industry-integrated undergraduate and postgraduate programs in sectors like 
 </div>
 </div>
 </div>
-<Footer/>
+
 </div>
 )
 }

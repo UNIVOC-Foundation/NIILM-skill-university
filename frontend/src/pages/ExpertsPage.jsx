@@ -4,7 +4,6 @@ import Navbar from "../components/Navbar";
 const ExpertsPage = () => {
     return (
       <>
-      <Navbar/>
         <div className="container">
 
           <h2 id="text">Experts and Mentors</h2>
@@ -36,7 +35,6 @@ const ExpertsPage = () => {
         <center></center>
         <br />
         <br />
-        <Footer/>
       </>
     );
   };

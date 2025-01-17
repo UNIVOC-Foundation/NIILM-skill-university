@@ -76,7 +76,7 @@ const  Technology=() => {
 
 return (
     <div>
-      <Navbar/>
+      
 
     <div className="min-h-screen">
 
@@ -214,7 +214,7 @@ return (
     
     </div>
     </div>
-    <Footer/>
+    
     </div>
   );
 }

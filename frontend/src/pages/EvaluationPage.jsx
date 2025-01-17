@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 const EvaluationPage = () => {
   return (
     <section id="Eval">
-      <Navbar />
+      
       <div className="relative w-full">
         <div className="relative h-80 overflow-hidden md:h-[28rem]">
           <div
@@ -145,8 +145,7 @@ const EvaluationPage = () => {
         </div>
       </div>
 
-      {/* Footer */}
-      <Footer />
+    
     </section>
   );
 };

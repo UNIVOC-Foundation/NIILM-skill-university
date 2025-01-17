@@ -35,7 +35,7 @@ const slides = [
 
 const HomeGallerySection = () => {
   return (
-    <section className="h-[30rem] flex">
+    <section className="h-[40rem] flex">
       <HomeGallerySwiperComponent slides={slides} />
     </section>
   );

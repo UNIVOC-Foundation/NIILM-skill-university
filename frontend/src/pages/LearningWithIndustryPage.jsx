@@ -9,7 +9,7 @@ const LearningWithIndustryPage = () => {
     <section id="LWI">
       {/* Header */}
       <div className="relative w-full">
-        <Navbar/>
+        
         <div className="relative h-80 overflow-hidden md:h-[28rem]">
           <div
             className={`absolute w-full h-full transition-opacity duration-700 ease-in-out`}
@@ -106,7 +106,7 @@ const LearningWithIndustryPage = () => {
       </div>
 
       {/* Footer */}
-      <Footer/>
+      
     </section>
   );
 };

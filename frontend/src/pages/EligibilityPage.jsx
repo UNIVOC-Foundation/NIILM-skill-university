@@ -15,7 +15,7 @@ const EligibilityPage = () => {
 
   return (
     <>
-    <Navbar/>
+  
       <div className="relative w-full">
         <div className="relative h-80 overflow-hidden md:h-[28rem]">
           <div
@@ -107,7 +107,7 @@ const EligibilityPage = () => {
 
       {/* Current Info */}
       <CurrentInfoSection />
-      <Footer/>
+      
     </>
   );
 };

@@ -99,7 +99,7 @@ const EngagementSection = () => {
 const Niilmfoundation = () => {
   return (
     <div className="NIILM-univ font-sans">
-      <Navbar/>
+      
       <div
         className="relative h-[400px] bg-cover bg-center"
         style={{
@@ -136,7 +136,7 @@ const Niilmfoundation = () => {
       </div>
 
       <EngagementSection />
-      <Footer/>
+      
     </div>
   );
 }

@@ -5,7 +5,7 @@ import { awardsData, collaborationsData } from "../data/awardspage/awardsData";
 const AwardsPage = () => {
   return (
     <div className="min-h-screen bg-gray-50">
-      <Navbar/>
+      
       {/* Hero Section */}
       <div className="relative h-[400px]">
         <img
@@ -85,7 +85,7 @@ const AwardsPage = () => {
             ))}
           </div>
         </div>
-        <Footer/>
+        
       </section>
       
     </div>

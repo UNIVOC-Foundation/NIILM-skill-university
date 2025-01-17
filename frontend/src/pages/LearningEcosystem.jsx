@@ -10,7 +10,7 @@ const LearningEcosystem = () => {
   return (
     <div className="L-e font-sans flex flex-col min-h-screen">
       {/* Navbar */}
-      <Navbar />
+      
 
       {/* Hero Section */}
       <div className="relative w-full">
@@ -85,7 +85,7 @@ const LearningEcosystem = () => {
       {/* Additional Sections */}
       <CurricularComponents/>
       <HomeGallerySection />
-      <Footer />
+      
     </div>
   );
 };

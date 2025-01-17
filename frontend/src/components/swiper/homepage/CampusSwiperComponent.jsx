@@ -22,16 +22,16 @@ const CampusSwiperComponent = () => {
       {campusData.map((item) => (
         <SwiperSlide key={item.id}>
           <div
-            className="relative w-full h-full"
+            className="w-full h-full"
             style={{
-              backgroundImage: `url(${item.imageUrl})`,
+              backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url(${item.imageUrl})`,
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}
           >
-            <div className="bottom-12 left-16 text-white">
-              <h1 className="text-4xl font-bold mb-4 pl-20 pt-10">{item.title}</h1>
-              <p className="text-lg font-semibold w-3/5 pl-20 ">{item.description}</p>
+            <div className="flex flex-col h-full justify-end text-white p-16">
+              <h1 className="text-4xl font-bold mb-4">{item.title}</h1>
+              <p className="text-lg font-semibold w-3/5">{item.description}</p>
             </div>
           </div>
         </SwiperSlide>

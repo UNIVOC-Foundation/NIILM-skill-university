@@ -5,7 +5,7 @@ import '../App.css'
 function Abc() {
   return (
     <>
-    <Navbar />
+  
     <div className="container-abc">
         
         <h2 id='text' >Academic Bank of Credits</h2>
@@ -30,7 +30,7 @@ function Abc() {
         <p>Step 3: To Sign in, if you have an account on DigiLocker, please Click on Sign In on https://www.digilocker.gov.in/.</p>
          <br /><br />
         </center>
-        <Footer />
+        
     </>
   )
 }

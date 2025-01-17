@@ -47,7 +47,7 @@ const CentralFacilities = () => {
 
   return (
     <div className="cf mx-auto  py-12">
-      <Navbar/>
+      
       
       <div className=" relative h-[400px] bg-cover bg-center" style={{ backgroundImage: "url('./public/images/facilities-bg.png')" }}>
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 to-black/70"></div>
@@ -77,7 +77,7 @@ const CentralFacilities = () => {
           </div>
         ))}
       </div>
-      <Footer/>
+      
     </div>
   );
 };

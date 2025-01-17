@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
 import SchoolsPage from "./pages/SchoolsPage";
 import LearningWithIndustryPage from "./pages/LearningWithIndustryPage"
@@ -54,7 +55,7 @@ const App = () => {
   return (
     
     <BrowserRouter>
-    
+    <Navbar/>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/schools/:schoolId" element={<SchoolsPage />} />
@@ -116,7 +117,7 @@ const App = () => {
 <Route path="/pages/WhyNiilmPage" element={<WhyNiilmPage/>}/>
       </Routes>
       
-
+<Footer/>
     </BrowserRouter>
   
   );

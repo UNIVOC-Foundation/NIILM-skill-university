@@ -77,7 +77,7 @@ const  SkillingPage = () => {
 
     
 <div>
-  <Navbar/>
+  
     <div className="min-h-screen">
     <div className="relative h-[500px] ">
       <div className="absolute inset-0 bg-black">
@@ -204,8 +204,7 @@ const  SkillingPage = () => {
         </div>
       </div>
     </div>
-    <Footer/>
-
+    
 
 
 

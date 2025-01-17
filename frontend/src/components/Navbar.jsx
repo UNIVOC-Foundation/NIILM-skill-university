@@ -70,15 +70,45 @@ const Navbar = () => {
         { label: "Fee Refund Policy", href: "#" },
       ],
     },
-
     {
       label: "Schools",
       links: [
-        { label: "School of Engineering", href: "" },
-        { label: "School of Management", href: "#" },
-        { label: "School of Arts & Science", href: "#" },
+        {
+          label: "School of Health Science & Technology",
+          href: "/schools/school-of-health-science-&-technology",
+        },
+        {
+          label: "School of Computer Science & Engineering",
+          href: "/schools/school-of-computer-science-&-engineering",
+        },
+        {
+          label: "School of Management & Commerce",
+          href: "/schools/school-of-management-and-commerce",
+        },
+        {
+          label: "School of Modern Media & Entertainment",
+          href: "/schools/school-of-modern-media-and-entertainment",
+        },
+        {
+          label: "School of Hospitality & Tourism",
+          href: "/schools/school-of-hospitality-and-tourism",
+        },
+        { label: "School of Design", href: "/schools/school-of-design" },
+        {
+          label: "School of Applied Science Technology",
+          href: "/schools/school-of-applied-science-technology",
+        },
+        {
+          label: "School of Beauty & Wellness",
+          href: "/schools/school-of-beauty-and-wellness",
+        },
+        {
+          label: "School of Indigenous Knowledge Research & Applications",
+          href: "/schools/school-of-indigenous-knowledge-research-and-applications",
+        },
       ],
     },
+  
     {
       label: "Collaborations",
       links: [

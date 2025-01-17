@@ -35,7 +35,7 @@ const PostgraduatePage = () => {
     <>
       {/* Header Section */}
       <div className="relative w-full">
-        <Navbar/>
+      
         <div className="relative h-80 overflow-hidden md:h-[28rem]">
           <div
             className={`absolute w-full h-full transition-opacity duration-700 ease-in-out`}
@@ -250,7 +250,7 @@ const PostgraduatePage = () => {
 
       {/* Info Section */}
       <CurrentInfoSection />
-      <Footer/>
+      
     </>
   );
 };

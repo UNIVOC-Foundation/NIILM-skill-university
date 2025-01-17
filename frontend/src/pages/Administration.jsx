@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar';
 const Administration = () => {
     return (
         <div className="admin-sec font-sans">
-          <Navbar/>
+          
          
           <div
             className="relative h-[400px] bg-cover bg-center"
@@ -22,7 +22,7 @@ const Administration = () => {
             </div>
           </div>
           <RegistrarsOffice/>
-          <Footer/>
+          
         </div>
        
       );

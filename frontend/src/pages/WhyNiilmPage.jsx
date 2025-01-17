@@ -4,7 +4,7 @@ const WhyNiilmPage = () => {
     return (
    
       <section id="why-niilm-sec">
-        <Navbar />
+        
         <div className="bg-[url('https://www.niilmuniversity.ac.in/uploads/page/1706423591277_uni_img2_1713990659.jpg')] bg-cover bg-center h-[510px] px-[20px] pb-[40px] relative">
           <h1 id="text-niilm" className="absolute bottom-[40px] text-[50px] text-black font-bold">
             Why NIILM

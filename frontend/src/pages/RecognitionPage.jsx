@@ -9,7 +9,7 @@ const RecognitionPage = () => {
   
     return (
       <>
-        <Navbar/>
+        
         <br />
         <div className="">
           
@@ -55,7 +55,7 @@ const RecognitionPage = () => {
             );
           })}
         </div>
-        <Footer/>
+        
       </>
     );
   };

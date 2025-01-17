@@ -1,7 +1,7 @@
 export const schoolsData = {
   "school-of-health-science-&-technology": {
     header: {
-      image: "/images/academics/commerce-management.jpg",
+      image: "/images/academics/health-science.jpg",
       heading: "SCHOOL OF HEALTH SCIENCE AND TECHNOLOGY",
     },
     textArea: {
@@ -16,43 +16,43 @@ export const schoolsData = {
         value: "ug",
         images: [
           {
-            src: "/images/campus/campus-3.webp",
+            src: "/images/academics/applied-science.jpg",
             title: "B.Sc. in Emergency and Critical Care Technology",
           },
           {
-            src: "/images/campus/campus-3.webp",
+            src: "/images/academics/engineering.jpg",
             title: "B.Sc. in Computer Science",
           },
           {
-            src: "/images/campus/campus-3.webp",
+            src: "/images/academics/modern-media.jpg",
             title: "B.A. in Media and Communications",
           },
           {
-            src: "/images/campus/campus-3.webp",
+            src: "/images/academics/health-science.jpg",
             title: "B.Sc. in Emergency and Critical Care Technology",
           },
           {
-            src: "/images/campus/campus-3.webp",
+            src: "/images/academics/hospitality-management.webp",
             title: "B.Sc. in Emergency and Critical Care Technology",
           },
           {
-            src: "/images/campus/campus-3.webp",
+            src: "/images/academics/pharma-science.jpg",
             title: "B.Sc. in Emergency and Critical Care Technology",
           },
           {
-            src: "/images/campus/campus-3.webp",
+            src: "/images/academics/agriculture.jpg",
             title: "B.Sc. in Emergency and Critical Care Technology",
           },
           {
-            src: "/images/campus/campus-3.webp",
+            src: "/images/academics/hospitality-tourism.jpeg",
             title: "B.Sc. in Emergency and Critical Care Technology",
           },
           {
-            src: "/images/campus/campus-3.webp",
+            src: "/images/academics/commerce-management.jpg",
             title: "B.Sc. in Emergency and Critical Care Technology",
           },
           {
-            src: "/images/campus/campus-3.webp",
+            src: "/images/experts/img2.jpg",
             title: "B.Sc. in Emergency and Critical Care Technology",
           },
         ],
@@ -62,11 +62,11 @@ export const schoolsData = {
         value: "pg",
         images: [
           {
-            src: "/images/campus/campus-4.webp",
+            src: "/images/campus/campus-4.jpg",
             title: "M.Sc. in Biotechnology",
           },
           {
-            src: "/images/campus/campus-4.webp",
+            src: "/images/campus/campus-4.jpg",
             title: "M.A. in Psychology",
           },
         ],
@@ -75,7 +75,7 @@ export const schoolsData = {
   },
   "school-of-computer-science-&-engineering": {
     header: {
-      image: "/images/academics/agriculture.jpg",
+      image: "/images/academics/engineering.jpg",
       heading: "SCHOOL OF COMPUTER SCIENCE AND ENGINEERING",
     },
     textArea: {
@@ -149,7 +149,7 @@ export const schoolsData = {
   },
   "school-of-management-and-commerce": {
     header: {
-      image: "/images/academics/agriculture.jpg",
+      image: "/images/academics/commerce-management.jpg",
       heading: "School Of Management And Commerce",
     },
     textArea: {
@@ -223,7 +223,7 @@ export const schoolsData = {
   },
   "school-of-modern-media-and-entertainment": {
     header: {
-      image: "/images/academics/agriculture.jpg",
+      image: "/images/academics/modern-media.jpg",
       heading: "School Of Modern Media And Entertainment",
     },
     textArea: {
@@ -297,7 +297,7 @@ export const schoolsData = {
   },
   "school-of-hospitality-and-tourism": {
     header: {
-      image: "/images/academics/agriculture.jpg",
+      image: "/images/academics/hospitality-tourism.jpeg",
       heading: "School Of Hospitality And Tourism",
     },
     textArea: {
@@ -371,7 +371,7 @@ export const schoolsData = {
   },
   "school-of-design": {
     header: {
-      image: "/images/academics/agriculture.jpg",
+      image: "/images/academics/fashion-design.jpeg",
       heading: "School Of Design",
     },
     textArea: {
@@ -445,7 +445,7 @@ export const schoolsData = {
   },
   "school-of-applied-science-technology": {
     header: {
-      image: "/images/academics/agriculture.jpg",
+      image: "/images/academics/applied-science.jpg",
       heading: "School of Applied Science Technology",
     },
     textArea: {
@@ -519,7 +519,7 @@ export const schoolsData = {
   },
   "school-of-beauty-and-wellness": {
     header: {
-      image: "/images/academics/agriculture.jpg",
+      image: "/images/academics/beauty-wellness.jpg",
       heading: "School of Beauty and Wellness",
     },
     textArea: {
@@ -593,7 +593,7 @@ export const schoolsData = {
   },
   "school-of-indigenous-knowledge-research-and-applications": {
     header: {
-      image: "/images/academics/agriculture.jpg",
+      image: "/images/academics/indigenous-knowledge.jpg",
       heading: "School of Indigenous Knowledge Research and Applications",
     },
     textArea: {

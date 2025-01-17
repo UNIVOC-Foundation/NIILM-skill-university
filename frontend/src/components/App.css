@@ -40,6 +40,7 @@ body {
 .container-Media{
   background: url('../public/images/experts/img39.JPG');
   background-size: cover;
+  height: 500px;
 }
 .container-News #text{
   color: #040404;
@@ -195,7 +196,7 @@ body {
   
 }
 .container-rnd{
-  background: url('https://pharmaoffer.com/wp-content/uploads/2024/01/RD6-jpg.webp');
+  background: url('https://images.unsplash.com/photo-1518152006812-edab29b069ac?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
   background-size: cover;
   height: 500px;
 }
@@ -215,6 +216,7 @@ body {
 .container-Happy{
   background: url('../public/images/experts/img4.png');
   background-size: cover;
+  height:400px;
 }
 .container-abc{
   background: url('https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=1356&h=668&fit=crop');
@@ -234,6 +236,7 @@ body {
 .container-NSS{
 background: url('../public/images/experts/img9.png');
 background-size: cover;
+height: 400px;
 
 }
 #text2{
@@ -245,6 +248,7 @@ color: #040404;
 .container-SEDG{
 background: url('../public/images/experts/img3.png');
 background-size: cover;
+height: 400px;
 }
 .container-Blogs{
 background: url('https://live.staticflickr.com/4401/36675786633_c9f864d11f_b.jpg');
@@ -256,6 +260,7 @@ color: #040404;
 .container-NewsLetter{
 background: url('../public/images/experts/img34.JPG');
 background-size: cover;
+height: 500px;
 }
 .container-circulars{
 background: url('../public/images/experts/img36.png');

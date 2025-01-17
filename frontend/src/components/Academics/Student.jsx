@@ -5,11 +5,11 @@ function Student() {
 
     return (
       <div id='student-sec'>
-      <Navbar />
+      
         
       <div className="container-student">
         
-        <h2 id='text' >Student Showcase</h2> 
+        
        </div>
        <p id="text2">
        NSVE encourages students to actively participate in meaningful initiatives that expand their learning experience and promote personal and professional development. These projects allow students to dive into particular topics or complete hands-on projects.
@@ -43,7 +43,7 @@ These projects allow students to pursue their interests, apply conceptual unders
     
          
         <br />
-        <Footer />
+        
       </div>
     )
   }

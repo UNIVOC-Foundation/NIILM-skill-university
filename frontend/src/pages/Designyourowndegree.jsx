@@ -9,7 +9,7 @@ import CurricularComponents from './CurricularComponents ';
 const Designyourowndegree = () => {
   return (
     <div className=" Degree font-sans">
-          <Navbar/>
+          
          
           <div className="relative w-full">
         <div className="relative h-80 overflow-hidden md:h-[28rem]">
@@ -47,7 +47,7 @@ const Designyourowndegree = () => {
       <HomeGallerySection/>
       <CurricularComponents/>
           
-          <Footer/>
+          
         </div>
   )
 }

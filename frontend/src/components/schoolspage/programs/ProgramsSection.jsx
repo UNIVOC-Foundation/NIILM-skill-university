@@ -55,11 +55,12 @@ const ProgramsSection = ({ UG, PG }) => {
                 {image.title}
               </h1>
               <img
-                src={image.src}
+                src='../../public/images/academics/engineering.jpg'
                 alt={`Program image ${index + 1}`}
                 className="w-full h-96 object-cover p-2 rounded-3xl"
               />
             </div>
+            
           ))}
         </div>
       </div>

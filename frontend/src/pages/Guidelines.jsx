@@ -39,7 +39,7 @@ const Guidelines = () => {
 
   return (
     <div className="guideline-sec font-sans">
-      <Navbar/>
+      
      
       <div
         className="relative h-[400px] bg-cover bg-center"
@@ -83,7 +83,7 @@ const Guidelines = () => {
           ))}
         </div>
       </div>
-      <Footer/>
+      
     </div>
   );
 };

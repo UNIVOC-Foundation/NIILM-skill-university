@@ -5,7 +5,7 @@ function Rnd() {
 
   return (
     <>
-    <Navbar />
+    
        <div className="container-rnd">
         <h2 id='text'>
             Research and Development
@@ -18,7 +18,7 @@ function Rnd() {
         </center>
        
       
-      <Footer />
+      
     </>
   )
 }

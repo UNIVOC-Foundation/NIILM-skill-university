@@ -8,7 +8,7 @@ const InfrastructurePage = () => {
   return (
     <div id="infra-sec">
         <div className="w-full bg-white">
-        <Navbar/>
+        
       <div className="relative h-[400px]">
         <img
           src="/images/bg-new.png"
@@ -75,7 +75,7 @@ const InfrastructurePage = () => {
       </div>
      
     </div>
-  <Footer/>
+  
 
     </div>
     

@@ -9,3 +9,13 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
+.card-home{
+  height: 200px;
+}
+.container-grd{
+  height: 430px;
+}
+#grd-img{
+  height: 180px;
+}

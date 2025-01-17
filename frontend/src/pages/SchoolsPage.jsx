@@ -23,7 +23,7 @@ const SchoolsPage = () => {
 
   return (
     <>
-      <Navbar /> 
+     
       <HeaderSection
         image={school.header.image}
         heading={school.header.heading}
@@ -31,11 +31,11 @@ const SchoolsPage = () => {
       <TextAreaSection content={school.textArea.content} />
       <CurriculumSection />
       <ProgramsSection UG={school.programs.UG} PG={school.programs.PG} />
-      <ExpertSection />
+     
       <SchoolsGallerySection content={school.gallery.content} />
       <PartnershipSection />
       <CurrentInfoSection />
-      <Footer />
+      
     </>
   );
 };

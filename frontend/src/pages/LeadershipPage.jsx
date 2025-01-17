@@ -5,7 +5,7 @@ import { leadershipData } from "../data/leadershippage/leadershipData";
 const LeadershipPage = () => {
   return (
     <>
-     <Navbar/>
+     
       {/* leadership page starts here */}
       <div className="relative w-screen md:h-[50vh] lg:h-[75vh]">
        
@@ -41,7 +41,7 @@ const LeadershipPage = () => {
         </p>
       </div>
      
-      <Footer/>
+      
     </>
   );
 };

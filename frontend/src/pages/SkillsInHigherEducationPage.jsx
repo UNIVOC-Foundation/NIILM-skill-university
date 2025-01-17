@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 const SkillsInHigherEducationPage = () => {
   return (
     <section id="SkillsInHigherEducationPage">
-      <Navbar />
+      
       {/* Header */}
       <div  className=" relative w-full">
         <div className="relative h-80 overflow-hidden md:h-[28rem]">
@@ -104,8 +104,6 @@ const SkillsInHigherEducationPage = () => {
         </div>
       </div>
 
-      {/* Footer */}
-      <Footer />
     </section>
   );
 };

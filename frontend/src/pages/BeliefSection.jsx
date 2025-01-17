@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 const BeliefSection = () => {
   return (
     <div id="weblv" className="font-sans">
-      <Navbar/>
+      
       
        <div
         className="h-[300px] bg-cover bg-center flex items-center justify-center"
@@ -65,7 +65,7 @@ const BeliefSection = () => {
           />
         </div>
       </div>
-      <Footer/>
+      
     </div>
   );
 };

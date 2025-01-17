@@ -7,7 +7,7 @@ import { industryPartnersData } from "../../data/homepage/collab-partnerData";
 const LearningWithIndustryPage = () => {
   return (
     <section>
-      <Navbar />
+      
       <div className="relative w-full">
         <div className="relative h-80 overflow-hidden md:h-[28rem]">
           <div
@@ -105,7 +105,7 @@ const LearningWithIndustryPage = () => {
       </div>
 
       {/* Footer */}
-      <Footer />
+      
     </section>
   );
 };

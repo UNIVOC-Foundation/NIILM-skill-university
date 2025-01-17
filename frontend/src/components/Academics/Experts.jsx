@@ -6,7 +6,7 @@ const Experts = () => {
   return (
     <div id='sec-expert' >
       <section id='expert'>
-  <Navbar/>
+  
    <div className="container">
         
          <h2 id='text' >Experts and Mentors</h2> 
@@ -28,7 +28,7 @@ const Experts = () => {
         </center>
         <br />
         <br />
-        <Footer/>
+        
         </section>
    
    

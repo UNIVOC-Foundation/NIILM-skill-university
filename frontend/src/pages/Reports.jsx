@@ -29,7 +29,7 @@ const Reports = () => {
 
   return (
     <div className="report-sec font-sans">
-      <Navbar/>
+      
      
       <div
         className="relative h-[400px] bg-cover bg-center"
@@ -73,7 +73,7 @@ const Reports = () => {
           ))}
         </div>
       </div>
-      <Footer/>
+      
     </div>
   );
 };
